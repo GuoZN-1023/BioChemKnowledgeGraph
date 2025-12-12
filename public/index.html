@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,21 +17,152 @@
             background-color: #f8f9fa;
         }
 
-        /* === 顶部导航栏 === */
-        header {
+                /* === 顶部导航栏 === */
+        header.topbar{
             background-color: #fff;
-            padding: 15px 30px;
+            padding: 12px 18px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-            display: flex;
+            display: grid;
+            grid-template-columns: auto 1fr auto;
             align-items: center;
-            gap: 20px;
+            gap: 14px;
             z-index: 10;
         }
-        h1 { margin: 0; font-size: 18px; color: #333; }
-        
-         /* 在 <style> 中 */
+
+        .brand{
+            display:flex;
+            align-items:center;
+            gap:10px;
+            min-width: 0;
+        }
+        .brand-emoji{ font-size: 20px; }
+        .brand-title{
+            font-size: 20px;
+            font-weight: 700;
+            color:#111827;
+            letter-spacing: 0.2px;
+            white-space: nowrap;
+        }
+
+        .topbar-center{
+            display:flex;
+            align-items:center;
+            gap: 10px;
+            flex-wrap: wrap;
+            min-width: 0;
+            justify-content: center;
+        }
+
+        .chip{
+            display:flex;
+            align-items:center;
+            gap: 8px;
+            padding: 8px 10px;
+            border: 1px solid #edf0f5;
+            background: #f6f7fb;
+            border-radius: 14px;
+            min-width: 0;
+        }
+        .chip-icon{ font-size: 14px; opacity: 0.9; }
+        .chip-label{
+            font-size: 12px;
+            color:#4b5563;
+            font-weight: 600;
+            letter-spacing: 0.2px;
+        }
+        .chip-arrow{ color:#6b7280; user-select:none; }
+        .chip-hint{
+            font-size: 12px;
+            color:#6b7280;
+            white-space: nowrap;
+            max-width: 220px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .chip input{
+            border: none;
+            background: transparent;
+            outline: none;
+            font-size: 13px;
+            color:#111827;
+            min-width: 0;
+        }
+        .search-chip input{ width: 220px; }
+        .path-chip input{ width: 140px; }
+
+        .topbar-actions{
+            display:flex;
+            align-items:center;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        .btn{
+            cursor:pointer;
+            padding: 8px 10px;
+            border: 1px solid #e2e6ef;
+            background:#fff;
+            border-radius: 14px;
+            font-size: 13px;
+            color:#111827;
+            display:flex;
+            align-items:center;
+            gap:6px;
+            white-space: nowrap;
+            user-select: none;
+        }
+        .btn:hover{ background:#f6f7fb; }
+
+        .btn-primary{
+            background:#111827;
+            color:#fff;
+            border-color:#111827;
+        }
+        .btn-primary:hover{ background:#0b1220; }
+
+        #freeze-toggle.is-on{
+            border-color:#f59e0b;
+            background:#fff7ed;
+        }
+
+        .status{
+            font-size: 12px;
+            color: #6b7280;
+            max-width: 220px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* 错误提示 */
+        #error-msg {
+            grid-column: 1 / -1;
+            color: #d32f2f;
+            background: #ffebee;
+            padding: 6px 10px;
+            border-radius: 10px;
+            font-size: 12px;
+            display: none;
+        }
+
+        @media (max-width: 980px){
+            header.topbar{
+                grid-template-columns: 1fr;
+                align-items: stretch;
+            }
+            .topbar-actions{
+                justify-content: space-between;
+            }
+            .search-chip input{ width: 180px; }
+            .path-chip input{ width: 120px; }
+        }
+
+/* 在 <style> 中 */
     #search-sidebar {
-    width: 1000px;
+    width: 420px;
+    max-width: 45vw;
+    min-width: 320px;
     background: #fff;
     border-left: 1px solid #ddd;
     padding: 20px;
@@ -44,7 +175,7 @@
 
     }
 
-        /* 单个搜索结果卡片 */
+        /* 单个Results卡片 */
         .result-item {
             padding: 10px;
             margin-bottom: 8px;
@@ -144,10 +275,10 @@
         }
         .side-action-btn:hover{ background: #f6f6f6; }
 
-        .pw-text{ flex: 1; margin-left: 6px; }
+        .pw-text{ flex: 1; margin-left: 6px; min-width: 0; padding-right: 10px; line-height: 1.2; }
         .side-toggle-btn{
-            margin-left: 8px;
-            padding: 4px 8px;
+            margin-left: auto;
+            padding: 4px 10px;
             border: 1px solid #ddd;
             border-radius: 999px;
             background: #fff;
@@ -155,6 +286,7 @@
             font-size: 11px;
             color: #444;
             white-space: nowrap;
+            flex-shrink: 0;
         }
         .side-toggle-btn:hover{ background: #f6f6f6; }
         .side-toggle-btn.active{
@@ -187,6 +319,29 @@
             font-size: 16px; color: #666;
             z-index: 20;
         }
+    
+        .chip-clear{
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            width: 22px;
+            height: 22px;
+            line-height: 22px;
+            text-align: center;
+            border-radius: 999px;
+            font-size: 16px;
+            color: #64748b;
+            display: none;
+            flex: 0 0 auto;
+        }
+        .chip-clear:hover{
+            background: rgba(148,163,184,0.18);
+            color: #334155;
+        }
+        .chip.has-value .chip-clear{ display: inline-flex; align-items: center; justify-content: center; }
+
+        #freeze-toggle{ min-width: 118px; }
+
     </style>
 </head>
 <body>
@@ -196,36 +351,41 @@
         <div style="width: 300px; height: 10px; background: #eee; border-radius: 5px; overflow: hidden; margin-top: 10px;">
             <div id="progress-bar" style="width: 0%; height: 100%; background: #0984e3; transition: width 0.1s;"></div>
         </div>
-        <p id="progress-text" style="margin-top: 10px; color: #666; font-size: 14px;">准备数据中...</p>
+        <p id="progress-text" style="margin-top: 10px; color: #666; font-size: 14px;">Preparing data...</p>
     </div>
 
     <!-- 2. 顶部导航栏 -->
-    <header>
-        <h1>🌱 Metabolic Pathway</h1>
-        
-        <!-- 搜索框 -->
-        <div class="search-container" style="display:flex; align-items:center; gap:5px;">
-            <label for="search-input">🔍</label>
-            <input type="text" id="search-input" placeholder="输入名称 (如 ATP)..." style="padding: 5px; width: 180px; border:1px solid #ccc; border-radius:4px;">
-            <span id="search-status" style="color: #666; font-size: 12px; margin-left:5px;"></span>
+    <header class="topbar">
+        <div class="brand" title="Metabolic Pathway">
+            <span class="brand-emoji">🌱</span>
+            <span class="brand-title">Metabolic Pathway</span>
         </div>
 
-        <!-- 起始/终止分子路径查询 -->
-        <div class="path-search-container" style="display:flex; align-items:center; gap:4px; margin-left:20px; font-size:12px;">
-            <span>Path:</span>
-            <input type="text" id="path-start-input" placeholder="起始分子" style="padding:4px; width:120px; border:1px solid #ccc; border-radius:4px;">
-            <span>→</span>
-            <input type="text" id="path-end-input" placeholder="终止分子" style="padding:4px; width:120px; border:1px solid #ccc; border-radius:4px;">
-            <button id="path-find-btn" type="button" style="padding:4px 8px; border:1px solid #ccc; border-radius:4px; background:#fff; cursor:pointer;">🧬 寻找途径</button>
-            <span id="path-status" style="margin-left:6px; color:#555;"></span>
+        <div class="topbar-center">
+            <div class="chip search-chip">
+                <span class="chip-icon">🔍</span>
+                <input type="text" id="search-input" placeholder="Search molecule (e.g., ATP)..." />
+                <button id="search-clear-btn" type="button" class="chip-clear" title="Clear search" aria-label="Clear search">×</button>
+                <span id="search-status" class="chip-hint"></span>
+            </div>
+
+            <div class="chip path-chip">
+                <span class="chip-label">Path</span>
+                <input type="text" id="path-start-input" placeholder="Start molecule" />
+                <span class="chip-arrow">→</span>
+                <input type="text" id="path-end-input" placeholder="End molecule" />
+                <button id="path-find-btn" type="button" class="btn btn-ghost">🧬 Find path</button>
+                <button id="path-clear-btn" type="button" class="chip-clear" title="Clear path search" aria-label="Clear path search">×</button>
+                <span id="path-status" class="chip-hint"></span>
+            </div>
         </div>
 
-        <!-- 布局控制按钮 -->
-        <div class="controls" style="margin-left: auto;">
-            <button onclick="saveLayout()" style="cursor:pointer; padding:5px 10px; border:1px solid #ccc; background:#fff; border-radius:4px;">💾 保存布局</button>
-            <button onclick="clearLayoutCache()" style="cursor:pointer; padding:5px 10px; border:1px solid #ccc; background:#fff; border-radius:4px;">🔄 重置</button>
+        <div class="topbar-actions">
+            <button id="freeze-toggle" type="button" class="btn btn-ghost" title="Freeze/unfreeze node dragging">🔒 Freeze</button>
+            <button id="save-layout-btn" type="button" class="btn btn-primary" title="Save current layout">💾 Save layout</button>
             <span id="status" class="status"></span>
         </div>
+
         <div id="error-msg"></div>
     </header>
 
@@ -236,31 +396,31 @@
         <div id="sidebar">
             <div class="sidebar-title">Pathway Select</div>
             <div id="filter-container" class="pathway-list">
-                <div style="color:#999; font-style:italic;">暂无数据</div>
+                <div style="color:#999; font-style:italic;">No data yet</div>
             </div>
             
             <div style="margin-top:20px; font-size:10px; color:#999; line-height:1.5;">
                 <hr style="border:0; border-top:1px solid #eee; margin:10px 0;">
-                <p>💡 <b>图例说明：</b></p>
-                <p><span style="color:#2ecc71">●</span>  Main Sunstrate</p>
+                <p>💡 <b>Legend:</b></p>
+                <p><span style="color:#2ecc71">●</span>  Main substrate</p>
                 <p><span style="color:#74b9ff">●</span>  Other Reactant</p>
                 <p><span style="color:#a29bfe">●</span>  Other Product</p>
-                <p><span style="border:1px solid #55efc4; border-radius:50%; display:inline-block; width:8px; height:8px;"></span> 空心: 酶/反应节点</p>
+                <p><span style="border:1px solid #55efc4; border-radius:50%; display:inline-block; width:8px; height:8px;"></span> Hollow: enzyme/reaction node</p>
             </div>
         </div>
 
         <!-- 中间：Cytoscape 画布 -->
         <div id="graph-area">
-            <div id="loading" style="display:none;">处理中...</div>
+            <div id="loading" style="display:none;">Working...</div>
             <div id="cy"></div>
         </div>
 
-        <!-- 右侧：搜索结果栏 (默认隐藏) -->
+        <!-- 右侧：Results栏 (默认隐藏) -->
         <div id="search-sidebar" style="display: none;">
             <div class="sidebar-title" style="display:flex; justify-content:space-between; align-items:center;">
-                <span>搜索结果 (<span id="result-count">0</span>)</span>
+                <span>Results (<span id="result-count">0</span>)</span>
                 <!-- 关闭按钮 -->
-                <button onclick="closeSearchPanel()" style="border:none; background:none; cursor:pointer; font-size:18px; color:#999;">&times;</button>
+                <button onclick="closeAllPanels()" style="border:none; background:none; cursor:pointer; font-size:18px; color:#999;">&times;</button>
             </div>
             <div id="search-results-list" class="pathway-list">
                 <!-- JS 会在这里插入 .result-item -->
@@ -293,12 +453,22 @@
     const SHEET_PRIORITY = ["Carbonhydrates", "Lipids", "Proteins", "Nucleotides"];
 
     // ====== Side-molecule visibility state ======
-    // 选中的“酶/反应”集合：点选多个反应时，小分子不会消失
+    // 选中的“Enzyme/Reaction”集合：点选多个反应时，小分子不会消失
     window.selectedReactionIds = new Set();
     // 被“Demonstrate currency”按钮固定打开的小分子：按 pathway 维度
     window.pinnedSidePathways = new Set();
     // 当前 pathway 勾选状态（用于 side-molecule 的显示裁剪）
     window.__selectedPathwaysSet = new Set();
+
+
+    function toTitleCase(str) {
+        if (!str) return str;
+        return String(str)
+            .trim()
+            .split(/\s+/)
+            .map(w => w.split('-').map(p => p ? (p[0].toUpperCase() + p.slice(1)) : p).join('-'))
+            .join(' ');
+    }
 
 
     function pickSheetColor(sheetSet) {
@@ -313,6 +483,73 @@
 
     // 定义一个 Key，用于在浏览器缓存中存储数据
     const STORAGE_KEY = 'metabolic_pathway_positions_v1';
+    // ============================================================
+    // UI: Freeze / Unfreeze node dragging
+    // - Frozen: nodes cannot be dragged, but can still be clicked/selected
+    // - Unfrozen: nodes can be freely arranged
+    // ============================================================
+    window.__uiFrozen = (localStorage.getItem('metabolic_ui_frozen') === '1');
+
+    function applyFrozenState() {
+        const btn = document.getElementById('freeze-toggle');
+        if (btn) {
+            btn.textContent = window.__uiFrozen ? '🔓 Unfreeze' : '🔒 Freeze';
+            btn.classList.toggle('is-on', window.__uiFrozen);
+        }
+        if (window.cyGraph) {
+            // disable/enable dragging only (still allows click, pan, zoom)
+            window.cyGraph.autoungrabify(!!window.__uiFrozen);
+        }
+    }
+
+    function toggleFrozen() {
+        window.__uiFrozen = !window.__uiFrozen;
+        localStorage.setItem('metabolic_ui_frozen', window.__uiFrozen ? '1' : '0');
+        applyFrozenState();
+        }
+
+    // bind once after DOM ready
+    document.addEventListener('DOMContentLoaded', () => {
+        const btn = document.getElementById('freeze-toggle');
+        if (btn) btn.addEventListener('click', toggleFrozen);
+
+        const saveBtn = document.getElementById('save-layout-btn');
+        if (saveBtn) saveBtn.addEventListener('click', () => saveLayout());
+
+        const searchInput = document.getElementById('search-input');
+        const searchClear = document.getElementById('search-clear-btn');
+        if (searchInput) {
+            const sync = () => {
+                const chip = searchInput.closest('.chip');
+                if (chip) chip.classList.toggle('has-value', !!searchInput.value.trim());
+            };
+            searchInput.addEventListener('input', sync);
+            sync();
+        }
+        if (searchClear) searchClear.addEventListener('click', (e) => {
+            e.preventDefault(); e.stopPropagation();
+            clearMoleculeSearchOnly();
+        });
+
+        const pathStart = document.getElementById('path-start-input');
+        const pathEnd = document.getElementById('path-end-input');
+        const pathClear = document.getElementById('path-clear-btn');
+        const syncPath = () => {
+            const chip = (pathStart && pathStart.closest('.chip')) || (pathEnd && pathEnd.closest('.chip'));
+            const has = ((pathStart && pathStart.value.trim()) || (pathEnd && pathEnd.value.trim()));
+            if (chip) chip.classList.toggle('has-value', !!has);
+        };
+        if (pathStart) pathStart.addEventListener('input', syncPath);
+        if (pathEnd) pathEnd.addEventListener('input', syncPath);
+        syncPath();
+        if (pathClear) pathClear.addEventListener('click', (e) => {
+            e.preventDefault(); e.stopPropagation();
+            clearPathSearchOnly();
+        });
+
+        applyFrozenState();
+    });
+
 
     // ============================================================
     // Layout file persistence via backend (/api/layout)
@@ -376,7 +613,7 @@
         
         // 同步保存到服务器文件 layout_positions.json
         saveLayoutToServer(positions);
-alert(`已保存 ${Object.keys(positions).length} 个节点的位置！\n下次刷新页面将保持此布局。`);
+alert(`Saved positions for ${Object.keys(positions).length} nodes. Your layout will be kept on refresh.`);
     }
 
     // ============================================
@@ -386,7 +623,7 @@ alert(`已保存 ${Object.keys(positions).length} 个节点的位置！\n下次�
         localStorage.removeItem(STORAGE_KEY);
                 localStorage.removeItem(STORAGE_KEY + '_autosave');
         clearLayoutOnServer();
-alert('已清除布局缓存。刷新页面将重新计算默认布局。');
+alert('Layout cache cleared. Refreshing to recompute the default layout.');
         location.reload(); // 自动刷新页面
     }
 
@@ -419,7 +656,7 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
                 const endTerm = endInput.value.trim();
                 if (!startTerm || !endTerm) {
                     const ps = document.getElementById('path-status');
-                    if (ps) ps.innerText = '请同时输入起始和终止分子';
+                    if (ps) ps.innerText = 'Please enter both start and end molecules.';
                     return;
                 }
                 findPathBetweenMetabolites(startTerm, endTerm);
@@ -498,7 +735,7 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
             return;
         }
 
-        // 2. 执行搜索（按相似度排序）
+        // 2. 执行搜索（按Similarity排序）
         cy.batch(() => {
             cy.elements().removeClass('highlighted').addClass('dimmed');
 
@@ -513,12 +750,12 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
             });
 
             if (matches.length === 0) {
-                statusSpan.innerText = "未找到匹配节点";
+                statusSpan.innerText = "No matching node found.";
                 sidebar.style.display = 'none';
                 return;
             }
 
-            // 按相似度从高到低排序
+            // 按Similarity从高到低排序
             matches.sort((a, b) => b.score - a.score);
 
             const orderedNodes = matches.map(m => m.node);
@@ -531,9 +768,9 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
             matchedNodes.neighborhood().removeClass('dimmed').addClass('highlighted');
 
             // 更新顶部文字
-            statusSpan.innerText = `找到 ${matchedNodes.length} 个结果`;
+            statusSpan.innerText = `Found ${matchedNodes.length} results`;
 
-            // 3. 【核心】渲染右侧结果列表（带相似度）
+            // 3. 【核心】渲染右侧结果列表（带Similarity）
             renderSearchResults(orderedNodes, scores);
         });
     }
@@ -653,12 +890,12 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
             // 判断类型标签颜色
             let typeColor = '#95a5a6';
             let typeText = 'Unknown';
-            if(node.hasClass('reaction')) { typeColor = '#55efc4'; typeText = '酶/反应'; }
+            if(node.hasClass('reaction')) { typeColor = '#55efc4'; typeText = 'Enzyme/Reaction'; }
             else if(node.hasClass('main-molecule')) { typeColor = '#2ecc71'; typeText = 'Main Substrate'; }
             else { typeColor = '#74b9ff'; typeText = 'Other Substrate'; }
 
             const scoreHtml = (typeof score === 'number')
-                ? `<div class="result-score" style="font-size:11px; color:#888;">相似度 ${(score*100).toFixed(0)}%</div>`
+                ? `<div class="result-score" style="font-size:11px; color:#888;">Similarity ${(score*100).toFixed(0)}%</div>`
                 : '';
 
             item.innerHTML = `
@@ -666,7 +903,7 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
                     ${data.label || data.id}
                     <span class="result-type-tag" style="background:${typeColor}">${typeText}</span>
                 </div>
-                <div class="result-pathway">📂 ${data.pathway || '未分类'}</div>
+                <div class="result-pathway">📂 ${data.pathway || 'Uncategorized'}</div>
                 ${scoreHtml}
             `;
 
@@ -745,6 +982,55 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
         if (ps) ps.innerText = '';
     }
 
+
+    // Clear molecule search only (equivalent to emptying the molecule search box)
+    function clearMoleculeSearchOnly() {
+        closeSearchPanel();
+        const input = document.getElementById('search-input');
+        const chip = input ? input.closest('.chip') : null;
+        if (chip) chip.classList.remove('has-value');
+    }
+
+    // Clear path search only (equivalent to emptying start/end and removing path highlights)
+    function clearPathSearchOnly() {
+        const cy = window.cyGraph;
+        const startInput = document.getElementById('path-start-input');
+        const endInput = document.getElementById('path-end-input');
+        const status = document.getElementById('path-status');
+        const sidebar = document.getElementById('search-sidebar');
+        const listContainer = document.getElementById('search-results-list');
+        const countSpan = document.getElementById('result-count');
+
+        if (startInput) startInput.value = '';
+        if (endInput) endInput.value = '';
+        if (status) status.innerText = '';
+
+        clearPathHighlight();
+
+        // remove any residual focus styling
+        if (cy) {
+            cy.elements().removeClass('path-node').removeClass('path-edge');
+        }
+
+        // clear the right panel list
+        if (listContainer) listContainer.innerHTML = '';
+        if (countSpan) countSpan.innerText = 0;
+        if (sidebar) sidebar.style.display = 'none';
+
+        // restore visibility according to current pathway filter and side rules
+        filterGraph();
+
+        const chip = (startInput && startInput.closest('.chip')) || (endInput && endInput.closest('.chip'));
+        if (chip) chip.classList.remove('has-value');
+    }
+
+    // Close the right panel and exit any active search/path mode
+    function closeAllPanels() {
+        clearMoleculeSearchOnly();
+        clearPathSearchOnly();
+    }
+
+
     // 根据名称挑选“最相似”的分子节点
     function pickBestMoleculeNodeByName(term) {
         const cy = window.cyGraph;
@@ -768,7 +1054,7 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
         return bestNode;
     }
 
-    // 在代谢网络中寻找从起始分子到终止分子的合成路径（最短步数）
+    // 在代谢网络中寻找从Start molecule到End molecule的合成路径（最短步数）
     
     function findPathBetweenMetabolites(startName, endName) {
         const cy = window.cyGraph;
@@ -781,13 +1067,13 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
         const endNode = pickBestMoleculeNodeByName(endName);
 
         if (!startNode || !endNode) {
-            if (status) status.innerText = '找不到匹配的起始或终止分子';
+            if (status) status.innerText = 'Could not find a matching start or end molecule.';
             return;
         }
 
         if (startNode.id() === endNode.id()) {
             startNode.addClass('path-node');
-            if (status) status.innerText = '起始与终止为同一分子';
+            if (status) status.innerText = 'Start and end are the same molecule.';
             // 同时清空右侧路径列表
             renderPathResults([]);
             return;
@@ -833,7 +1119,7 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
         }
 
         if (foundPaths.length === 0) {
-            if (status) status.innerText = '在当前网络中未找到从起始到终止的路径';
+            if (status) status.innerText = 'No path found between the start and end in the current network.';
             // 清空右侧路径结果
             renderPathResults([]);
             return;
@@ -938,7 +1224,7 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
 
             item.innerHTML = `
                 <div class="result-name">
-                    路径 ${idx + 1}
+                    Path ${idx + 1}
                     <span class="result-type-tag" style="background:#e67e22;">${stepText}</span>
                 </div>
                 <div class="result-pathway" style="font-size:11px; color:#555; margin-top:2px;">
@@ -950,7 +1236,7 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
                 applyPathHighlight(info.nodes);
                 const ps = document.getElementById('path-status');
                 if (ps) {
-                    ps.innerText = `当前为路径 ${idx + 1}，包含 ${info.reactionSteps} 个反应步骤`;
+                    ps.innerText = `Showing Path ${idx + 1} (${info.reactionSteps} reaction steps)`;
                 }
                 document.querySelectorAll('.result-item').forEach(d => d.style.borderColor = '#eee');
                 item.style.borderColor = '#e67e22';
@@ -974,14 +1260,14 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
 
     async function loadAndMergeSheets() {
         document.getElementById('loading').style.display = 'flex';
-        updateStatus(`正在合并加载: ${TARGET_SHEETS.join(', ')}...`);
+        updateStatus(`Loading sheets: ${TARGET_SHEETS.join(', ')}...`);
 
         try {
             let combinedData = [];
             const requests = TARGET_SHEETS.map(name =>
                 fetch(`/api/data/${encodeURIComponent(name)}`)
                     .then(res => {
-                        if(!res.ok) throw new Error(`Sheet [${name}] 不存在或读取失败`);
+                        if(!res.ok) throw new Error(`Sheet [${name}] does not exist or failed to read`);
                         return res.json();
                     })
                     .then(sheetData => {
@@ -997,7 +1283,7 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
             });
 
 
-            console.log(`合并完成，共 ${combinedData.length} 行数据`);
+            console.log(`Loaded ${combinedData.length} rows in total`);
                         // 预加载上一次保存的布局坐标（服务器文件）
             await preloadLayoutFromServer();
 
@@ -1005,7 +1291,7 @@ alert('已清除布局缓存。刷新页面将重新计算默认布局。');
 
         } catch (err) {
             console.error(err);
-            showError(`合并加载失败: ${err.message}`);
+            showError(`Load failed: ${err.message}`);
         } finally {
             document.getElementById('loading').style.display = 'none';
         }
@@ -1279,7 +1565,7 @@ const rxnId = makeReactionId(row, index, mainSources, mainTargets, sheetName);
             }
         });
 
-        updateStatus(`显示数据: ${elements.length} 个元素`);
+        updateStatus('');
         drawCytoscape(elements);
     }
 
@@ -1372,7 +1658,7 @@ const rxnId = makeReactionId(row, index, mainSources, mainTargets, sheetName);
             },
 
 
-            // 【酶/反应节点】：无背景，浅绿色边框
+            // 【Enzyme/Reaction节点】：无背景，浅绿色边框
             {
                 // 使用 type 选择器或者 class 选择器
                 selector: 'node[type="reaction"]',
@@ -1496,7 +1782,9 @@ const rxnId = makeReactionId(row, index, mainSources, mainTargets, sheetName);
             elements: [] 
         });
 
-        // ==========================================
+                applyFrozenState();
+
+// ==========================================
         // 关键修复：分离 节点(Node) 和 连线(Edge)
         // ==========================================
         const allNodes = [];
@@ -1541,7 +1829,7 @@ const rxnId = makeReactionId(row, index, mainSources, mainTargets, sheetName);
                 // 更新 UI
                 const percent = Math.round(((currentIndex + 1) / pathwayNames.length) * 100);
                 if(progressBar) progressBar.style.width = `${percent}%`;
-                if(progressText) progressText.innerText = `正在连接: ${pName} (${currentIndex + 1}/${pathwayNames.length})`;
+                if(progressText) progressText.innerText = `Linking: ${pName} (${currentIndex + 1}/${pathwayNames.length})`;
 
                 // 添加这批连线
                 if (edgesBatch && edgesBatch.length > 0) {
@@ -1880,7 +2168,7 @@ const rxnId = makeReactionId(row, index, mainSources, mainTargets, sheetName);
             if (!list || list.length === 0) {
                 const empty = document.createElement('div');
                 empty.style.cssText = 'color:#999;font-size:12px;padding:4px 6px;font-style:italic;';
-                empty.textContent = '（无 Pathway）';
+                empty.textContent = '(No pathway)';
                 body.appendChild(empty);
                 return;
             }
@@ -1898,13 +2186,14 @@ const rxnId = makeReactionId(row, index, mainSources, mainTargets, sheetName);
 
                 const text = document.createElement('span');
                 text.className = 'pw-text';
-                text.textContent = pw;
+                text.textContent = toTitleCase(pw);
 
                 const btn = document.createElement('button');
                 btn.type = 'button';
                 btn.className = 'side-toggle-btn';
                 btn.dataset.pathway = pw;
-                btn.textContent = 'Demonstrate currency';
+                btn.textContent = 'Pin Side';
+                btn.title = 'Pin/unpin side molecules for this pathway';
                 btn.addEventListener('click', (e) => {
                     e.preventDefault();
                     e.stopPropagation();
@@ -2084,9 +2373,9 @@ function filterGraph() {
             });
         });
 
-        // 显示后再统一对齐，避免散落/重叠
-        alignSideNodes();
-    }
+        // 显示后再统一对齐，避免散落/重叠（冻结状态不自动挪动节点）
+        if (!window.__uiFrozen) alignSideNodes();
+}
 
     function refreshTransportVisibility() {
         const cy = window.cyGraph;
@@ -2184,10 +2473,10 @@ function filterGraph() {
         let _raf = null;
         cy.on('drag', 'node[type="reaction"]', () => {
             if (_raf) cancelAnimationFrame(_raf);
-            _raf = requestAnimationFrame(() => alignSideNodes());
+            _raf = requestAnimationFrame(() => { if (!window.__uiFrozen) alignSideNodes(); });
         });
         cy.on('dragfree', 'node', () => {
-            alignSideNodes();
+            if (!window.__uiFrozen) alignSideNodes();
             autoSaveLayoutDebounced();
         });
     }
