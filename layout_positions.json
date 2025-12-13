@@ -84,8 +84,8 @@
     "y": -83.85470507489774
   },
   "rxn_carbonhydrates|glycolysis|phosphoglycerate_kinase__pgk_|1_3_bisphosphoglycerate|3_phosphoglycerate": {
-    "x": -2149.2381252307077,
-    "y": 116.35350307983963
+    "x": -2147.5586454377503,
+    "y": 114.67402328688271
   },
   "rxn_carbonhydrates|glycolysis|phosphoglycerate_kinase__pgk_|1_3_bisphosphoglycerate|3_phosphoglycerate_side_in_ADP_0": {
     "x": -2309.2381252307077,
@@ -128,20 +128,20 @@
     "y": 779.6534892359516
   },
   "pyruvate@@cytosol": {
-    "x": -2132.8129107395707,
-    "y": 917.1129918115253
+    "x": -2129.548807076738,
+    "y": 910.5545861698463
   },
   "rxn_carbonhydrates|glycolysis|pyruvate_kinase__pk_|pep|pyruvate_side_out_ATP_0": {
     "x": -1976.2134194235455,
     "y": 779.6534892359516
   },
   "rxn_carbonhydrates|citric_acid_cycle|pyruvate_dehydrogenase_complex__pdh_complex_|pyruvate|acetyl_coa": {
-    "x": -1082.8934059393387,
-    "y": 910.5546430928285
+    "x": -342.343252174647,
+    "y": 1097.1098866968537
   },
   "pyruvate@@mitochondria": {
-    "x": -1880.995493635435,
-    "y": 912.6300339099223
+    "x": -1140.4453398707421,
+    "y": 1099.1852775139478
   },
   "rxn_carbonhydrates|citric_acid_cycle|pyruvate_dehydrogenase_complex__pdh_complex_|pyruvate|acetyl_coa_side_in_NAD+_0": {
     "x": -1242.8934059393387,
@@ -152,8 +152,8 @@
     "y": 923.5546430928285
   },
   "acetyl-CoA@@mitochondria": {
-    "x": -1082.0044480851082,
-    "y": 1078.7391335903324
+    "x": -341.45429432041647,
+    "y": 1265.2943771943578
   },
   "rxn_carbonhydrates|citric_acid_cycle|pyruvate_dehydrogenase_complex__pdh_complex_|pyruvate|acetyl_coa_side_out_NADH_0": {
     "x": -922.8934059393387,
@@ -164,8 +164,8 @@
     "y": 923.5546430928285
   },
   "rxn_carbonhydrates|citric_acid_cycle|citrate_synthase|acetyl_coa|citrate": {
-    "x": -1086.1100133820387,
-    "y": 1198.0320290166455
+    "x": -345.559859617347,
+    "y": 1384.5872726206708
   },
   "rxn_carbonhydrates|citric_acid_cycle|citrate_synthase|acetyl_coa|citrate_side_in_oxaloacetate_0": {
     "x": -1246.1100133820387,
@@ -176,32 +176,32 @@
     "y": 1211.0320290166455
   },
   "citrate@@mitochondria": {
-    "x": -905.4463602826526,
-    "y": 1222.8926994213907
+    "x": -164.89620651796122,
+    "y": 1409.447943025416
   },
   "rxn_carbonhydrates|citric_acid_cycle|citrate_synthase|acetyl_coa|citrate_side_out_CoA_0": {
     "x": -926.1100133820387,
     "y": 1198.0320290166455
   },
   "rxn_carbonhydrates|citric_acid_cycle|aconitase|citrate|isocitrate": {
-    "x": -773.8468451619733,
-    "y": 1291.0249721516072
+    "x": -33.29669139728276,
+    "y": 1477.5802157556325
   },
   "isocitrate@@mitochondria": {
-    "x": -669.5269188920462,
-    "y": 1385.517450456448
+    "x": 71.0232348726438,
+    "y": 1572.0726940604734
   },
   "rxn_carbonhydrates|citric_acid_cycle|isocitrate_dehydrogenase__idh3_|isocitrate|alpha_ketoglutarate": {
-    "x": -649.6261926471744,
-    "y": 1511.8479799610345
+    "x": 90.92396111751555,
+    "y": 1698.40322356506
   },
   "rxn_carbonhydrates|citric_acid_cycle|isocitrate_dehydrogenase__idh3_|isocitrate|alpha_ketoglutarate_side_in_NAD+_0": {
     "x": -809.6261926471744,
     "y": 1511.8479799610345
   },
   "alpha-ketoglutarate@@mitochondria": {
-    "x": -646.0216362636284,
-    "y": 1640.3751932635066
+    "x": 91.36432335491395,
+    "y": 1823.766242721385
   },
   "rxn_carbonhydrates|citric_acid_cycle|isocitrate_dehydrogenase__idh3_|isocitrate|alpha_ketoglutarate_side_out_NADH_0": {
     "x": -489.62619264717443,
@@ -212,8 +212,8 @@
     "y": 1524.8479799610345
   },
   "rxn_carbonhydrates|citric_acid_cycle|isocitrate_dehydrogenase__idh1_idh2_|isocitrate|alpha_ketoglutarate": {
-    "x": -648.0487786229681,
-    "y": 1513.4253939852408
+    "x": 92.50137514172184,
+    "y": 1699.9806375892665
   },
   "rxn_carbonhydrates|citric_acid_cycle|isocitrate_dehydrogenase__idh1_idh2_|isocitrate|alpha_ketoglutarate_side_in_NADP+_0": {
     "x": -809.6261926471744,
@@ -228,8 +228,8 @@
     "y": 1524.8479799610345
   },
   "rxn_carbonhydrates|citric_acid_cycle|alpha_ketoglutarate_dehydrogenase_complex__alpha_kgdh_|alpha_ketoglutarate|succinyl_coa": {
-    "x": -687.3062607181289,
-    "y": 1758.9792701702995
+    "x": 53.2438930465612,
+    "y": 1945.5345137743252
   },
   "rxn_carbonhydrates|citric_acid_cycle|alpha_ketoglutarate_dehydrogenase_complex__alpha_kgdh_|alpha_ketoglutarate|succinyl_coa_side_in_NAD+_0": {
     "x": -847.3062607181289,
@@ -240,8 +240,8 @@
     "y": 1771.9792701702995
   },
   "succinyl-CoA@@mitochondria": {
-    "x": -808.5908851726294,
-    "y": 1877.5833470770926
+    "x": -68.04073140793889,
+    "y": 2064.1385906811192
   },
   "rxn_carbonhydrates|citric_acid_cycle|alpha_ketoglutarate_dehydrogenase_complex__alpha_kgdh_|alpha_ketoglutarate|succinyl_coa_side_out_NADH_0": {
     "x": -527.3062607181289,
@@ -252,8 +252,8 @@
     "y": 1771.9792701702995
   },
   "rxn_carbonhydrates|citric_acid_cycle|succinyl_coa_synthetase|succinyl_coa|succinate": {
-    "x": -982.115433808916,
-    "y": 1981.2562507645077
+    "x": -209.92333858274742,
+    "y": 2151.990523637797
   },
   "rxn_carbonhydrates|citric_acid_cycle|succinyl_coa_synthetase|succinyl_coa|succinate_side_in_GDP_0": {
     "x": -1142.115433808916,
@@ -264,8 +264,8 @@
     "y": 1994.2562507645077
   },
   "succinate@@mitochondria": {
-    "x": -1240.0333500409736,
-    "y": 1959.7181779724597
+    "x": -458.3486723763608,
+    "y": 2149.437615722635
   },
   "rxn_carbonhydrates|citric_acid_cycle|succinyl_coa_synthetase|succinyl_coa|succinate_side_out_GTP_0": {
     "x": -822.115433808916,
@@ -276,44 +276,44 @@
     "y": 1994.2562507645077
   },
   "rxn_carbonhydrates|citric_acid_cycle|succinate_dehydrogenase__sdh_|succinate|fumarate": {
-    "x": -1449.0306123620555,
-    "y": 1861.8996980597046
+    "x": -664.1817405512943,
+    "y": 2048.454941663732
   },
   "rxn_carbonhydrates|citric_acid_cycle|succinate_dehydrogenase__sdh_|succinate|fumarate_side_in_FAD_0": {
     "x": -1609.0306123620555,
     "y": 1861.8996980597046
   },
   "fumarate@@mitochondria": {
-    "x": -1575.4732736396236,
-    "y": 1700.3773880082754
+    "x": -774.8034310981234,
+    "y": 1896.4252140507438
   },
   "rxn_carbonhydrates|citric_acid_cycle|succinate_dehydrogenase__sdh_|succinate|fumarate_side_out_FADH2_0": {
     "x": -1289.0306123620555,
     "y": 1861.8996980597046
   },
   "rxn_carbonhydrates|citric_acid_cycle|fumarase|fumarate|l_malate": {
-    "x": -1606.2727323290082,
-    "y": 1565.5438763215097
+    "x": -808.7670839336558,
+    "y": 1764.7558965101257
   },
   "rxn_carbonhydrates|citric_acid_cycle|fumarase|fumarate|l_malate_side_in_H2O_0": {
     "x": -1766.2727323290082,
     "y": 1565.5438763215097
   },
   "L-malate@@mitochondria": {
-    "x": -1554.5175899748792,
-    "y": 1435.1037322305147
+    "x": -772.8329123102656,
+    "y": 1627.9873641268348
   },
   "rxn_carbonhydrates|citric_acid_cycle|malate_dehydrogenase__mdh_|l_malate|oxaloacetate": {
-    "x": -1467.3254124031146,
-    "y": 1318.8645441823496
+    "x": -698.2975113230918,
+    "y": 1505.419787786375
   },
   "rxn_carbonhydrates|citric_acid_cycle|malate_dehydrogenase__mdh_|l_malate|oxaloacetate_side_in_NAD+_0": {
     "x": -1612.0240992399133,
     "y": 1331.1055947129105
   },
   "oxaloacetate@@mitochondria": {
-    "x": -1287.5376856032806,
-    "y": 1222.4676142906192
+    "x": -557.6620040797084,
+    "y": 1401.0170037138046
   },
   "rxn_carbonhydrates|citric_acid_cycle|malate_dehydrogenase__mdh_|l_malate|oxaloacetate_side_out_NADH_0": {
     "x": -1292.0240992399133,
@@ -324,8 +324,8 @@
     "y": 1344.1055947129105
   },
   "rxn_carbonhydrates|citric_acid_cycle|citrate_synthase|oxaloacetate_acetyl_coa|citrate": {
-    "x": -1086.298757830671,
-    "y": 1198.396085875446
+    "x": -345.7486040659794,
+    "y": 1384.9513294794715
   },
   "rxn_carbonhydrates|citric_acid_cycle|citrate_synthase|oxaloacetate_acetyl_coa|citrate_side_in_H2O_0": {
     "x": -1246.298757830671,
@@ -336,8 +336,8 @@
     "y": 1198.396085875446
   },
   "rxn_carbonhydrates|gluconeogenesis|pyruvate_carboxylase|pyruvate|oxaloacetate": {
-    "x": -1876.0539957237852,
-    "y": 1228.3276262141694
+    "x": -1140.8335974455451,
+    "y": 1393.563847872384
   },
   "rxn_carbonhydrates|gluconeogenesis|pyruvate_carboxylase|pyruvate|oxaloacetate_side_in_ATP_0": {
     "x": -2036.0539957237852,
@@ -360,16 +360,16 @@
     "y": 1254.3276262141694
   },
   "rxn_carbonhydrates|gluconeogenesis|pep_carboxykinase__mitochondrial_isozyme_|oxaloacetate|pep": {
-    "x": -1542.193415819431,
-    "y": 1042.0482094404156
+    "x": -801.6432620547382,
+    "y": 1228.6034530444408
   },
   "rxn_carbonhydrates|gluconeogenesis|pep_carboxykinase__mitochondrial_isozyme_|oxaloacetate|pep_side_in_GTP_0": {
     "x": -1702.193415819431,
     "y": 1042.0482094404156
   },
   "PEP@@mitochondria": {
-    "x": -1543.1114833255112,
-    "y": 863.7787948216022
+    "x": -802.5613295608184,
+    "y": 1050.3340384256273
   },
   "rxn_carbonhydrates|gluconeogenesis|pep_carboxykinase__mitochondrial_isozyme_|oxaloacetate|pep_side_out_GDP_0": {
     "x": -1382.193415819431,
@@ -380,8 +380,8 @@
     "y": 1055.0482094404156
   },
   "rxn_carbonhydrates|gluconeogenesis|malate_dehydrogenase__mdh__mitochondrial_|oxaloacetate|malate": {
-    "x": -1290.030768761178,
-    "y": 1039.8909224665679
+    "x": -549.4806149964857,
+    "y": 1226.4461660705933
   },
   "rxn_carbonhydrates|gluconeogenesis|malate_dehydrogenase__mdh__mitochondrial_|oxaloacetate|malate_side_in_NADH_0": {
     "x": -1450.030768761178,
@@ -392,28 +392,28 @@
     "y": 1052.8909224665679
   },
   "malate@@mitochondria": {
-    "x": -1287.6943427796273,
-    "y": 859.5686952077699
+    "x": -547.1441890149349,
+    "y": 1046.1239388117951
   },
   "rxn_carbonhydrates|gluconeogenesis|malate_dehydrogenase__mdh__mitochondrial_|oxaloacetate|malate_side_out_NAD+_0": {
     "x": -1130.030768761178,
     "y": 1039.8909224665679
   },
   "rxn_carbonhydrates|gluconeogenesis|malate_dehydrogenase__mdh__cytosolic_|malate|oxaloacetate": {
-    "x": -1501.551185336381,
-    "y": 639.1447130658547
+    "x": -1143.0789958111895,
+    "y": 632.5872949647842
   },
   "malate@@cytosol": {
-    "x": -1291.9115831011209,
-    "y": 639.5468254005959
+    "x": -802.2910315545179,
+    "y": 630.8036012658354
   },
   "rxn_carbonhydrates|gluconeogenesis|malate_dehydrogenase__mdh__cytosolic_|malate|oxaloacetate_side_in_NAD+_0": {
     "x": -1661.551185336381,
     "y": 639.1447130658547
   },
   "oxaloacetate@@cytosol": {
-    "x": -1752.4036336141207,
-    "y": 638.7426007311135
+    "x": -1477.9636255156097,
+    "y": 631.4869493857159
   },
   "rxn_carbonhydrates|gluconeogenesis|malate_dehydrogenase__mdh__cytosolic_|malate|oxaloacetate_side_out_NADH_0": {
     "x": -1341.551185336381,
@@ -424,7 +424,7 @@
     "y": 652.1447130658547
   },
   "rxn_carbonhydrates|gluconeogenesis|pep_carboxykinase__cytosolic_isozyme_|oxaloacetate|pep": {
-    "x": -1948.7465032428063,
+    "x": -1813.2265291540143,
     "y": 637.4014401127154
   },
   "rxn_carbonhydrates|gluconeogenesis|pep_carboxykinase__cytosolic_isozyme_|oxaloacetate|pep_side_in_GTP_0": {
@@ -456,16 +456,16 @@
     "y": -681.752240746373
   },
   "glucose 6-phosphate@@er_smooth": {
-    "x": -3592.4615755691234,
-    "y": -678.3477692463657
+    "x": -3588.0737565235286,
+    "y": -682.735588291961
   },
   "rxn_carbonhydrates|gluconeogenesis|glucose_6_phosphatase|glucose_6_phosphate|glucose_side_in_H2O_0": {
     "x": -3933.783655443458,
     "y": -681.752240746373
   },
   "glucose@@er_smooth": {
-    "x": -3928.811978537943,
-    "y": -685.1567122463803
+    "x": -3947.8258610688554,
+    "y": -680.7688932007851
   },
   "rxn_carbonhydrates|gluconeogenesis|glucose_6_phosphatase|glucose_6_phosphate|glucose_side_out_Pi_0": {
     "x": -3613.783655443458,
@@ -484,8 +484,8 @@
     "y": 328.64893765890844
   },
   "rxn_carbonhydrates|gluconeogenesis|phosphoglycerate_kinase__pgk_|3_phosphoglycerate|1_3_bisphosphoglycerate": {
-    "x": -2149.681708872909,
-    "y": 116.2390506386828
+    "x": -2146.3227492869955,
+    "y": 114.55957084572599
   },
   "rxn_carbonhydrates|gluconeogenesis|phosphoglycerate_kinase__pgk_|3_phosphoglycerate|1_3_bisphosphoglycerate_side_in_ATP_0": {
     "x": -2309.681708872909,
@@ -528,8 +528,8 @@
     "y": -750.2867175826091
   },
   "rxn_carbonhydrates|cori_cycle|ldh|pyruvate|lactate": {
-    "x": -2316.7255312021734,
-    "y": 957.384154667447
+    "x": -2220.8818663499537,
+    "y": 944.0145047377467
   },
   "rxn_carbonhydrates|cori_cycle|ldh|pyruvate|lactate_side_in_NADH_0": {
     "x": 0,
@@ -540,28 +540,28 @@
     "y": 0
   },
   "lactate@@cytosol": {
-    "x": -2430.6621489207164,
-    "y": 1140.8142292336083
+    "x": -2309.5939208970876,
+    "y": 978.7407629719098
   },
   "rxn_carbonhydrates|cori_cycle|ldh|pyruvate|lactate_side_out_NAD+_0": {
     "x": 0,
     "y": 0
   },
   "rxn_carbonhydrates|cori_cycle|ldh|lactate|pyruvate": {
-    "x": -2228.103347762501,
-    "y": 1103.9516118945971
+    "x": -2219.7926568306393,
+    "y": 944.379692843345
   },
   "rxn_carbonhydrates|cori_cycle|ldh|lactate|pyruvate_side_in_NAD+_0": {
-    "x": 0,
-    "y": 0
+    "x": -2388.103347762501,
+    "y": 1103.9516118945971
   },
   "rxn_carbonhydrates|cori_cycle|ldh|lactate|pyruvate_side_out_NADH_0": {
-    "x": 0,
-    "y": 0
+    "x": -2068.103347762501,
+    "y": 1090.9516118945971
   },
   "rxn_carbonhydrates|cori_cycle|ldh|lactate|pyruvate_side_out_H+_1": {
-    "x": 0,
-    "y": 0
+    "x": -2068.103347762501,
+    "y": 1116.9516118945971
   },
   "rxn_carbonhydrates|pentose_phosphate_pathway|glucose_6_phosphate_dehydrogenase|glucose_6_phosphate|6_phosphogluconolactone": {
     "x": -2411.3917619049375,
@@ -684,40 +684,40 @@
     "y": -844.6505310365966
   },
   "rxn_carbonhydrates|calvin_cycle|rubisco|ribulose_1_5_bisphosphate_co2|3_phosphoglycerate": {
-    "x": -1176.1005721108193,
-    "y": 73.63347926694907
+    "x": -543.7479195962544,
+    "y": 115.44191910262278
   },
   "ribulose 1,5-bisphosphate@@chloroplast_stroma": {
-    "x": -1168.8470267670712,
-    "y": -128.96816588717905
+    "x": -536.4943742525063,
+    "y": -87.15972605150534
   },
   "CO2@@chloroplast_stroma": {
-    "x": -976.6000126955056,
-    "y": 72.93920521375478
+    "x": -344.24736018094114,
+    "y": 114.74764504942848
   },
   "3-phosphoglycerate@@chloroplast_stroma": {
-    "x": -1325.4929442182163,
-    "y": 215.82754790743144
+    "x": -693.1402917036514,
+    "y": 257.63598774310515
   },
   "rxn_carbonhydrates|calvin_cycle|3_phosphoglycerate_kinase|3_phosphoglycerate|1_3_bisphosphoglycerate": {
-    "x": -1604.5525976692743,
-    "y": 173.88789170297156
+    "x": -972.1999451547093,
+    "y": 215.69633153864527
   },
   "rxn_carbonhydrates|calvin_cycle|3_phosphoglycerate_kinase|3_phosphoglycerate|1_3_bisphosphoglycerate_side_in_ATP_0": {
     "x": 0,
     "y": 0
   },
   "1,3-bisphosphoglycerate@@chloroplast_stroma": {
-    "x": -1727.3716250444747,
-    "y": 29.47653361595455
+    "x": -1095.0189725299094,
+    "y": 71.28497345162826
   },
   "rxn_carbonhydrates|calvin_cycle|3_phosphoglycerate_kinase|3_phosphoglycerate|1_3_bisphosphoglycerate_side_out_ADP_0": {
     "x": 0,
     "y": 0
   },
   "rxn_carbonhydrates|calvin_cycle|glyceraldehyde_3_phosphate_dehydrogenase|1_3_bisphosphoglycerate|glyceraldehyde_3_phosphate": {
-    "x": -1739.0723007203437,
-    "y": -137.64925979001762
+    "x": -1106.7196482057786,
+    "y": -95.84081995434391
   },
   "rxn_carbonhydrates|calvin_cycle|glyceraldehyde_3_phosphate_dehydrogenase|1_3_bisphosphoglycerate|glyceraldehyde_3_phosphate_side_in_NADPH_0": {
     "x": 0,
@@ -728,8 +728,8 @@
     "y": 0
   },
   "glyceraldehyde 3-phosphate@@chloroplast_stroma": {
-    "x": -1579.0829193847426,
-    "y": -289.50824475730803
+    "x": -946.7302668701777,
+    "y": -247.69980492163432
   },
   "rxn_carbonhydrates|calvin_cycle|glyceraldehyde_3_phosphate_dehydrogenase|1_3_bisphosphoglycerate|glyceraldehyde_3_phosphate_side_out_NADP+_0": {
     "x": 0,
@@ -740,8 +740,8 @@
     "y": 0
   },
   "rxn_carbonhydrates|calvin_cycle|multi_enzymes|glyceraldehyde_3_phosphate|ribulose_1_5_bisphosphate": {
-    "x": -1284.0368834534834,
-    "y": -268.76785064128694
+    "x": -651.6842309389187,
+    "y": -226.95941080561323
   },
   "rxn_carbonhydrates|calvin_cycle|multi_enzymes|glyceraldehyde_3_phosphate|ribulose_1_5_bisphosphate_side_in_ATP_0": {
     "x": 0,
@@ -752,24 +752,24 @@
     "y": 0
   },
   "rxn_carbonhydrates|glucose_alanine_cycle|alanine_aminotransferase|pyruvate|alanine": {
-    "x": -2257.2436176545098,
-    "y": 745.3336850717518
+    "x": -2344.2650926981155,
+    "y": 832.3852711074235
   },
   "rxn_carbonhydrates|glucose_alanine_cycle|alanine_aminotransferase|pyruvate|alanine_side_in_glutamate_0": {
     "x": 0,
     "y": 0
   },
   "alanine@@cytosol": {
-    "x": -2485.534143187822,
-    "y": 703.0791079745765
+    "x": -2618.248871422169,
+    "y": 752.3614631483221
   },
   "rxn_carbonhydrates|glucose_alanine_cycle|alanine_aminotransferase|pyruvate|alanine_side_out_α-ketoglutarate_0": {
     "x": 0,
     "y": 0
   },
   "rxn_carbonhydrates|glucose_alanine_cycle|alanine_aminotransferase|alanine|pyruvate": {
-    "x": -2332.23161902654,
-    "y": 862.9285054051633
+    "x": -2346.360735804825,
+    "y": 828.9468126664088
   },
   "rxn_carbonhydrates|glucose_alanine_cycle|alanine_aminotransferase|alanine|pyruvate_side_in_α-ketoglutarate_0": {
     "x": 0,
@@ -780,12 +780,12 @@
     "y": 0
   },
   "rxn_carbonhydrates|glyoxylate_cycle|citrate_synthase|acetyl_coa|citrate": {
-    "x": 360.3641248766466,
-    "y": 2981.0475757264794
+    "x": 843.1530108413534,
+    "y": 2983.2023022336653
   },
   "acetyl-CoA@@glyoxysome": {
-    "x": 681.7718491625656,
-    "y": 2863.6464377169373
+    "x": 1190.7770785078237,
+    "y": 2875.6322929918288
   },
   "rxn_carbonhydrates|glyoxylate_cycle|citrate_synthase|acetyl_coa|citrate_side_in_oxaloacetate_0": {
     "x": 0,
@@ -796,60 +796,60 @@
     "y": 0
   },
   "citrate@@glyoxysome": {
-    "x": 376.49080532588863,
-    "y": 3284.835604640481
+    "x": 839.6174337551814,
+    "y": 3277.15920237996
   },
   "rxn_carbonhydrates|glyoxylate_cycle|citrate_synthase|acetyl_coa|citrate_side_out_CoA_0": {
     "x": 0,
     "y": 0
   },
   "rxn_carbonhydrates|glyoxylate_cycle|aconitase|citrate|isocitrate": {
-    "x": 164.70743522124957,
-    "y": 3448.2367146933793
+    "x": 693.3749221019208,
+    "y": 3447.1143982779963
   },
   "isocitrate@@glyoxysome": {
-    "x": -114.94051881024473,
-    "y": 3526.6899122342625
+    "x": 413.7269680704261,
+    "y": 3525.567595818879
   },
   "rxn_carbonhydrates|glyoxylate_cycle|isocitrate_lyase|isocitrate|glyoxylate_succinate": {
-    "x": -511.0624072399858,
-    "y": 3398.74732139793
+    "x": 17.605079640685204,
+    "y": 3397.625004982547
   },
   "glyoxylate@@glyoxysome": {
-    "x": -590.2325942291111,
-    "y": 3142.648426998561
+    "x": -61.56510734844014,
+    "y": 3141.5261105831773
   },
   "succinate@@glyoxysome": {
-    "x": -966.2172327903206,
-    "y": 3399.481756192944
+    "x": -437.54974590964974,
+    "y": 3398.359439777561
   },
   "rxn_carbonhydrates|glyoxylate_cycle|malate_synthase|glyoxylate|l_malate": {
-    "x": -574.5900295254289,
-    "y": 2913.29202553162
+    "x": -45.922542644757954,
+    "y": 2912.1697091162364
   },
   "rxn_carbonhydrates|glyoxylate_cycle|malate_synthase|glyoxylate|l_malate_side_in_acetyl-CoA_0": {
     "x": 0,
     "y": 0
   },
   "L-malate@@glyoxysome": {
-    "x": -341.62977102969745,
-    "y": 2750.680412466975
+    "x": 111.66572863188846,
+    "y": 2749.558096051592
   },
   "rxn_carbonhydrates|glyoxylate_cycle|malate_synthase|glyoxylate|l_malate_side_out_CoA-SH_0": {
     "x": 0,
     "y": 0
   },
   "rxn_carbonhydrates|glyoxylate_cycle|malate_dehydrogenase__mdh_|l_malate|oxaloacetate": {
-    "x": -72.41192184708785,
-    "y": 2749.600946711758
+    "x": 371.32226539188827,
+    "y": 2682.354600416314
   },
   "rxn_carbonhydrates|glyoxylate_cycle|malate_dehydrogenase__mdh_|l_malate|oxaloacetate_side_in_NAD+_0": {
     "x": 0,
     "y": 0
   },
   "oxaloacetate@@glyoxysome": {
-    "x": 116.80592733552197,
-    "y": 2748.52148095654
+    "x": 645.4734142161934,
+    "y": 2747.3991645411566
   },
   "rxn_carbonhydrates|glyoxylate_cycle|malate_dehydrogenase__mdh_|l_malate|oxaloacetate_side_out_NADH_0": {
     "x": 0,
@@ -860,8 +860,8 @@
     "y": 0
   },
   "rxn_carbonhydrates|glyoxylate_cycle|citrate_synthase|oxaloacetate_acetyl_coa|citrate": {
-    "x": 360.89960018131336,
-    "y": 2983.8709652143702
+    "x": 843.6884861460204,
+    "y": 2982.748648798987
   },
   "rxn_carbonhydrates|glyoxylate_cycle|citrate_synthase|oxaloacetate_acetyl_coa|citrate_side_in_H2O_0": {
     "x": 0,
@@ -872,44 +872,44 @@
     "y": 0
   },
   "rxn_carbonhydrates|starch_synthesis|phosphoglucomutase|glucose_6_phosphate|glucose_1_phosphate": {
-    "x": -655.7053176350065,
-    "y": -434.2341161763762
+    "x": -23.352665120441866,
+    "y": -392.42567634070247
   },
   "glucose 6-phosphate@@chloroplast_stroma": {
-    "x": -655.2839644374615,
-    "y": -521.0708197046487
+    "x": -22.93131192289682,
+    "y": -479.26237986897496
   },
   "glucose 1-phosphate@@chloroplast_stroma": {
-    "x": -654.7785296176584,
-    "y": -340.4172196021297
+    "x": -22.425877103093722,
+    "y": -298.608779766456
   },
   "rxn_carbonhydrates|starch_synthesis|adp_glucose_pyrophosphorylase|glucose_1_phosphate|adp_glucose": {
-    "x": -476.1602209603479,
-    "y": -338.3231215650916
+    "x": 156.19243155421677,
+    "y": -296.5146817294179
   },
   "rxn_carbonhydrates|starch_synthesis|adp_glucose_pyrophosphorylase|glucose_1_phosphate|adp_glucose_side_in_ATP_0": {
     "x": 0,
     "y": 0
   },
   "ADP-glucose@@chloroplast_stroma": {
-    "x": -296.81385957423623,
-    "y": -339.3815482180701
+    "x": 335.5387929403284,
+    "y": -297.5731083823964
   },
   "rxn_carbonhydrates|starch_synthesis|adp_glucose_pyrophosphorylase|glucose_1_phosphate|adp_glucose_side_out_PPi_0": {
     "x": 0,
     "y": 0
   },
   "rxn_carbonhydrates|starch_synthesis|starch_synthase|adp_glucose_starch_n_|starch_n_1_": {
-    "x": -165.4147296705538,
-    "y": -339.40545623677843
+    "x": 466.93792284401076,
+    "y": -297.5970164011047
   },
   "starch(n)@@chloroplast_stroma": {
-    "x": -166.73241846061143,
-    "y": -425.13113902290695
+    "x": 465.6202340539531,
+    "y": -383.32269918723324
   },
   "starch(n+1)@@chloroplast_stroma": {
-    "x": -164.4868248948236,
-    "y": -247.30244792971376
+    "x": 467.86582761974097,
+    "y": -205.49400809404005
   },
   "rxn_carbonhydrates|starch_synthesis|starch_synthase|adp_glucose_starch_n_|starch_n_1__side_out_ADP_0": {
     "x": 0,
@@ -944,28 +944,28 @@
     "y": 0
   },
   "rxn_carbonhydrates|c4_pathway|pep_carboxylase|phosphoenolpyruvate|oxaloacetate": {
-    "x": -178.95545680504017,
-    "y": -28.347966973851072
+    "x": 453.3971957095244,
+    "y": 13.460472861822637
   },
   "phosphoenolpyruvate@@chloroplast_stroma": {
-    "x": -196.14589421269983,
-    "y": 133.62611929697778
+    "x": 413.5789868451979,
+    "y": 164.12067340431796
   },
   "rxn_carbonhydrates|c4_pathway|pep_carboxylase|phosphoenolpyruvate|oxaloacetate_side_in_HCO3-_0": {
     "x": 1239.3969563771923,
     "y": -805.9704146083961
   },
   "oxaloacetate@@chloroplast_stroma": {
-    "x": -311.89863986693774,
-    "y": -171.30852316184112
+    "x": 320.4540126476268,
+    "y": -129.5000833261674
   },
   "rxn_carbonhydrates|c4_pathway|pep_carboxylase|phosphoenolpyruvate|oxaloacetate_side_out_Pi_0": {
     "x": 1559.3969563771923,
     "y": -805.9704146083961
   },
   "rxn_carbonhydrates|c4_pathway|malate_dehydrogenase|oxaloacetate|malate": {
-    "x": -542.4095646898402,
-    "y": -204.18955719310193
+    "x": 89.94308782472446,
+    "y": -162.38111735742822
   },
   "rxn_carbonhydrates|c4_pathway|malate_dehydrogenase|oxaloacetate|malate_side_in_NADPH_0": {
     "x": 1516.3534785482952,
@@ -976,24 +976,24 @@
     "y": -527.6511559667747
   },
   "malate@@chloroplast_stroma": {
-    "x": -702.040741682637,
-    "y": -99.44059591864581
+    "x": -69.68808916807227,
+    "y": -57.6321560829721
   },
   "rxn_carbonhydrates|c4_pathway|malate_dehydrogenase|oxaloacetate|malate_side_out_NADP+_0": {
     "x": 1836.3534785482952,
     "y": -540.6511559667747
   },
   "rxn_carbonhydrates|c4_pathway|malic_enzyme|malate|pyruvate_co2": {
-    "x": -759.6222479764178,
-    "y": 75.16848460767784
+    "x": -127.26959546185314,
+    "y": 116.97692444335155
   },
   "rxn_carbonhydrates|c4_pathway|malic_enzyme|malate|pyruvate_co2_side_in_NADP+_0": {
     "x": 959.2973745767908,
     "y": -592.6423698143112
   },
   "pyruvate@@chloroplast_stroma": {
-    "x": -629.6930645335549,
-    "y": 242.69980329821706
+    "x": 2.6595879810097465,
+    "y": 284.50824313389074
   },
   "rxn_carbonhydrates|c4_pathway|malic_enzyme|malate|pyruvate_co2_side_out_NADPH_0": {
     "x": 1279.2973745767908,
@@ -1004,8 +1004,8 @@
     "y": -579.6423698143112
   },
   "rxn_carbonhydrates|c4_pathway|pyruvate_phosphate_dikinase|pyruvate|phosphoenolpyruvate": {
-    "x": -359.3159837662612,
-    "y": 277.4694868375465
+    "x": 273.03666874830344,
+    "y": 319.27792667322024
   },
   "rxn_carbonhydrates|c4_pathway|pyruvate_phosphate_dikinase|pyruvate|phosphoenolpyruvate_side_in_ATP_0": {
     "x": 781.0908515278012,
@@ -1024,40 +1024,40 @@
     "y": -961.9951550088174
   },
   "rxn_carbonhydrates|starch_synthesis|triose_phosphate_isomerase__tpi_|glyceraldehyde_3_phosphate|dihydroxyacetone_phosphate": {
-    "x": -1754.2611863058487,
-    "y": -342.5561489965082
+    "x": -1121.9085337912836,
+    "y": -300.7477091608345
   },
   "dihydroxyacetone phosphate@@chloroplast_stroma": {
-    "x": -1914.3460206824475,
-    "y": -405.24330652542204
+    "x": -1281.9933681678824,
+    "y": -363.43486668974833
   },
   "rxn_carbonhydrates|starch_synthesis|aldolase|glyceraldehyde_3_phosphate_dihydroxyacetone_phosphate|fructose_1_6_bisphosphate": {
-    "x": -1581.800066184728,
-    "y": -407.1883001905246
+    "x": -949.4474136701629,
+    "y": -365.3798603548509
   },
   "fructose 1,6-bisphosphate@@chloroplast_stroma": {
-    "x": -1582.1299133552752,
-    "y": -513.9408809392719
+    "x": -949.777260840709,
+    "y": -472.13244110359796
   },
   "rxn_carbonhydrates|starch_synthesis|fructose_1_6_bisphosphatase__fbpase_1_|fructose_1_6_bisphosphate|fructose_6_phosphate": {
-    "x": -1343.7393428880018,
-    "y": -516.4642787006468
+    "x": -711.3866903734372,
+    "y": -474.6558388649731
   },
   "rxn_carbonhydrates|starch_synthesis|fructose_1_6_bisphosphatase__fbpase_1_|fructose_1_6_bisphosphate|fructose_6_phosphate_side_in_H2O_0": {
     "x": 0,
     "y": 0
   },
   "fructose 6-phosphate@@chloroplast_stroma": {
-    "x": -1112.0581003448006,
-    "y": -520.5064415385499
+    "x": -479.7054478302361,
+    "y": -478.6980017028762
   },
   "rxn_carbonhydrates|starch_synthesis|fructose_1_6_bisphosphatase__fbpase_1_|fructose_1_6_bisphosphate|fructose_6_phosphate_side_out_Pi_0": {
     "x": 0,
     "y": 0
   },
   "rxn_carbonhydrates|starch_synthesis|phosphohexose_isomerase__pgi_|fructose_6_phosphate|glucose_6_phosphate": {
-    "x": -897.8242295105671,
-    "y": -519.6081385754478
+    "x": -265.4715769960026,
+    "y": -477.7996987397741
   },
   "rxn_lipids|glycerol_degradation|glycerol_kinase|glycerol|glycerol_3_phosphate": {
     "x": -3274.8997740692475,
@@ -1104,12 +1104,12 @@
     "y": -203.53139415924113
   },
   "rxn_lipids|beta_oxidation|fatty_acyl_coa_synthetase|fatty_acid|fatty_acyl_coa": {
-    "x": 676.0364340759771,
-    "y": 121.3052615303991
+    "x": 1474.925506740109,
+    "y": 366.8310713620044
   },
   "fatty acid@@cytosol": {
-    "x": 673.797414367908,
-    "y": 17.866197202924937
+    "x": 1472.6864870320396,
+    "y": 263.39200703453037
   },
   "rxn_lipids|beta_oxidation|fatty_acyl_coa_synthetase|fatty_acid|fatty_acyl_coa_side_in_ATP_0": {
     "x": 0,
@@ -1120,8 +1120,8 @@
     "y": 0
   },
   "fatty acyl-CoA@@cytosol": {
-    "x": 680.4186849329922,
-    "y": 228.8559469362828
+    "x": 1479.3077575971238,
+    "y": 474.3817567678882
   },
   "rxn_lipids|beta_oxidation|fatty_acyl_coa_synthetase|fatty_acid|fatty_acyl_coa_side_out_AMP_0": {
     "x": 0,
@@ -1132,84 +1132,84 @@
     "y": 0
   },
   "rxn_lipids|beta_oxidation|carnitine_acyltransferase_i|fatty_acyl_coa|acyl_carnitine": {
-    "x": 680.5679042394979,
-    "y": 344.98658349817737
+    "x": 1479.4569769036298,
+    "y": 590.5123933297828
   },
   "rxn_lipids|beta_oxidation|carnitine_acyltransferase_i|fatty_acyl_coa|acyl_carnitine_side_in_carnitine_0": {
     "x": 525.4993564923062,
     "y": 344.98658349817737
   },
   "acyl carnitine@@cytosol": {
-    "x": 686.6450180021959,
-    "y": 498.1218097657575
+    "x": 1485.5340906663278,
+    "y": 743.6476195973628
   },
   "rxn_lipids|beta_oxidation|carnitine_acyltransferase_i|fatty_acyl_coa|acyl_carnitine_side_out_CoA-SH_0": {
     "x": 845.4993564923062,
     "y": 344.98658349817737
   },
   "rxn_lipids|beta_oxidation|carnitine_acyltransferase_ii|acyl_carnitine|fatty_acyl_coa": {
-    "x": 883.3937007347924,
-    "y": 338.23287959243254
+    "x": 1682.2827733989243,
+    "y": 583.7586894240378
   },
   "acyl carnitine@@mitochondria": {
-    "x": 686.8398113993511,
-    "y": 497.23732382337823
+    "x": 1485.7288840634828,
+    "y": 742.7631336549834
   },
   "rxn_lipids|beta_oxidation|carnitine_acyltransferase_ii|acyl_carnitine|fatty_acyl_coa_side_in_CoA-SH_0": {
     "x": 0,
     "y": 0
   },
   "fatty acyl-CoA@@mitochondria": {
-    "x": 1087.9375276688388,
-    "y": 492.7855690020141
+    "x": 1886.8266003329709,
+    "y": 738.3113788336191
   },
   "rxn_lipids|beta_oxidation|carnitine_acyltransferase_ii|acyl_carnitine|fatty_acyl_coa_side_out_carnitine_0": {
     "x": 0,
     "y": 0
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|palmitoyl_coa__c16_|trans_delta2_enoyl_coa__c16_": {
-    "x": 1435.9159048719562,
-    "y": 1961.3675943913286
+    "x": 2335.7367832833497,
+    "y": 2206.1952821248406
   },
   "palmitoyl-CoA (C16)@@mitochondria": {
-    "x": 1442.5052889192732,
-    "y": 2082.912922712861
+    "x": 2342.326167330667,
+    "y": 2327.7406104463726
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|palmitoyl_coa__c16_|trans_delta2_enoyl_coa__c16__side_in_FAD_0": {
     "x": 1275.9159048719562,
     "y": 1961.3675943913286
   },
   "trans-delta2-enoyl-CoA (C16)@@mitochondria": {
-    "x": 1425.6407397982905,
-    "y": 1839.822266069796
+    "x": 2325.4616182096843,
+    "y": 2084.649953803306
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|palmitoyl_coa__c16_|trans_delta2_enoyl_coa__c16__side_out_FADH2_0": {
     "x": 1595.9159048719562,
     "y": 1961.3675943913286
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c16_|beta_hydroxyacyl_coa__c16_": {
-    "x": 1430.8958738700637,
-    "y": 1700.8479072771147
+    "x": 2330.716752281458,
+    "y": 1945.6755950106235
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c16_|beta_hydroxyacyl_coa__c16__side_in_H2O_0": {
     "x": 1270.8958738700637,
     "y": 1700.8479072771147
   },
   "beta-hydroxyacyl-CoA (C16)@@mitochondria": {
-    "x": 1432.4652269154883,
-    "y": 1561.8735484844335
+    "x": 2332.2861053268825,
+    "y": 1806.7012362179435
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c16_|beta_ketoacyl_coa__c16_": {
-    "x": 1431.0993050570098,
-    "y": 1448.9027650916892
+    "x": 2330.9201834684036,
+    "y": 1693.7304528251968
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c16_|beta_ketoacyl_coa__c16__side_in_NAD+_0": {
     "x": 1271.0993050570098,
     "y": 1448.9027650916892
   },
   "beta-ketoacyl-CoA (C16)@@mitochondria": {
-    "x": 1426.0476021721825,
-    "y": 1335.9319816989448
+    "x": 2325.8684805835765,
+    "y": 1580.7596694324536
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c16_|beta_ketoacyl_coa__c16__side_out_NADH_0": {
     "x": 1591.0993050570098,
@@ -1220,60 +1220,60 @@
     "y": 1461.9027650916892
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c16_|fatty_acyl_coa__c14_": {
-    "x": 1360.7693346455546,
-    "y": 1208.1469463454473
+    "x": 2260.5902130569493,
+    "y": 1452.9746340789561
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c16_|fatty_acyl_coa__c14__side_in_CoA-SH_0": {
     "x": 1200.7693346455546,
     "y": 1208.1469463454473
   },
   "fatty acyl-CoA (C14)@@mitochondria": {
-    "x": 1291.8052860925782,
-    "y": 1080.3619109919496
+    "x": 2191.626164503972,
+    "y": 1325.1895987254582
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c16_|fatty_acyl_coa__c14__side_out_acetyl-CoA_0": {
     "x": 1520.7693346455546,
     "y": 1208.1469463454473
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c14_|trans_delta2_enoyl_coa__c14_": {
-    "x": 1223.960439339223,
-    "y": 1210.0083692758349
+    "x": 2123.781317750617,
+    "y": 1454.8360570093437
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c14_|trans_delta2_enoyl_coa__c14__side_in_FAD_0": {
     "x": 1063.960439339223,
     "y": 1210.0083692758349
   },
   "trans-delta2-enoyl-CoA (C14)@@mitochondria": {
-    "x": 1152.4298115595195,
-    "y": 1339.6548275597204
+    "x": 2052.250689970915,
+    "y": 1584.4825152932297
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c14_|trans_delta2_enoyl_coa__c14__side_out_FADH2_0": {
     "x": 1383.960439339223,
     "y": 1210.0083692758349
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c14_|beta_hydroxyacyl_coa__c14_": {
-    "x": 1152.6220377402137,
-    "y": 1449.6414282120563
+    "x": 2052.442916151611,
+    "y": 1694.469115945564
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c14_|beta_hydroxyacyl_coa__c14__side_in_H2O_0": {
     "x": 992.6220377402137,
     "y": 1449.6414282120563
   },
   "beta-hydroxyacyl-CoA (C14)@@mitochondria": {
-    "x": 1149.1284828945593,
-    "y": 1559.6280288643923
+    "x": 2048.949361305955,
+    "y": 1804.4557165979027
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c14_|beta_ketoacyl_coa__c14_": {
-    "x": 1153.7204203364029,
-    "y": 1696.836684030765
+    "x": 2053.5412987477994,
+    "y": 1941.6643717642737
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c14_|beta_ketoacyl_coa__c14__side_in_NAD+_0": {
     "x": 993.7204203364029,
     "y": 1696.836684030765
   },
   "beta-ketoacyl-CoA (C14)@@mitochondria": {
-    "x": 1154.626576751898,
-    "y": 1834.0453391971373
+    "x": 2054.447455163294,
+    "y": 2078.873026930647
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c14_|beta_ketoacyl_coa__c14__side_out_NADH_0": {
     "x": 1313.7204203364029,
@@ -1284,60 +1284,60 @@
     "y": 1709.836684030765
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c14_|fatty_acyl_coa__c12_": {
-    "x": 1080.3044880184973,
-    "y": 1954.6177793096765
+    "x": 1980.125366429893,
+    "y": 2199.4454670431887
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c14_|fatty_acyl_coa__c12__side_in_CoA-SH_0": {
     "x": 920.3044880184973,
     "y": 1954.6177793096765
   },
   "fatty acyl-CoA (C12)@@mitochondria": {
-    "x": 1002.2966182587478,
-    "y": 2075.1902194222157
+    "x": 1902.1174966701428,
+    "y": 2320.0179071557277
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c14_|fatty_acyl_coa__c12__side_out_acetyl-CoA_0": {
     "x": 1240.3044880184973,
     "y": 1954.6177793096765
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c12_|trans_delta2_enoyl_coa__c12_": {
-    "x": 929.760946463252,
-    "y": 1954.8923749587238
+    "x": 1829.581824874649,
+    "y": 2199.720062692236
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c12_|trans_delta2_enoyl_coa__c12__side_in_FAD_0": {
     "x": 769.760946463252,
     "y": 1954.8923749587238
   },
   "trans-delta2-enoyl-CoA (C12)@@mitochondria": {
-    "x": 853.5394936414076,
-    "y": 1834.5945304952318
+    "x": 1753.3603720528054,
+    "y": 2079.4222182287413
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c12_|trans_delta2_enoyl_coa__c12__side_out_FADH2_0": {
     "x": 1089.760946463252,
     "y": 1954.8923749587238
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c12_|beta_hydroxyacyl_coa__c12_": {
-    "x": 854.4197541638183,
-    "y": 1695.5994583909537
+    "x": 1754.2406325752154,
+    "y": 1940.4271461244625
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c12_|beta_hydroxyacyl_coa__c12__side_in_H2O_0": {
     "x": 694.4197541638183,
     "y": 1695.5994583909537
   },
   "beta-hydroxyacyl-CoA (C12)@@mitochondria": {
-    "x": 851.6142336598804,
-    "y": 1556.604386286676
+    "x": 1751.4351120712772,
+    "y": 1801.432074020186
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c12_|beta_ketoacyl_coa__c12_": {
-    "x": 852.7690898313383,
-    "y": 1444.96712130186
+    "x": 1752.5899682427362,
+    "y": 1689.7948090353682
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c12_|beta_ketoacyl_coa__c12__side_in_NAD+_0": {
     "x": 692.7690898313383,
     "y": 1444.96712130186
   },
   "beta-ketoacyl-CoA (C12)@@mitochondria": {
-    "x": 850.2381649764475,
-    "y": 1333.329856317044
+    "x": 1750.0590433878451,
+    "y": 1578.1575440505528
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c12_|beta_ketoacyl_coa__c12__side_out_NADH_0": {
     "x": 1012.7690898313383,
@@ -1348,60 +1348,60 @@
     "y": 1457.96712130186
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c12_|fatty_acyl_coa__c10_": {
-    "x": 777.1540616928962,
-    "y": 1211.6474130175352
+    "x": 1676.9749401042927,
+    "y": 1456.475100751044
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c12_|fatty_acyl_coa__c10__side_in_CoA-SH_0": {
     "x": 617.1540616928962,
     "y": 1211.6474130175352
   },
   "fatty acyl-CoA (C10)@@mitochondria": {
-    "x": 700.3841773829962,
-    "y": 1089.9649697180266
+    "x": 1600.205055794394,
+    "y": 1334.7926574515345
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c12_|fatty_acyl_coa__c10__side_out_acetyl-CoA_0": {
     "x": 937.1540616928962,
     "y": 1211.6474130175352
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c10_|trans_delta2_enoyl_coa__c10_": {
-    "x": 626.6869024660899,
-    "y": 1215.9290809402091
+    "x": 1526.5077808774895,
+    "y": 1460.7567686737184
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c10_|trans_delta2_enoyl_coa__c10__side_in_FAD_0": {
     "x": 466.6869024660899,
     "y": 1215.9290809402091
   },
   "trans-delta2-enoyl-CoA (C10)@@mitochondria": {
-    "x": 549.303846522835,
-    "y": 1341.8931921623919
+    "x": 1449.124724934234,
+    "y": 1586.7208798959007
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c10_|trans_delta2_enoyl_coa__c10__side_out_FADH2_0": {
     "x": 786.6869024660899,
     "y": 1215.9290809402091
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c10_|beta_hydroxyacyl_coa__c10_": {
-    "x": 553.1920586892742,
-    "y": 1451.1496001110029
+    "x": 1453.0129371006733,
+    "y": 1695.9772878445108
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c10_|beta_hydroxyacyl_coa__c10__side_in_H2O_0": {
     "x": 393.1920586892742,
     "y": 1451.1496001110029
   },
   "beta-hydroxyacyl-CoA (C10)@@mitochondria": {
-    "x": 553.3944898293647,
-    "y": 1560.406008059614
+    "x": 1453.2153682407643,
+    "y": 1805.2336957931243
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c10_|beta_ketoacyl_coa__c10_": {
-    "x": 556.2557168926538,
-    "y": 1703.8008347450611
+    "x": 1456.0765953040536,
+    "y": 1948.6285224785695
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c10_|beta_ketoacyl_coa__c10__side_in_NAD+_0": {
     "x": 396.2557168926538,
     "y": 1703.8008347450611
   },
   "beta-ketoacyl-CoA (C10)@@mitochondria": {
-    "x": 555.4311629295943,
-    "y": 1847.1956614305084
+    "x": 1455.252041340993,
+    "y": 2092.0233491640192
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c10_|beta_ketoacyl_coa__c10__side_out_NADH_0": {
     "x": 716.2557168926538,
@@ -1412,60 +1412,60 @@
     "y": 1716.8008347450611
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c10_|fatty_acyl_coa__c8_": {
-    "x": 485.4018212643339,
-    "y": 1962.696269670084
+    "x": 1385.2226996757327,
+    "y": 2207.523957403596
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c10_|fatty_acyl_coa__c8__side_in_CoA-SH_0": {
     "x": 325.4018212643339,
     "y": 1962.696269670084
   },
   "fatty acyl-CoA (C8)@@mitochondria": {
-    "x": 411.6866985727247,
-    "y": 2078.1968779096596
+    "x": 1311.5075769841224,
+    "y": 2323.0245656431716
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c10_|fatty_acyl_coa__c8__side_out_acetyl-CoA_0": {
     "x": 645.4018212643339,
     "y": 1962.696269670084
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c8_|trans_delta2_enoyl_coa__c8_": {
-    "x": 342.8726446328793,
-    "y": 1960.5997378555849
+    "x": 1242.6935230442778,
+    "y": 2205.427425589097
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c8_|trans_delta2_enoyl_coa__c8__side_in_FAD_0": {
     "x": 182.87264463287931,
     "y": 1960.5997378555849
   },
   "trans-delta2-enoyl-CoA (C8)@@mitochondria": {
-    "x": 270.37280966668527,
-    "y": 1843.0025978015099
+    "x": 1170.193688078084,
+    "y": 2087.8302855350194
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c8_|trans_delta2_enoyl_coa__c8__side_out_FADH2_0": {
     "x": 502.8726446328793,
     "y": 1960.5997378555849
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c8_|beta_hydroxyacyl_coa__c8_": {
-    "x": 267.83120438835994,
-    "y": 1705.1778019009246
+    "x": 1167.6520827997583,
+    "y": 1950.0054896344334
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c8_|beta_hydroxyacyl_coa__c8__side_in_H2O_0": {
     "x": 107.83120438835994,
     "y": 1705.1778019009246
   },
   "beta-hydroxyacyl-CoA (C8)@@mitochondria": {
-    "x": 261.60381808368595,
-    "y": 1567.3530060003393
+    "x": 1161.4246964950844,
+    "y": 1812.1806937338492
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c8_|beta_ketoacyl_coa__c8_": {
-    "x": 261.26849401365257,
-    "y": 1455.336322575547
+    "x": 1161.08937242505,
+    "y": 1700.1640103090556
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c8_|beta_ketoacyl_coa__c8__side_in_NAD+_0": {
     "x": 101.26849401365257,
     "y": 1455.336322575547
   },
   "beta-ketoacyl-CoA (C8)@@mitochondria": {
-    "x": 257.24738891727054,
-    "y": 1343.3196391507547
+    "x": 1157.0682673286692,
+    "y": 1588.1473268842635
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c8_|beta_ketoacyl_coa__c8__side_out_NADH_0": {
     "x": 421.26849401365257,
@@ -1476,60 +1476,60 @@
     "y": 1468.336322575547
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c8_|fatty_acyl_coa__c6_": {
-    "x": 198.50691805082195,
-    "y": 1221.3151372536818
+    "x": 1098.3277964622202,
+    "y": 1466.1428249871906
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c8_|fatty_acyl_coa__c6__side_in_CoA-SH_0": {
     "x": 38.50691805082195,
     "y": 1221.3151372536818
   },
   "fatty acyl-CoA (C6)@@mitochondria": {
-    "x": 136.0806661580247,
-    "y": 1099.310635356609
+    "x": 1035.9015445694213,
+    "y": 1344.1383230901174
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c8_|fatty_acyl_coa__c6__side_out_acetyl-CoA_0": {
     "x": 358.5069180508219,
     "y": 1221.3151372536818
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c6_|trans_delta2_enoyl_coa__c6_": {
-    "x": 69.79623418014648,
-    "y": 1221.7692816542476
+    "x": 969.6171125915453,
+    "y": 1466.5969693877569
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c6_|trans_delta2_enoyl_coa__c6__side_in_FAD_0": {
     "x": -90.20376581985352,
     "y": 1221.7692816542476
   },
   "trans-delta2-enoyl-CoA (C6)@@mitochondria": {
-    "x": -0.17397882408038257,
-    "y": 1344.2279279518864
+    "x": 899.6468995873174,
+    "y": 1589.0556156853952
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c6_|trans_delta2_enoyl_coa__c6__side_out_FADH2_0": {
     "x": 229.79623418014648,
     "y": 1221.7692816542476
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c6_|beta_hydroxyacyl_coa__c6_": {
-    "x": 4.099789362540243,
-    "y": 1455.379466551668
+    "x": 903.9206677739394,
+    "y": 1700.207154285176
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c6_|beta_hydroxyacyl_coa__c6__side_in_H2O_0": {
     "x": -155.90021063745976,
     "y": 1455.379466551668
   },
   "beta-hydroxyacyl-CoA (C6)@@mitochondria": {
-    "x": 4.687776522812218,
-    "y": 1566.5310051514496
+    "x": 904.5086549342113,
+    "y": 1811.3586928849595
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c6_|beta_ketoacyl_coa__c6_": {
-    "x": 1.2307102818244289,
-    "y": 1702.5950500640001
+    "x": 901.0515886932235,
+    "y": 1947.4227377975083
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c6_|beta_ketoacyl_coa__c6__side_in_NAD+_0": {
     "x": -158.76928971817557,
     "y": 1702.5950500640001
   },
   "beta-ketoacyl-CoA (C6)@@mitochondria": {
-    "x": -5.912136985512014,
-    "y": 1838.6590949765507
+    "x": 893.9087414258856,
+    "y": 2083.4867827100607
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c6_|beta_ketoacyl_coa__c6__side_out_NADH_0": {
     "x": 161.23071028182443,
@@ -1540,60 +1540,60 @@
     "y": 1715.5950500640001
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c6_|fatty_acyl_coa__c4_": {
-    "x": -64.79747621647512,
-    "y": 1957.2004332305423
+    "x": 835.0234021949227,
+    "y": 2202.0281209640543
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c6_|fatty_acyl_coa__c4__side_in_CoA-SH_0": {
     "x": -224.7974762164751,
     "y": 1957.2004332305423
   },
   "fatty acyl-CoA (C4)@@mitochondria": {
-    "x": -127.36859647378687,
-    "y": 2075.741771484534
+    "x": 772.4522819376116,
+    "y": 2320.569459218046
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c6_|fatty_acyl_coa__c4__side_out_acetyl-CoA_0": {
     "x": 95.20252378352488,
     "y": 1957.2004332305423
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c4_|trans_delta2_enoyl_coa__c4_": {
-    "x": -180.55635704122633,
-    "y": 1957.5901178850822
+    "x": 719.2645213701699,
+    "y": 2202.4178056185947
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c4_|trans_delta2_enoyl_coa__c4__side_in_FAD_0": {
     "x": -340.5563570412263,
     "y": 1957.5901178850822
   },
   "trans-delta2-enoyl-CoA (C4)@@mitochondria": {
-    "x": -237.42989863501447,
-    "y": 1839.43846428563
+    "x": 662.3909797763829,
+    "y": 2084.2661520191396
   },
   "rxn_lipids|beta_oxidation|acyl_coa_dehydrogenase|fatty_acyl_coa__c4_|trans_delta2_enoyl_coa__c4__side_out_FADH2_0": {
     "x": -20.556357041226335,
     "y": 1957.5901178850822
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c4_|beta_hydroxyacyl_coa__c4_": {
-    "x": -235.88060702201864,
-    "y": 1704.998567068152
+    "x": 663.9402713893799,
+    "y": 1949.8262548016608
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c4_|beta_hydroxyacyl_coa__c4__side_in_H2O_0": {
     "x": -395.88060702201864,
     "y": 1704.998567068152
   },
   "beta-hydroxyacyl-CoA (C4)@@mitochondria": {
-    "x": -238.01709643537146,
-    "y": 1570.5586698506738
+    "x": 661.8037819760268,
+    "y": 1815.3863575841838
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c4_|beta_ketoacyl_coa__c4_": {
-    "x": -236.73115223461235,
-    "y": 1456.0158096347773
+    "x": 663.0897261767861,
+    "y": 1700.8434973682859
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c4_|beta_ketoacyl_coa__c4__side_in_NAD+_0": {
     "x": -396.73115223461235,
     "y": 1456.0158096347773
   },
   "beta-ketoacyl-CoA (C4)@@mitochondria": {
-    "x": -239.1309890602019,
-    "y": 1341.4729494188807
+    "x": 660.6898893511955,
+    "y": 1586.3006371523895
   },
   "rxn_lipids|beta_oxidation|beta_hydroxyacyl_coa_dehydrogenase|beta_hydroxyacyl_coa__c4_|beta_ketoacyl_coa__c4__side_out_NADH_0": {
     "x": -76.73115223461235,
@@ -1604,20 +1604,20 @@
     "y": 1469.0158096347773
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c4_|acetyl_coa": {
-    "x": -637.887215692982,
-    "y": 1211.5424621939737
+    "x": 102.66293807170814,
+    "y": 1398.097705797999
   },
   "rxn_lipids|beta_oxidation|acyl_coa_acetyltransferase|beta_ketoacyl_coa__c4_|acetyl_coa_side_in_CoA-SH_0": {
     "x": 0,
     "y": 0
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|oleoyl_coa|cis_delta3_dodecenoyl_coa": {
-    "x": 270.54141144501375,
-    "y": 805.4790455832836
+    "x": 1011.0915652097055,
+    "y": 992.0342891873088
   },
   "oleoyl-CoA@@mitochondria": {
-    "x": 460.2603882600712,
-    "y": 803.7265515436426
+    "x": 1200.810542024763,
+    "y": 990.2817951476677
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|oleoyl_coa|cis_delta3_dodecenoyl_coa_side_in_FAD_0": {
     "x": 110.54141144501375,
@@ -1632,8 +1632,8 @@
     "y": 831.4790455832836
   },
   "cis-delta3-dodecenoyl-CoA@@mitochondria": {
-    "x": 2.4215877097618907,
-    "y": 808.8306927027298
+    "x": 742.9717414744509,
+    "y": 995.3859363067552
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|oleoyl_coa|cis_delta3_dodecenoyl_coa_side_out_acetyl-CoA_0": {
     "x": 430.54141144501375,
@@ -1652,16 +1652,16 @@
     "y": 844.4790455832836
   },
   "rxn_lipids|beta_oxidation|delta3__delta2_enoyl_coa_isomerase|cis_delta3_dodecenoyl_coa|trans_delta2_dodecenoyl_coa": {
-    "x": -230.3737901010932,
-    "y": 804.7441503628584
+    "x": 510.1763636635965,
+    "y": 991.2993939668836
   },
   "trans-delta2-dodecenoyl-CoA@@mitochondria": {
-    "x": -484.69338706608005,
-    "y": 800.6576080229868
+    "x": 255.85676669860914,
+    "y": 987.212851627012
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|trans_delta2_dodecenoyl_coa|acetyl_coa": {
-    "x": -760.668414695921,
-    "y": 941.1347914960268
+    "x": -20.11826093123068,
+    "y": 1127.6900351000518
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|trans_delta2_dodecenoyl_coa|acetyl_coa_side_in_FAD_0": {
     "x": 0,
@@ -1688,12 +1688,12 @@
     "y": 0
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|linoleoyl_coa|cis_delta3__cis_delta6_enoyl_coa": {
-    "x": 1871.9919480731473,
-    "y": 952.3273928349145
+    "x": 2612.542101837833,
+    "y": 1138.8826364389397
   },
   "Linoleoyl-CoA@@mitochondria": {
-    "x": 2062.8467102195978,
-    "y": 946.2635522396323
+    "x": 2803.3968639842788,
+    "y": 1132.8187958436574
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|linoleoyl_coa|cis_delta3__cis_delta6_enoyl_coa_side_in_FAD_0": {
     "x": 0,
@@ -1708,8 +1708,8 @@
     "y": 0
   },
   "cis-delta3, cis-delta6-enoyl-CoA@@mitochondria": {
-    "x": 1601.1371859266967,
-    "y": 958.3912334301966
+    "x": 2341.687339691389,
+    "y": 1144.946477034222
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|linoleoyl_coa|cis_delta3__cis_delta6_enoyl_coa_side_out_acetyl-CoA_0": {
     "x": 0,
@@ -1728,16 +1728,16 @@
     "y": 0
   },
   "rxn_lipids|beta_oxidation|cis_delta3__cis_delta2_enoyl_coa_isomerase|cis_delta3__cis_delta6_enoyl_coa|trans_delta2__cis_delta6_enoyl_coa": {
-    "x": 1342.6437861722504,
-    "y": 960.6290690245658
+    "x": 2083.193939936944,
+    "y": 1147.1843126285912
   },
   "trans-delta2, cis-delta6-enoyl-CoA@@mitochondria": {
-    "x": 1004.150386417804,
-    "y": 962.866904618935
+    "x": 1744.7005401824972,
+    "y": 1149.4221482229605
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|trans_delta2__cis_delta6_enoyl_coa|trans_delta2__cis_delta4_enoyl_coa": {
-    "x": 738.3660779647064,
-    "y": 964.7122715339121
+    "x": 1478.9162317293994,
+    "y": 1151.2675151379376
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|trans_delta2__cis_delta6_enoyl_coa|trans_delta2__cis_delta4_enoyl_coa_side_in_FAD_0": {
     "x": 578.3660779647064,
@@ -1752,8 +1752,8 @@
     "y": 990.7122715339121
   },
   "trans-delta2, cis-delta4-enoyl-CoA@@mitochondria": {
-    "x": 473.44569347475465,
-    "y": 966.5576384488892
+    "x": 1213.9958472394474,
+    "y": 1153.1128820529148
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|trans_delta2__cis_delta6_enoyl_coa|trans_delta2__cis_delta4_enoyl_coa_side_out_acetyl-CoA_0": {
     "x": 898.3660779647064,
@@ -1772,8 +1772,8 @@
     "y": 1003.7122715339121
   },
   "rxn_lipids|beta_oxidation|2_4_dienoyl_coa_reductase|trans_delta2__cis_delta4_enoyl_coa|trans_delta3_enoyl_coa": {
-    "x": 234.66115727596298,
-    "y": 962.7270114296857
+    "x": 975.2113110406544,
+    "y": 1149.282255033711
   },
   "rxn_lipids|beta_oxidation|2_4_dienoyl_coa_reductase|trans_delta2__cis_delta4_enoyl_coa|trans_delta3_enoyl_coa_side_in_NADPH_0": {
     "x": 74.66115727596298,
@@ -1784,24 +1784,24 @@
     "y": 975.7270114296857
   },
   "trans-delta3-enoyl-CoA@@mitochondria": {
-    "x": -3.259454959682803,
-    "y": 958.8963844104821
+    "x": 737.2906988050063,
+    "y": 1145.4516280145076
   },
   "rxn_lipids|beta_oxidation|2_4_dienoyl_coa_reductase|trans_delta2__cis_delta4_enoyl_coa|trans_delta3_enoyl_coa_side_out_NADP+_0": {
     "x": 394.661157275963,
     "y": 962.7270114296857
   },
   "rxn_lipids|beta_oxidation|trans_delta2_enoyl_coa_isomerase|trans_delta3_enoyl_coa|trans_delta2_enoyl_coa": {
-    "x": -244.38898019236797,
-    "y": 958.7507868813069
+    "x": 496.16117357232224,
+    "y": 1145.3060304853325
   },
   "trans-delta2-enoyl-CoA@@mitochondria": {
-    "x": -484.65458146190724,
-    "y": 958.6051893521317
+    "x": 255.89557230278206,
+    "y": 1145.160432956157
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|trans_delta2_enoyl_coa|acetyl_coa": {
-    "x": -760.6490118938345,
-    "y": 1020.1085821605992
+    "x": -20.09885812914422,
+    "y": 1206.6638257646246
   },
   "rxn_lipids|beta_oxidation|enzyme_for_beta_oxidation|trans_delta2_enoyl_coa|acetyl_coa_side_in_FAD_0": {
     "x": 0,
@@ -1828,12 +1828,12 @@
     "y": 0
   },
   "rxn_lipids|beta_oxidation|propionyl_coa_carboxylase|propionyl_coa|d_methylmalonyl_coa": {
-    "x": 230.65190913450232,
-    "y": 2290.323073410483
+    "x": 971.2020628991941,
+    "y": 2476.87831701451
   },
   "propionyl-CoA@@mitochondria": {
-    "x": 540.5439390185694,
-    "y": 2294.8797547749555
+    "x": 1281.0940927832617,
+    "y": 2481.4349983789825
   },
   "rxn_lipids|beta_oxidation|propionyl_coa_carboxylase|propionyl_coa|d_methylmalonyl_coa_side_in_HCO3-_0": {
     "x": 0,
@@ -1844,8 +1844,8 @@
     "y": 0
   },
   "D-methylmalonyl-CoA@@mitochondria": {
-    "x": -159.2401207495648,
-    "y": 2285.766392046011
+    "x": 581.3100330151251,
+    "y": 2472.321635650038
   },
   "rxn_lipids|beta_oxidation|propionyl_coa_carboxylase|propionyl_coa|d_methylmalonyl_coa_side_out_ADP_0": {
     "x": 0,
@@ -1856,16 +1856,16 @@
     "y": 0
   },
   "rxn_lipids|beta_oxidation|methylmalonyl_coa_epimerase|d_methylmalonyl_coa|l_methylmalonyl_coa": {
-    "x": -333.62751980319047,
-    "y": 2172.9513668077625
+    "x": 406.9226339614993,
+    "y": 2359.5066104117896
   },
   "L-methylmalonyl-CoA@@mitochondria": {
-    "x": -495.7541993456326,
-    "y": 2077.7098119525967
+    "x": 244.79595441905667,
+    "y": 2264.2650555566233
   },
   "rxn_lipids|beta_oxidation|methylmalonyl_coa_mutase|l_methylmalonyl_coa|succinyl_coa": {
-    "x": -642.9261154295256,
-    "y": 1975.4498957169594
+    "x": 97.62403833516441,
+    "y": 2162.005139320987
   },
   "rxn_lipids|beta_oxidation||fadh2|fad": {
     "x": -2489.5918889279724,
@@ -1896,64 +1896,64 @@
     "y": 5378.642971832733
   },
   "rxn_lipids|ketone_body_formation|thiolase|acetyl_coa|acetoacetyl_coa": {
-    "x": -2063.000358677988,
-    "y": 1072.6393026244095
+    "x": 2797.8622864831705,
+    "y": 1268.8631808381947
   },
   "acetoacetyl-CoA@@mitochondria": {
-    "x": -2065.56321137169,
-    "y": 1271.4095645371144
+    "x": 2795.261415173729,
+    "y": 1405.2632880849862
   },
   "rxn_lipids|ketone_body_formation|thiolase|acetyl_coa|acetoacetyl_coa_side_out_CoA-SH_0": {
-    "x": 0,
-    "y": 0
+    "x": -1811.0288739480263,
+    "y": 1199.165565344207
   },
   "rxn_lipids|ketone_body_formation|hmg_coa_synthase|acetoacetyl_coa|hmg_coa": {
-    "x": -2065.716753553561,
-    "y": 1393.0779994558948
+    "x": 2795.107872991857,
+    "y": 1526.9317230037666
   },
   "rxn_lipids|ketone_body_formation|hmg_coa_synthase|acetoacetyl_coa|hmg_coa_side_in_acetyl-CoA_0": {
-    "x": -2225.716753553561,
-    "y": 1380.0779994558948
+    "x": -2137.0392427989536,
+    "y": 1506.6042621756922
   },
   "rxn_lipids|ketone_body_formation|hmg_coa_synthase|acetoacetyl_coa|hmg_coa_side_in_H2O_1": {
-    "x": -2225.716753553561,
-    "y": 1406.0779994558948
+    "x": -2137.0392427989536,
+    "y": 1532.6042621756922
   },
   "HMG-CoA@@mitochondria": {
-    "x": -2065.0361286776824,
-    "y": 1508.0102537865291
+    "x": 2795.7884978677357,
+    "y": 1641.863977334401
   },
   "rxn_lipids|ketone_body_formation|hmg_coa_synthase|acetoacetyl_coa|hmg_coa_side_out_CoA-SH_0": {
-    "x": -1905.716753553561,
-    "y": 1393.0779994558948
+    "x": -1817.0392427989534,
+    "y": 1519.6042621756922
   },
   "rxn_lipids|ketone_body_formation|hmg_coa_lyase|hmg_coa|acetoacetate": {
-    "x": -2065.29524694656,
-    "y": 1643.4686617256746
+    "x": 2795.529379598858,
+    "y": 1777.3223852735468
   },
   "acetoacetate@@mitochondria": {
-    "x": -2064.7201981576873,
-    "y": 1778.9270696648202
+    "x": 2796.104428387731,
+    "y": 1912.780793212693
   },
   "rxn_lipids|ketone_body_formation|hmg_coa_lyase|hmg_coa|acetoacetate_side_out_acetyl-CoA_0": {
     "x": -1905.29524694656,
     "y": 1643.4686617256746
   },
   "rxn_lipids|ketone_body_formation|acetoacetate_decarboxylase|acetoacetate|acetone": {
-    "x": -1964.0377240856014,
-    "y": 1870.6751121672653
+    "x": 2896.7869024598167,
+    "y": 2004.5288357151394
   },
   "acetone@@mitochondria": {
-    "x": -1963.5637917779525,
-    "y": 1999.4721479045127
+    "x": 2897.260834767465,
+    "y": 2133.325871452387
   },
   "rxn_lipids|ketone_body_formation|acetoacetate_decarboxylase|acetoacetate|acetone_side_out_CO2_0": {
     "x": -1804.0377240856014,
     "y": 1870.6751121672653
   },
   "rxn_lipids|ketone_body_formation|d_beta_hydroxybutyrate_dehydrogenase|acetoacetate|d_beta_hydroxybutyrate": {
-    "x": -2179.595713777682,
-    "y": 1871.1190127551467
+    "x": 2685.160544515551,
+    "y": 1999.0752886812943
   },
   "rxn_lipids|ketone_body_formation|d_beta_hydroxybutyrate_dehydrogenase|acetoacetate|d_beta_hydroxybutyrate_side_in_NADH_0": {
     "x": 0,
@@ -1964,16 +1964,16 @@
     "y": 0
   },
   "D-beta-hydroxybutyrate@@mitochondria": {
-    "x": -2172.7597214242405,
-    "y": 1999.1932660555278
+    "x": 2688.064905121175,
+    "y": 2133.046989603402
   },
   "rxn_lipids|ketone_body_formation|d_beta_hydroxybutyrate_dehydrogenase|acetoacetate|d_beta_hydroxybutyrate_side_out_NAD+_0": {
     "x": 0,
     "y": 0
   },
   "rxn_lipids|ketone_body_consumption|d_beta_hydroxybutyrate_dehydrogenase|d_beta_hydroxybutyrate|acetoacetate": {
-    "x": -2178.098623466113,
-    "y": 1868.8516260957365
+    "x": 2684.6918189532116,
+    "y": 1998.7737178957932
   },
   "rxn_lipids|ketone_body_consumption|d_beta_hydroxybutyrate_dehydrogenase|d_beta_hydroxybutyrate|acetoacetate_side_in_NAD+_0": {
     "x": -2338.098623466113,
@@ -1988,8 +1988,8 @@
     "y": 1881.8516260957365
   },
   "rxn_lipids|ketone_body_consumption|beta_ketoacyl_coa_transferase|acetoacetate|acetoacetyl_coa": {
-    "x": -1861.7893255021525,
-    "y": 1508.3278656306027
+    "x": 2999.0353010432646,
+    "y": 1642.1815891784752
   },
   "rxn_lipids|ketone_body_consumption|beta_ketoacyl_coa_transferase|acetoacetate|acetoacetyl_coa_side_in_succinyl-CoA_0": {
     "x": -2021.7893255021525,
@@ -2000,20 +2000,20 @@
     "y": 1508.3278656306027
   },
   "rxn_lipids|ketone_body_consumption|thiolase|acetoacetyl_coa|acetyl_coa": {
-    "x": -2063.000358677988,
-    "y": 1072.6393026244098
+    "x": 2800.598267442125,
+    "y": 1266.5926360365709
   },
   "rxn_lipids|ketone_body_consumption|thiolase|acetoacetyl_coa|acetyl_coa_side_in_CoA-SH_0": {
-    "x": 0,
-    "y": 0
+    "x": 2532.441118798,
+    "y": 1215.0414666519546
   },
   "rxn_lipids|fatty_acid_synthesis|acc|acetyl_coa|malonyl_coa": {
-    "x": -2911.4484011516806,
-    "y": 473.1988533038123
+    "x": -3270.5512472045366,
+    "y": 479.630638959707
   },
   "acetyl-CoA@@cytosol": {
-    "x": -3024.090401274333,
-    "y": 568.4559219537906
+    "x": -3556.6480446910573,
+    "y": 574.4744178066642
   },
   "rxn_lipids|fatty_acid_synthesis|acc|acetyl_coa|malonyl_coa_side_in_HCO3-_0": {
     "x": -3066.021672382686,
@@ -2024,7 +2024,7 @@
     "y": 468.10975740716515
   },
   "malonyl-CoA@@cytosol": {
-    "x": -2782.4834136895333,
+    "x": -2977.9877624072624,
     "y": 377.941784653834
   },
   "rxn_lipids|fatty_acid_synthesis|acc|acetyl_coa|malonyl_coa_side_out_ADP_0": {
@@ -2036,20 +2036,20 @@
     "y": 468.10975740716515
   },
   "rxn_lipids|fatty_acid_synthesis|ks|acetyl_coa_malonyl_coa|beta_ketoacyl_acp__c4_": {
-    "x": -3022.8913592887525,
-    "y": 376.66465102675465
+    "x": -3555.4490027054767,
+    "y": 382.68314687962817
   },
   "beta-ketoacyl-ACP (C4)@@cytosol": {
-    "x": -3256.60933258463,
-    "y": 369.9139342081051
+    "x": -3975.7228205023566,
+    "y": 381.95092591385213
   },
   "rxn_lipids|fatty_acid_synthesis|ks|acetyl_coa_malonyl_coa|beta_ketoacyl_acp__c4__side_out_CO2_0": {
-    "x": -2857.4646305197584,
-    "y": 418.26957158904315
+    "x": -3395.4490027054767,
+    "y": 382.68314687962817
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c4_|beta_hydroxyacyl_acp__c4_": {
-    "x": -3302.6355603726724,
-    "y": 464.2883552596254
+    "x": -4021.749048290399,
+    "y": 476.32534696537243
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c4_|beta_hydroxyacyl_acp__c4__side_in_NADPH_0": {
     "x": -3462.6355603726724,
@@ -2060,28 +2060,28 @@
     "y": 477.2883552596254
   },
   "beta-hydroxyacyl-ACP (C4)@@cytosol": {
-    "x": -3363.0902638455213,
-    "y": 583.9875105664518
+    "x": -4082.203751763248,
+    "y": 596.0245022721988
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c4_|beta_hydroxyacyl_acp__c4__side_out_NADP+_0": {
     "x": -3142.6355603726724,
     "y": 464.2883552596254
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c4_|trans_delta2_enoyl_acp__c4_": {
-    "x": -3364.21532743253,
-    "y": 714.0397784051713
+    "x": -4083.3288153502567,
+    "y": 726.0767701109182
   },
   "trans-delta2-enoyl-ACP (C4)@@cytosol": {
-    "x": -3361.679770807698,
-    "y": 844.0920462438909
+    "x": -4080.7932587254245,
+    "y": 856.1290379496379
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c4_|trans_delta2_enoyl_acp__c4__side_out_H2O_0": {
     "x": -3204.21532743253,
     "y": 714.0397784051713
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c4_|fatty_acyl_acp__c4_": {
-    "x": -3363.0009663427745,
-    "y": 971.2682521706326
+    "x": -4082.114454260501,
+    "y": 983.3052438763796
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c4_|fatty_acyl_acp__c4__side_in_NADPH_0": {
     "x": -3523.0009663427745,
@@ -2092,32 +2092,32 @@
     "y": 984.2682521706326
   },
   "fatty acyl-ACP (C4)@@cytosol": {
-    "x": -3360.66154166601,
-    "y": 1098.4444580973745
+    "x": -4079.775029583737,
+    "y": 1110.4814498031214
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c4_|fatty_acyl_acp__c4__side_out_NADP+_0": {
     "x": -3203.0009663427745,
     "y": 971.2682521706326
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c4_|beta_ketoacyl_acp__c6_": {
-    "x": -3422.940112765277,
-    "y": 1209.1243330563668
+    "x": -4142.0536006830025,
+    "y": 1221.1613247621137
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c4_|beta_ketoacyl_acp__c6__side_in_malonyl-CoA_0": {
     "x": -3582.940112765277,
     "y": 1209.1243330563668
   },
   "beta-ketoacyl-ACP (C6)@@cytosol": {
-    "x": -3481.558063652702,
-    "y": 1319.804208015359
+    "x": -4200.671551570427,
+    "y": 1331.841199721106
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c4_|beta_ketoacyl_acp__c6__side_out_CO2_0": {
     "x": -3262.940112765277,
     "y": 1209.1243330563668
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c6_|beta_hydroxyacyl_acp__c6_": {
-    "x": -3549.6550235660166,
-    "y": 1210.347657664494
+    "x": -4268.768511483742,
+    "y": 1222.3846493702408
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c6_|beta_hydroxyacyl_acp__c6__side_in_NADPH_0": {
     "x": -3709.6550235660166,
@@ -2128,28 +2128,28 @@
     "y": 1223.347657664494
   },
   "beta-hydroxyacyl-ACP (C6)@@cytosol": {
-    "x": -3614.0913632674906,
-    "y": 1100.8911073136287
+    "x": -4333.204851185215,
+    "y": 1112.9280990193756
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c6_|beta_hydroxyacyl_acp__c6__side_out_NADP+_0": {
     "x": -3389.6550235660166,
     "y": 1210.347657664494
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c6_|trans_delta2_enoyl_acp__c6_": {
-    "x": -3617.3576900528924,
-    "y": 972.4111478039631
+    "x": -4336.471177970616,
+    "y": 984.44813950971
   },
   "trans-delta2-enoyl-ACP (C6)@@cytosol": {
-    "x": -3616.9633966264532,
-    "y": 843.9311882942976
+    "x": -4336.076884544178,
+    "y": 855.9681800000446
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c6_|trans_delta2_enoyl_acp__c6__side_out_H2O_0": {
     "x": -3457.3576900528924,
     "y": 972.4111478039631
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c6_|fatty_acyl_acp__c6_": {
-    "x": -3621.198212021065,
-    "y": 715.683719397957
+    "x": -4340.311699938789,
+    "y": 727.7207111037039
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c6_|fatty_acyl_acp__c6__side_in_NADPH_0": {
     "x": -3781.198212021065,
@@ -2160,32 +2160,32 @@
     "y": 728.683719397957
   },
   "fatty acyl-ACP (C6)@@cytosol": {
-    "x": -3621.772407203836,
-    "y": 587.4362505016164
+    "x": -4340.885895121561,
+    "y": 599.4732422073635
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c6_|fatty_acyl_acp__c6__side_out_NADP+_0": {
     "x": -3461.198212021065,
     "y": 715.683719397957
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c6_|beta_ketoacyl_acp__c8_": {
-    "x": -3689.845068213516,
-    "y": 473.6238454280593
+    "x": -4408.95855613124,
+    "y": 485.66083713380635
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c6_|beta_ketoacyl_acp__c8__side_in_malonyl-CoA_0": {
     "x": -3849.845068213516,
     "y": 473.6238454280593
   },
   "beta-ketoacyl-ACP (C8)@@cytosol": {
-    "x": -3754.257109011355,
-    "y": 359.8114403545023
+    "x": -4473.370596929079,
+    "y": 371.8484320602493
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c6_|beta_ketoacyl_acp__c8__side_out_CO2_0": {
     "x": -3529.845068213516,
     "y": 473.6238454280593
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c8_|beta_hydroxyacyl_acp__c8_": {
-    "x": -3820.4609424886735,
-    "y": 471.3634606186
+    "x": -4539.574430406397,
+    "y": 483.40045232434704
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c8_|beta_hydroxyacyl_acp__c8__side_in_NADPH_0": {
     "x": -3980.4609424886735,
@@ -2196,28 +2196,28 @@
     "y": 484.3634606186
   },
   "beta-hydroxyacyl-ACP (C8)@@cytosol": {
-    "x": -3883.0041557541504,
-    "y": 582.9154808826978
+    "x": -4602.117643671874,
+    "y": 594.9524725884448
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c8_|beta_hydroxyacyl_acp__c8__side_out_NADP+_0": {
     "x": -3660.4609424886735,
     "y": 471.3634606186
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c8_|trans_delta2_enoyl_acp__c8_": {
-    "x": -3882.057446149631,
-    "y": 712.3070830510258
+    "x": -4601.170934067355,
+    "y": 724.3440747567727
   },
   "trans-delta2-enoyl-ACP (C8)@@cytosol": {
-    "x": -3877.45011633327,
-    "y": 841.6986852193537
+    "x": -4596.563604250994,
+    "y": 853.7356769251007
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c8_|trans_delta2_enoyl_acp__c8__side_out_H2O_0": {
     "x": -3722.057446149631,
     "y": 712.3070830510258
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c8_|fatty_acyl_acp__c8_": {
-    "x": -3875.328503981258,
-    "y": 967.6964206070409
+    "x": -4594.441991898982,
+    "y": 979.7334123127878
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c8_|fatty_acyl_acp__c8__side_in_NADPH_0": {
     "x": -4035.328503981258,
@@ -2228,32 +2228,32 @@
     "y": 980.6964206070409
   },
   "fatty acyl-ACP (C8)@@cytosol": {
-    "x": -3869.546271417405,
-    "y": 1093.6941559947281
+    "x": -4588.659759335129,
+    "y": 1105.731147700475
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c8_|fatty_acyl_acp__c8__side_out_NADP+_0": {
     "x": -3715.328503981258,
     "y": 967.6964206070409
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c8_|beta_ketoacyl_acp__c10_": {
-    "x": -3924.151723644271,
-    "y": 1209.5190357013757
+    "x": -4643.265211561995,
+    "y": 1221.5560274071227
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c8_|beta_ketoacyl_acp__c10__side_in_malonyl-CoA_0": {
     "x": -4084.151723644271,
     "y": 1209.5190357013757
   },
   "beta-ketoacyl-ACP (C10)@@cytosol": {
-    "x": -3975.0965556592955,
-    "y": 1325.3439154080233
+    "x": -4694.210043577019,
+    "y": 1337.3809071137703
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c8_|beta_ketoacyl_acp__c10__side_out_CO2_0": {
     "x": -3764.151723644271,
     "y": 1209.5190357013757
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c10_|beta_hydroxyacyl_acp__c10_": {
-    "x": -4041.8957636458736,
-    "y": 1210.982560544896
+    "x": -4761.009251563597,
+    "y": 1223.0195522506428
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c10_|beta_hydroxyacyl_acp__c10__side_in_NADPH_0": {
     "x": -4201.895763645874,
@@ -2264,28 +2264,28 @@
     "y": 1223.982560544896
   },
   "beta-hydroxyacyl-ACP (C10)@@cytosol": {
-    "x": -4105.034351420611,
-    "y": 1096.6212056817685
+    "x": -4824.147839338335,
+    "y": 1108.6581973875154
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c10_|beta_hydroxyacyl_acp__c10__side_out_NADP+_0": {
     "x": -3881.8957636458736,
     "y": 1210.982560544896
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c10_|trans_delta2_enoyl_acp__c10_": {
-    "x": -4112.731646840522,
-    "y": 967.4452721086116
+    "x": -4831.845134758247,
+    "y": 979.4822638143585
   },
   "trans-delta2-enoyl-ACP (C10)@@cytosol": {
-    "x": -4116.768322048592,
-    "y": 838.2693385354547
+    "x": -4835.881809966317,
+    "y": 850.3063302412017
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c10_|trans_delta2_enoyl_acp__c10__side_out_H2O_0": {
     "x": -3952.7316468405224,
     "y": 967.4452721086116
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c10_|fatty_acyl_acp__c10_": {
-    "x": -4120.8214923604555,
-    "y": 705.3185528756449
+    "x": -4839.93498027818,
+    "y": 717.3555445813918
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c10_|fatty_acyl_acp__c10__side_in_NADPH_0": {
     "x": -4280.8214923604555,
@@ -2296,32 +2296,32 @@
     "y": 718.3185528756449
   },
   "fatty acyl-ACP (C10)@@cytosol": {
-    "x": -4121.214042460477,
-    "y": 572.367767215835
+    "x": -4840.327530378201,
+    "y": 584.404758921582
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c10_|fatty_acyl_acp__c10__side_out_NADP+_0": {
     "x": -3960.8214923604555,
     "y": 705.3185528756449
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c10_|beta_ketoacyl_acp__c12_": {
-    "x": -4188.436616520103,
-    "y": 468.63720277718846
+    "x": -4907.550104437827,
+    "y": 480.6741944829355
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c10_|beta_ketoacyl_acp__c12__side_in_malonyl-CoA_0": {
     "x": -4348.436616520103,
     "y": 468.63720277718846
   },
   "beta-ketoacyl-ACP (C12)@@cytosol": {
-    "x": -4251.998570367887,
-    "y": 364.906638338542
+    "x": -4971.112058285611,
+    "y": 376.943630044289
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c10_|beta_ketoacyl_acp__c12__side_out_CO2_0": {
     "x": -4028.4366165201027,
     "y": 468.63720277718846
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c12_|beta_hydroxyacyl_acp__c12_": {
-    "x": -4305.884078122492,
-    "y": 471.28449273410786
+    "x": -5024.997566040216,
+    "y": 483.3214844398549
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c12_|beta_hydroxyacyl_acp__c12__side_in_NADPH_0": {
     "x": -4465.884078122492,
@@ -2332,28 +2332,28 @@
     "y": 484.28449273410786
   },
   "beta-hydroxyacyl-ACP (C12)@@cytosol": {
-    "x": -4356.108965665255,
-    "y": 577.6623471296738
+    "x": -5075.222453582979,
+    "y": 589.6993388354208
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c12_|beta_hydroxyacyl_acp__c12__side_out_NADP+_0": {
     "x": -4145.884078122492,
     "y": 471.28449273410786
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c12_|trans_delta2_enoyl_acp__c12_": {
-    "x": -4359.426155728097,
-    "y": 711.0940836848442
+    "x": -5078.539643645821,
+    "y": 723.1310753905911
   },
   "trans-delta2-enoyl-ACP (C12)@@cytosol": {
-    "x": -4359.082725579097,
-    "y": 844.5258202400147
+    "x": -5078.196213496822,
+    "y": 856.5628119457617
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c12_|trans_delta2_enoyl_acp__c12__side_out_H2O_0": {
     "x": -4199.426155728097,
     "y": 711.0940836848442
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c12_|fatty_acyl_acp__c12_": {
-    "x": -4361.300959614931,
-    "y": 970.5916501155712
+    "x": -5080.414447532656,
+    "y": 982.6286418213181
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c12_|fatty_acyl_acp__c12__side_in_NADPH_0": {
     "x": -4521.300959614931,
@@ -2364,32 +2364,32 @@
     "y": 983.5916501155712
   },
   "fatty acyl-ACP (C12)@@cytosol": {
-    "x": -4359.8585734389235,
-    "y": 1096.6574799911277
+    "x": -5078.972061356648,
+    "y": 1108.6944716968746
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c12_|fatty_acyl_acp__c12__side_out_NADP+_0": {
     "x": -4201.300959614931,
     "y": 970.5916501155712
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c12_|beta_ketoacyl_acp__c14_": {
-    "x": -4414.156689175008,
-    "y": 1208.274649846558
+    "x": -5133.270177092732,
+    "y": 1220.311641552305
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c12_|beta_ketoacyl_acp__c14__side_in_malonyl-CoA_0": {
     "x": -4574.156689175008,
     "y": 1208.274649846558
   },
   "beta-ketoacyl-ACP (C14)@@cytosol": {
-    "x": -4464.794184699253,
-    "y": 1319.8918197019884
+    "x": -5183.907672616977,
+    "y": 1331.9288114077353
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c12_|beta_ketoacyl_acp__c14__side_out_CO2_0": {
     "x": -4254.156689175008,
     "y": 1208.274649846558
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c14_|beta_hydroxyacyl_acp__c14_": {
-    "x": -4526.787296764809,
-    "y": 1206.1739679332468
+    "x": -5245.900784682533,
+    "y": 1218.2109596389937
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c14_|beta_hydroxyacyl_acp__c14__side_in_NADPH_0": {
     "x": -4686.787296764809,
@@ -2400,28 +2400,28 @@
     "y": 1219.1739679332468
   },
   "beta-hydroxyacyl-ACP (C14)@@cytosol": {
-    "x": -4585.119788618524,
-    "y": 1092.4561161645051
+    "x": -5304.233276536248,
+    "y": 1104.493107870252
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c14_|beta_hydroxyacyl_acp__c14__side_out_NADP+_0": {
     "x": -4366.787296764809,
     "y": 1206.1739679332468
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c14_|trans_delta2_enoyl_acp__c14_": {
-    "x": -4588.570185187775,
-    "y": 971.3059512235125
+    "x": -5307.683673105499,
+    "y": 983.3429429292594
   },
   "trans-delta2-enoyl-ACP (C14)@@cytosol": {
-    "x": -4588.359961545184,
-    "y": 850.1557862825199
+    "x": -5307.473449462908,
+    "y": 862.1927779882669
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c14_|trans_delta2_enoyl_acp__c14__side_out_H2O_0": {
     "x": -4428.570185187775,
     "y": 971.3059512235125
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c14_|fatty_acyl_acp__c14_": {
-    "x": -4596.09992716809,
-    "y": 716.7793089262568
+    "x": -5315.213415085815,
+    "y": 728.8163006320037
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c14_|fatty_acyl_acp__c14__side_in_NADPH_0": {
     "x": -4756.09992716809,
@@ -2432,32 +2432,32 @@
     "y": 729.7793089262568
   },
   "fatty acyl-ACP (C14)@@cytosol": {
-    "x": -4600.1792725791565,
-    "y": 583.4028315699937
+    "x": -5319.292760496881,
+    "y": 595.4398232757408
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c14_|fatty_acyl_acp__c14__side_out_NADP+_0": {
     "x": -4436.09992716809,
     "y": 716.7793089262568
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c14_|beta_ketoacyl_acp__c16_": {
-    "x": -4663.911803772282,
-    "y": 479.88979156045116
+    "x": -5383.025291690006,
+    "y": 491.9267832661982
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c14_|beta_ketoacyl_acp__c16__side_in_malonyl-CoA_0": {
     "x": -4823.911803772282,
     "y": 479.88979156045116
   },
   "beta-ketoacyl-ACP (C16)@@cytosol": {
-    "x": -4723.983714753565,
-    "y": 376.3767515509085
+    "x": -5443.09720267129,
+    "y": 388.41374325665555
   },
   "rxn_lipids|fatty_acid_synthesis|ks|fatty_acyl_acp__c14_|beta_ketoacyl_acp__c16__side_out_CO2_0": {
     "x": -4503.911803772282,
     "y": 479.88979156045116
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c16_|beta_hydroxyacyl_acp__c16_": {
-    "x": -4776.844591434025,
-    "y": 480.92973784610444
+    "x": -5495.958079351749,
+    "y": 492.9667295518515
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c16_|beta_hydroxyacyl_acp__c16__side_in_NADPH_0": {
     "x": -4936.844591434025,
@@ -2468,28 +2468,28 @@
     "y": 493.92973784610444
   },
   "beta-hydroxyacyl-ACP (C16)@@cytosol": {
-    "x": -4826.044847902642,
-    "y": 585.4827241413003
+    "x": -5545.158335820366,
+    "y": 597.5197158470473
   },
   "rxn_lipids|fatty_acid_synthesis|kr|beta_ketoacyl_acp__c16_|beta_hydroxyacyl_acp__c16__side_out_NADP+_0": {
     "x": -4616.844591434025,
     "y": 480.92973784610444
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c16_|trans_delta2_enoyl_acp__c16_": {
-    "x": -4825.933494332956,
-    "y": 714.4462217912737
+    "x": -5545.04698225068,
+    "y": 726.4832134970206
   },
   "trans-delta2-enoyl-ACP (C16)@@cytosol": {
-    "x": -4822.161520551428,
-    "y": 843.4097194412471
+    "x": -5541.275008469152,
+    "y": 855.4467111469942
   },
   "rxn_lipids|fatty_acid_synthesis|hd|beta_hydroxyacyl_acp__c16_|trans_delta2_enoyl_acp__c16__side_out_H2O_0": {
     "x": -4665.933494332956,
     "y": 714.4462217912737
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c16_|fatty_acyl_acp__c16_": {
-    "x": -4818.699156493138,
-    "y": 967.7287632963016
+    "x": -5537.812644410862,
+    "y": 979.7657550020485
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c16_|fatty_acyl_acp__c16__side_in_NADPH_0": {
     "x": -4978.699156493138,
@@ -2500,36 +2500,36 @@
     "y": 980.7287632963016
   },
   "fatty acyl-ACP (C16)@@cytosol": {
-    "x": -4811.576172223007,
-    "y": 1092.0478071513562
+    "x": -5530.689660140732,
+    "y": 1104.0847988571031
   },
   "rxn_lipids|fatty_acid_synthesis|er|trans_delta2_enoyl_acp__c16_|fatty_acyl_acp__c16__side_out_NADP+_0": {
     "x": -4658.699156493138,
     "y": 967.7287632963016
   },
   "rxn_lipids|fatty_acid_synthesis|specific_enzyme|fatty_acyl_acp__c16_|fatty_acid__c16_": {
-    "x": -4911.992489656299,
-    "y": 1162.3095461337637
+    "x": -5631.105977574023,
+    "y": 1174.3465378395106
   },
   "rxn_lipids|fatty_acid_synthesis|specific_enzyme|fatty_acyl_acp__c16_|fatty_acid__c16__side_in_H2O_0": {
     "x": -5071.992489656299,
     "y": 1162.3095461337637
   },
   "fatty acid (C16)@@cytosol": {
-    "x": -5008.748186877749,
-    "y": 1232.571285116171
+    "x": -5727.861674795473,
+    "y": 1244.608276821918
   },
   "rxn_lipids|fatty_acid_synthesis|specific_enzyme|fatty_acyl_acp__c16_|fatty_acid__c16__side_out_ACP-SH_0": {
     "x": -4751.992489656299,
     "y": 1162.3095461337637
   },
   "rxn_lipids|fatty_acid_synthesis|citrate_lyase|citrate|oxaloacetate": {
-    "x": -1289.4885867983196,
-    "y": 544.1925392594522
+    "x": -1222.2703880436006,
+    "y": 526.3402297964593
   },
   "citrate@@cytosol": {
-    "x": -965.0693663239574,
-    "y": 481.68652102004097
+    "x": -969.0365462046224,
+    "y": 427.6893678863429
   },
   "rxn_lipids|fatty_acid_synthesis|citrate_lyase|citrate|oxaloacetate_side_in_CoA-SH_0": {
     "x": 0,
@@ -2552,8 +2552,8 @@
     "y": 0
   },
   "rxn_lipids|fatty_acid_synthesis|malate_dehydrogenase|oxaloacetate|malate": {
-    "x": -1508.4281042775287,
-    "y": 639.1447130658548
+    "x": -1137.3135999542885,
+    "y": 634.7731009984744
   },
   "rxn_lipids|fatty_acid_synthesis|malate_dehydrogenase|oxaloacetate|malate_side_in_NADH_0": {
     "x": 0,
@@ -2568,28 +2568,28 @@
     "y": 0
   },
   "rxn_lipids|fatty_acid_synthesis|malic_enzyme|malate|pyruvate": {
-    "x": -1757.8028856086476,
-    "y": 792.1263373778127
+    "x": -1533.072555072461,
+    "y": 775.707562929769
   },
   "rxn_lipids|fatty_acid_synthesis|malic_enzyme|malate|pyruvate_side_in_NADP+_0": {
-    "x": 0,
-    "y": 0
+    "x": -1917.8028856086476,
+    "y": 792.1263373778127
   },
   "rxn_lipids|fatty_acid_synthesis|malic_enzyme|malate|pyruvate_side_out_NADPH_0": {
-    "x": 0,
-    "y": 0
+    "x": -1597.8028856086476,
+    "y": 766.1263373778127
   },
   "rxn_lipids|fatty_acid_synthesis|malic_enzyme|malate|pyruvate_side_out_H+_1": {
-    "x": 0,
-    "y": 0
+    "x": -1597.8028856086476,
+    "y": 792.1263373778127
   },
   "rxn_lipids|fatty_acid_synthesis|malic_enzyme|malate|pyruvate_side_out_CO2_2": {
-    "x": 0,
-    "y": 0
+    "x": -1597.8028856086476,
+    "y": 818.1263373778127
   },
   "rxn_lipids|fatty_acid_synthesis|pyruvate_carboxylase|pyruvate|oxaloacetate": {
-    "x": -1875.0818135078823,
-    "y": 1226.709985662626
+    "x": -1139.861415229642,
+    "y": 1391.9462073208406
   },
   "rxn_lipids|fatty_acid_synthesis|pyruvate_carboxylase|pyruvate|oxaloacetate_side_in_ATP_0": {
     "x": 0,
@@ -2608,8 +2608,8 @@
     "y": 0
   },
   "rxn_lipids|fatty_acid_synthesis|malate_dehydrogenase|malate|oxaloacetate": {
-    "x": -1289.4256969146581,
-    "y": 1039.3184864277491
+    "x": -548.8755431499658,
+    "y": 1225.8737300317744
   },
   "rxn_lipids|fatty_acid_synthesis|malate_dehydrogenase|malate|oxaloacetate_side_in_NAD+_0": {
     "x": 0,
@@ -2624,8 +2624,8 @@
     "y": 0
   },
   "rxn_lipids|fatty_acid_synthesis|citrate_synthase|oxaloacetate|citrate": {
-    "x": -1085.5775716141868,
-    "y": 1197.8843463794924
+    "x": -345.0274178494951,
+    "y": 1384.4395899835176
   },
   "rxn_lipids|fatty_acid_synthesis|citrate_synthase|oxaloacetate|citrate_side_in_acetyl-CoA_0": {
     "x": 0,
@@ -2804,36 +2804,36 @@
     "y": 136.43912219438985
   },
   "rxn_lipids|cholesterol_synthesis|thiolase|acetyl_coa|acetoacetyl_coa": {
-    "x": -3024.0677837732514,
-    "y": 708.055861277025
+    "x": -3553.013161215713,
+    "y": 717.6866231041613
   },
   "acetoacetyl-CoA@@cytosol": {
-    "x": -3020.384546060329,
-    "y": 847.6558006002593
+    "x": -3552.942189477053,
+    "y": 853.6742964531329
   },
   "rxn_lipids|cholesterol_synthesis|thiolase|acetyl_coa|acetoacetyl_coa_side_out_CoA-SH_0": {
-    "x": -2864.0677837732514,
-    "y": 708.055861277025
+    "x": -3342.4414375760366,
+    "y": 714.0743571298985
   },
   "rxn_lipids|cholesterol_synthesis|hmg_coa_synthase|acetoacetyl_coa|hmg_coa": {
-    "x": -3020.8076191006667,
-    "y": 972.090622961653
+    "x": -3548.5074643975368,
+    "y": 978.1091188145265
   },
   "rxn_lipids|cholesterol_synthesis|hmg_coa_synthase|acetoacetyl_coa|hmg_coa_side_in_acetyl-CoA_0": {
-    "x": -3180.8076191006667,
-    "y": 959.090622961653
+    "x": -3713.365262517391,
+    "y": 965.1091188145265
   },
   "rxn_lipids|cholesterol_synthesis|hmg_coa_synthase|acetoacetyl_coa|hmg_coa_side_in_H2O_1": {
-    "x": -3180.8076191006667,
-    "y": 985.090622961653
+    "x": -3713.365262517391,
+    "y": 991.1091188145265
   },
   "HMG-CoA@@cytosol": {
-    "x": -3017.5700719291635,
-    "y": 1096.5254453230468
+    "x": -3550.1277153458877,
+    "y": 1102.5439411759203
   },
   "rxn_lipids|cholesterol_synthesis|hmg_coa_synthase|acetoacetyl_coa|hmg_coa_side_out_CoA-SH_0": {
-    "x": -2860.8076191006667,
-    "y": 972.090622961653
+    "x": -3393.365262517391,
+    "y": 978.1091188145265
   },
   "rxn_lipids|cholesterol_synthesis|hmg_coa_reductase|hmg_coa|mevalonate": {
     "x": -4638.843248354343,
@@ -2900,28 +2900,28 @@
     "y": -1110.2955229983886
   },
   "rxn_lipids|cholesterol_conversion|mixed_function_oxidase|cholesterol|20__22_dihydroxycholesterol": {
-    "x": -344.65407562132503,
-    "y": 491.00307497498954
+    "x": 250.22000555562545,
+    "y": 731.7843501208467
   },
   "cholesterol@@mitochondria": {
-    "x": -492.14522134229924,
-    "y": 489.2347590039704
+    "x": 102.72885983465153,
+    "y": 730.0160341498276
   },
   "rxn_lipids|cholesterol_conversion|mixed_function_oxidase|cholesterol|20__22_dihydroxycholesterol_side_in_O2_0": {
     "x": -480.39489843238135,
     "y": 491.00307497498954
   },
   "20, 22-dihydroxycholesterol@@mitochondria": {
-    "x": -147.7806515593176,
-    "y": 492.77139094600875
+    "x": 447.0934296176333,
+    "y": 733.5526660918658
   },
   "rxn_lipids|cholesterol_conversion|mixed_function_oxidase|cholesterol|20__22_dihydroxycholesterol_side_out_H2O_0": {
     "x": -160.39489843238135,
     "y": 491.00307497498954
   },
   "rxn_lipids|cholesterol_conversion|desmolase|20__22_dihydroxycholesterol|pregnenolone": {
-    "x": 27.846272850482144,
-    "y": 496.347874132505
+    "x": 622.7203540274324,
+    "y": 737.1291492783621
   },
   "rxn_lipids|cholesterol_conversion|desmolase|20__22_dihydroxycholesterol|pregnenolone_side_in_NADPH_0": {
     "x": -151.02197607425185,
@@ -2936,8 +2936,8 @@
     "y": 519.6524100004001
   },
   "pregnenolone@@mitochondria": {
-    "x": 166.6006233739598,
-    "y": 494.53342905479155
+    "x": 761.4747045509102,
+    "y": 735.3147042006485
   },
   "rxn_lipids|cholesterol_conversion|desmolase|20__22_dihydroxycholesterol|pregnenolone_side_out_NADP+_0": {
     "x": 168.97802392574815,
@@ -2952,264 +2952,504 @@
     "y": 519.6524100004001
   },
   "rxn_lipids|cholesterol_conversion|specific_enzyme|cholesterol|hydroxysterol": {
-    "x": -648.3676402652482,
-    "y": 488.6208741246054
+    "x": -53.493559088297616,
+    "y": 729.4021492704624
   },
   "hydroxysterol@@mitochondria": {
-    "x": -803.7261352250512,
-    "y": 488.00698924524045
+    "x": -208.85205404810085,
+    "y": 728.7882643910975
   },
   "rxn_lipids|cholesterol_conversion|specific_enzyme|cholesterol|bile_acids": {
-    "x": -491.254264664787,
-    "y": 579.6397881075047
+    "x": 103.61981651216365,
+    "y": 820.4210632533618
   },
   "bile acids@@mitochondria": {
-    "x": -489.49938402412886,
-    "y": 670.0448172110391
+    "x": 105.37469715282191,
+    "y": 910.8260923568962
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|nitrogenase|n2|nh4__h2": {
-    "x": -1178.4453696982328,
-    "y": 2239.741180819095
+  "rxn_proteins|catabolism_of_amino_acid|aminotransferase|amino_acid___ketoglutarate|glutamate___keto_acid": {
+    "x": -2938.5309869181633,
+    "y": 1099.3131780138267
   },
-  "N2": {
-    "x": -1182.0520497404943,
-    "y": 2146.744375475494
+  "amino acid@@cytosol": {
+    "x": -3145.313920972013,
+    "y": 1101.2318361692778
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|nitrogenase|n2|nh4__h2_side_in_H+_0": {
-    "x": -1338.4453696982328,
-    "y": 2213.741180819095
+  "α-ketoglutarate@@cytosol": {
+    "x": -2937.1499036178266,
+    "y": 912.0328883516737
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|nitrogenase|n2|nh4__h2_side_in_ATP_1": {
-    "x": -1338.4453696982328,
-    "y": 2239.741180819095
+  "glutamate@@cytosol": {
+    "x": -2618.1214726571056,
+    "y": 1105.9712946115285
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|nitrogenase|n2|nh4__h2_side_in_e-_2": {
-    "x": -1338.4453696982328,
-    "y": 2265.741180819095
+  "α-keto acid@@cytosol": {
+    "x": -2937.544827663847,
+    "y": 1288.3648348693416
   },
-  "NH4+": {
-    "x": -1176.3012395006865,
-    "y": 2339.6939599417074
+  "rxn_proteins|catabolism_of_amino_acid|glutamine_synthetase|glutamate|glutamyl_phosphate": {
+    "x": -2697.9989018080687,
+    "y": 1198.2751086166404
   },
-  "H2": {
-    "x": -1049.393832317543,
-    "y": 2240.522362900583
+  "rxn_proteins|catabolism_of_amino_acid|glutamine_synthetase|glutamate|glutamyl_phosphate_side_in_ATP_0": {
+    "x": -2737.901960129162,
+    "y": 1278.7562388769838
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|nitrogenase|n2|nh4__h2_side_out_ADP_0": {
-    "x": -1018.4453696982328,
-    "y": 2226.741180819095
+  "glutamyl phosphate@@cytosol": {
+    "x": -2780.985818345384,
+    "y": 1284.547078798887
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|nitrogenase|n2|nh4__h2_side_out_Pi_1": {
-    "x": -1018.4453696982328,
-    "y": 2252.741180819095
+  "rxn_proteins|catabolism_of_amino_acid|glutamine_synthetase|glutamate|glutamyl_phosphate_side_out_ADP_0": {
+    "x": -2417.901960129162,
+    "y": 1278.7562388769838
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|glutamine_synthetase|glutamate_nh4_|glutamine": {
-    "x": -1174.4798520834142,
-    "y": 2443.457943706339
+  "rxn_proteins|catabolism_of_amino_acid|glutamine_synthetase|glutamyl_phosphate|glutamine": {
+    "x": -2618.450884657484,
+    "y": 1284.3170638537927
   },
-  "glutamate": {
-    "x": -1334.1994943202683,
-    "y": 2442.5315310471974
+  "rxn_proteins|catabolism_of_amino_acid|glutamine_synthetase|glutamyl_phosphate|glutamine_side_in_NH4+_0": {
+    "x": -417.8552020617244,
+    "y": 390.6908173484498
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|glutamine_synthetase|glutamate_nh4_|glutamine_side_in_ATP_0": {
+  "glutamine@@cytosol": {
+    "x": -2438.2627019994193,
+    "y": 1286.5266561377637
+  },
+  "rxn_proteins|catabolism_of_amino_acid|glutamine_synthetase|glutamyl_phosphate|glutamine_side_out_Pi_0": {
+    "x": -97.85520206172441,
+    "y": 390.6908173484498
+  },
+  "rxn_proteins|catabolism_of_amino_acid|glutaminase|glutamine|glutamate_nh4_": {
+    "x": -1277.812013800445,
+    "y": 1952.7722910899472
+  },
+  "glutamine@@mitochondria": {
+    "x": -1279.1961676676854,
+    "y": 1821.6544126009253
+  },
+  "rxn_proteins|catabolism_of_amino_acid|glutaminase|glutamine|glutamate_nh4__side_in_H2O_0": {
+    "x": -1679.6346992287754,
+    "y": 1740.705612718638
+  },
+  "glutamate@@mitochondria": {
+    "x": -1131.6746628190579,
+    "y": 2059.1197405251723
+  },
+  "NH4+@@mitochondria": {
+    "x": -1130.2014521718745,
+    "y": 2186.9056821140466
+  },
+  "rxn_proteins|catabolism_of_amino_acid|alanine_aminotransferase|pyruvate_glutamate|alanine___ketoglutarate": {
+    "x": -2615.806786377841,
+    "y": 911.8580979180174
+  },
+  "rxn_proteins|catabolism_of_amino_acid|alanine_aminotransferase|alanine___ketoglutarate|pyruvate_glutamate": {
+    "x": -2616.0853970920807,
+    "y": 908.3346615011789
+  },
+  "rxn_proteins|catabolism_of_amino_acid|aspartate_aminotransferase|glutamine_oxaloacetate|__ketoglutarate_aspartate": {
+    "x": -1139.9880176012318,
+    "y": 1654.8028831931167
+  },
+  "α-ketoglutarate@@mitochondria": {
+    "x": -999.67554448341,
+    "y": 1824.9259744692522
+  },
+  "aspartate@@mitochondria": {
+    "x": -1433.1366180832376,
+    "y": 1840.6768628123405
+  },
+  "rxn_proteins|catabolism_of_amino_acid|glutamate_dehydrogenase|glutamate|__ketoglutarate_nh4_": {
+    "x": -1000.059279812665,
+    "y": 1950.33217030007
+  },
+  "rxn_proteins|catabolism_of_amino_acid|carbamoyl_phosphate_synthetase_i|nh4_|carbamoyl_phosphate": {
+    "x": -1128.5234190840413,
+    "y": 2429.9553374724974
+  },
+  "rxn_proteins|catabolism_of_amino_acid|carbamoyl_phosphate_synthetase_i|nh4_|carbamoyl_phosphate_side_in_HCO3-_0": {
     "x": 0,
     "y": 0
   },
-  "glutamine": {
-    "x": -1175.4931796620333,
-    "y": 2548.1483401301125
-  },
-  "rxn_proteins|biosynthesis_of_amino_acid|glutamine_synthetase|glutamate_nh4_|glutamine_side_out_ADP_0": {
+  "rxn_proteins|catabolism_of_amino_acid|carbamoyl_phosphate_synthetase_i|nh4_|carbamoyl_phosphate_side_in_ATP_1": {
     "x": 0,
     "y": 0
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|glutamine_synthetase|glutamate_nh4_|glutamine_side_out_Pi_1": {
+  "carbamoyl phosphate@@mitochondria": {
+    "x": -1130.619650185063,
+    "y": 2602.9519769189183
+  },
+  "rxn_proteins|catabolism_of_amino_acid|carbamoyl_phosphate_synthetase_i|nh4_|carbamoyl_phosphate_side_out_ADP_0": {
     "x": 0,
     "y": 0
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|glutamine_synthetase|glutamate_nh4_|glutamine_side_out_H+_2": {
+  "rxn_proteins|catabolism_of_amino_acid|carbamoyl_phosphate_synthetase_i|nh4_|carbamoyl_phosphate_side_out_Pi_1": {
     "x": 0,
     "y": 0
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|glutamate_synthase|__ketoglutarate_glutamine|glutamate": {
-    "x": -1332.555933841654,
-    "y": 2548.2783200552744
+  "rxn_proteins|urea_cycle|ornithine_transcarbamoylase|ornithine_carbamoyl_phosphate|citrulline": {
+    "x": -1462.8347405140073,
+    "y": 2605.539156654724
   },
-  "α-ketoglutarate": {
-    "x": -1495.786367565421,
-    "y": 2549.7034848717744
+  "ornithine@@mitochondria": {
+    "x": -1511.893660454976,
+    "y": 2767.864586724406
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|glutamate_synthase|__ketoglutarate_glutamine|glutamate_side_in_NADPH_0": {
-    "x": -1537.6893430278992,
-    "y": 2497.882066729528
+  "citrulline@@mitochondria": {
+    "x": -1521.5056982661893,
+    "y": 2431.8478944628823
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|glutamate_synthase|__ketoglutarate_glutamine|glutamate_side_in_H+_1": {
-    "x": -1537.6893430278992,
-    "y": 2523.882066729528
+  "rxn_proteins|urea_cycle|ornithine_transcarbamoylase|ornithine_carbamoyl_phosphate|citrulline_side_out_Pi_0": {
+    "x": -1850.9924035026543,
+    "y": 2551.684194522239
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|glutamate_synthase|__ketoglutarate_glutamine|glutamate_side_out_NADP+_0": {
-    "x": -1217.6893430278992,
-    "y": 2510.882066729528
+  "rxn_proteins|urea_cycle|argininosuccinate_synthetase|citrulline_aspartate|argininosuccinate": {
+    "x": -1926.0817836868414,
+    "y": 2190.7762042731733
   },
-  "rxn_proteins|biosynthesis_of_amino_acid||3_phosphoglycerate|serine": {
-    "x": -2771.026373436372,
-    "y": 3539.301552954542
+  "citrulline@@cytosol": {
+    "x": -1673.1778837133343,
+    "y": 2235.5801235757617
   },
-  "3-phosphoglycerate": {
-    "x": -2555.6749508474086,
-    "y": 5469.229631527982
+  "Aspartate@@cytosol": {
+    "x": -2066.602377552881,
+    "y": 2042.5133394516306
   },
-  "serine": {
-    "x": -2838.0899506547976,
-    "y": 5059.056471091442
+  "rxn_proteins|urea_cycle|argininosuccinate_synthetase|citrulline_aspartate|argininosuccinate_side_in_ATP_0": {
+    "x": 0,
+    "y": 0
   },
-  "rxn_proteins|biosynthesis_of_amino_acid||erythrose_4_phosphate|3_phosphoglycerate": {
-    "x": -2715.2746821547507,
-    "y": 3778.4447502186104
+  "argininosuccinate@@cytosol": {
+    "x": -2260.1076081449,
+    "y": 2329.4167160491484
   },
-  "erythrose 4-phosphate": {
-    "x": -2726.586568091555,
-    "y": 5537.342865619579
+  "rxn_proteins|urea_cycle|argininosuccinate_synthetase|citrulline_aspartate|argininosuccinate_side_out_AMP_0": {
+    "x": 0,
+    "y": 0
   },
-  "rxn_proteins|biosynthesis_of_amino_acid||erythrose_4_phosphate_phosphoenolpyruvate|tryptophan_phenylalanine_tyrosine": {
-    "x": -2206.24910689424,
-    "y": 3415.0042635688615
+  "rxn_proteins|urea_cycle|argininosuccinate_synthetase|citrulline_aspartate|argininosuccinate_side_out_PPi_1": {
+    "x": 0,
+    "y": 0
   },
-  "phosphoenolpyruvate": {
-    "x": -1982.061720170853,
-    "y": 4041.6342225936887
+  "rxn_proteins|urea_cycle|argininosuccinate_lyase|argininosuccinate|arginine_fumarate": {
+    "x": -2371.975442424255,
+    "y": 2634.3689655097605
   },
-  "tryptophan": {
-    "x": -1718.1455126307985,
-    "y": 5249.90504474937
+  "arginine@@cytosol": {
+    "x": -2212.642688196779,
+    "y": 2895.4159496987436
+  },
+  "fumarate@@cytosol": {
+    "x": -2846.805080808061,
+    "y": 2023.9837329214909
+  },
+  "rxn_proteins|urea_cycle|arginase|arginine|urea_ornithine": {
+    "x": -1923.017013829792,
+    "y": 3033.503168274084
+  },
+  "rxn_proteins|urea_cycle|arginase|arginine|urea_ornithine_side_in_H2O_0": {
+    "x": -2262.166222001831,
+    "y": 2249.1094655354636
+  },
+  "Urea@@cytosol": {
+    "x": -1922.959298631938,
+    "y": 3183.7720844171863
+  },
+  "ornithine@@cytosol": {
+    "x": -1598.3491870789055,
+    "y": 2964.2806423728866
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|lysine|acetoacetyl_coa": {
+    "x": -3342.9679293272825,
+    "y": 853.2109500618091
+  },
+  "lysine@@cytosol": {
+    "x": -3156.363377165186,
+    "y": 850.4767650998806
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|phenylalanine|acetoacetyl_coa": {
+    "x": -3691.065548335785,
+    "y": 974.6305702950447
+  },
+  "phenylalanine@@cytosol": {
+    "x": -3695.8615857589207,
+    "y": 1109.0309498147792
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|tryptophan|acetoacetyl_coa": {
+    "x": -3448.3394985696273,
+    "y": 779.2087494058533
+  },
+  "tryptophan@@cytosol": {
+    "x": -3329.4210851942044,
+    "y": 710.5272796021417
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|tyrosine|acetoacetyl_coa": {
+    "x": -3397.1326545352085,
+    "y": 971.8570686206626
+  },
+  "tyrosine@@cytosol": {
+    "x": -3395.783577225658,
+    "y": 1103.3120770981486
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|acetoacetyl_coa|acetyl_coa": {
+    "x": -3555.7720897692916,
+    "y": 715.168540856139
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|acetoacetyl_coa|acetyl_coa_side_in_CoA-SH_0": {
+    "x": -3715.7720897692916,
+    "y": 715.168540856139
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|acetoacetyl_coa|ketone_bodies": {
+    "x": -3778.934537874846,
+    "y": 853.1983435630663
+  },
+  "ketone bodies@@cytosol": {
+    "x": -3776.337344951861,
+    "y": 713.1040688707125
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|acetyl_coa|ketone_bodies": {
+    "x": -3774.893081680147,
+    "y": 569.7226981820667
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|threonine|acetyl_coa": {
+    "x": -3123.961914326525,
+    "y": 572.3900915313263
+  },
+  "threonine@@cytosol": {
+    "x": -2702.757352203409,
+    "y": 572.141091051507
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|tryptophan|acetyl_coa": {
+    "x": -3432.7602369532183,
+    "y": 653.2270328935294
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|alanine|pyruvate": {
+    "x": -2348.055703099514,
+    "y": 828.3301678365252
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|cysteine|pyruvate": {
+    "x": -1967.1987126832337,
+    "y": 1074.5252132567293
+  },
+  "cysteine@@cytosol": {
+    "x": -1965.9379299286811,
+    "y": 1213.5264047102962
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|glycine|pyruvate": {
+    "x": -2125.1343634129485,
+    "y": 1073.8743041567295
+  },
+  "glycine@@cytosol": {
+    "x": -2124.129913135146,
+    "y": 1216.0365723160808
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|serine|pyruvate": {
+    "x": -2269.685768365322,
+    "y": 1073.2486726281606
+  },
+  "serine@@cytosol": {
+    "x": -2270.9631421098156,
+    "y": 1218.2657025888857
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|threonine|pyruvate": {
+    "x": -2420.023883841151,
+    "y": 732.6927780087134
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|tryptophan|pyruvate": {
+    "x": -2808.868717595698,
+    "y": 786.392262206135
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|tryptophan|nicotinate": {
+    "x": -3121.940047807985,
+    "y": 709.534377145055
+  },
+  "nicotinate@@cytosol": {
+    "x": -2934.4598294741627,
+    "y": 710.1225817669638
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|arginine|glutamate": {
+    "x": -2622.3036369800093,
+    "y": 2889.494498071962
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|glutamine|glutamate": {
+    "x": -2534.6473931469764,
+    "y": 1197.672905573213
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|histidine|glutamate": {
+    "x": -2539.443076044628,
+    "y": 1033.9460202698006
+  },
+  "histidine@@cytosol": {
+    "x": -2456.238896007992,
+    "y": 963.6834912010015
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|proline|glutamate": {
+    "x": -2717.2822836991218,
+    "y": 1033.790135075019
+  },
+  "proline@@cytosol": {
+    "x": -2803.4700336663386,
+    "y": 967.6467720610823
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|methionine|succinyl_coa": {
+    "x": -2336.921489635616,
+    "y": 471.4561135327073
+  },
+  "methionine@@cytosol": {
+    "x": -2337.487889987697,
+    "y": 379.62243569384987
+  },
+  "Succinyl-CoA@@cytosol": {
+    "x": -2334.9762267625883,
+    "y": 575.4941414450309
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|threonine|succinyl_coa": {
+    "x": -2522.5175071341428,
+    "y": 574.5001885542873
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|asparagine|oxaloacetate": {
+    "x": -1638.8933721885837,
+    "y": 518.8841925727336
+  },
+  "asparagine@@cytosol": {
+    "x": -1827.918430100718,
+    "y": 402.46678000441875
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|aspartate|oxaloacetate": {
+    "x": -1484.0096599060842,
+    "y": -2906.491417996128
+  },
+  "aspartate@@cytosol": {
+    "x": -2057.631534767676,
+    "y": -2903.860604778142
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|phenylalanine|fumarate": {
+    "x": -3689.0089004127635,
+    "y": 2019.2071287928554
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|tyrosine|fumarate": {
+    "x": -3389.6182446756147,
+    "y": 2019.5275714185652
+  },
+  "rxn_proteins|catabolism_of_amino_acid|branched_chain_aminotransferase|valine|__keto_acid": {
+    "x": -3109.859074394071,
+    "y": 1288.5737839836343
+  },
+  "valine@@cytosol": {
+    "x": -3281.9027016976884,
+    "y": 1286.200617703299
+  },
+  "rxn_proteins|catabolism_of_amino_acid|branched_chain_aminotransferase|isoleucine|__keto_acid": {
+    "x": -3113.882100093193,
+    "y": 1193.832417818679
+  },
+  "isoleucine@@cytosol": {
+    "x": -3284.275651708273,
+    "y": 1197.846161796044
+  },
+  "rxn_proteins|catabolism_of_amino_acid|branched_chain_aminotransferase|leucine|__keto_acid": {
+    "x": -3109.9860061172726,
+    "y": 1376.5747618156142
+  },
+  "leucine@@cytosol": {
+    "x": -3285.318677961192,
+    "y": 1377.6214576423329
+  },
+  "rxn_proteins|catabolism_of_amino_acid|branched_chain___keto_acid_dehydrogenase_complex|__keto_acid|acyl_coa_derivative": {
+    "x": -2938.7292861385813,
+    "y": 1417.207640668531
+  },
+  "acyl-CoA derivative@@cytosol": {
+    "x": -2940.7433402213896,
+    "y": 1521.8254101388493
+  },
+  "rxn_proteins|catabolism_of_amino_acid|aminotransferase|phenylalanine|phenylpyruvate": {
+    "x": -4342.819162624996,
+    "y": 1794.5213803469014
   },
   "phenylalanine": {
-    "x": -2059.162982457893,
-    "y": 4970.537187943637
+    "x": -4342.686468878533,
+    "y": 1940.7688733208927
   },
-  "tyrosine": {
-    "x": -1877.970033015203,
-    "y": 5075.92308682902
-  },
-  "rxn_proteins|biosynthesis_of_amino_acid||serine|glycine_cysteine": {
-    "x": -2600.4994686394352,
-    "y": 3450.57442156023
-  },
-  "glycine": {
-    "x": -2586.125177224445,
-    "y": 5060.172639149385
-  },
-  "cysteine": {
-    "x": -2154.8515099832566,
-    "y": 5407.018649505373
-  },
-  "rxn_proteins|biosynthesis_of_amino_acid||pyruvate|alanine_valine_leucine_isoleucine": {
-    "x": -2494.7689145980466,
-    "y": 2908.7017157598084
-  },
-  "pyruvate": {
-    "x": -2214.841360246279,
-    "y": 4389.175674048578
-  },
-  "alanine": {
-    "x": -2721.0493011097847,
-    "y": 1722.569295311458
-  },
-  "valine": {
-    "x": -2422.9904731540255,
-    "y": 5030.765913349318
-  },
-  "leucine": {
-    "x": -2477.8158966524225,
-    "y": 5128.277318386088
-  },
-  "isoleucine": {
-    "x": -2380.5718510866473,
-    "y": 5172.08637112428
-  },
-  "rxn_proteins|biosynthesis_of_amino_acid||oxaloacetate|aspartate": {
-    "x": -2758.739710453836,
-    "y": 2695.3248628678984
-  },
-  "oxaloacetate": {
-    "x": -1946.1273963621989,
-    "y": 3567.9095153077596
-  },
-  "aspartate": {
-    "x": -2450.9803908632193,
-    "y": 3333.6822199195876
-  },
-  "rxn_proteins|biosynthesis_of_amino_acid||aspartate|asparagine_methionine_threonine_lysine": {
-    "x": -2349.129416803752,
-    "y": 3291.592794197701
-  },
-  "asparagine": {
-    "x": -2356.3880960442148,
-    "y": 5148.447025823523
-  },
-  "methionine": {
-    "x": -1968.730723943558,
-    "y": 5073.843714309336
-  },
-  "threonine": {
-    "x": -2245.6132469604736,
-    "y": 5241.503098899717
-  },
-  "lysine": {
-    "x": -2212.5493024877433,
-    "y": 5081.222104636981
-  },
-  "rxn_proteins|biosynthesis_of_amino_acid||__ketoglutarate|glutamate": {
-    "x": -1374.9929309428446,
-    "y": 2496.117507959486
-  },
-  "rxn_proteins|biosynthesis_of_amino_acid||glutamate|glutamine_proline_arginine": {
-    "x": -1840.9643907422972,
-    "y": 2889.5635575292163
-  },
-  "proline": {
-    "x": -2502.5266053164432,
-    "y": 4996.653007497065
-  },
-  "arginine": {
-    "x": -2283.3504382999063,
-    "y": 5020.604348152834
-  },
-  "rxn_proteins|biosynthesis_of_amino_acid|ribose_phosphate_pyrophosphokinase__prpp_synthetase_|ribose_5_phosphate|prpp": {
-    "x": -3095.799821113382,
-    "y": -2853.456046183267
-  },
-  "ribose 5-phosphate": {
-    "x": -3089.68635457861,
-    "y": -1261.4969651656693
-  },
-  "rxn_proteins|biosynthesis_of_amino_acid|ribose_phosphate_pyrophosphokinase__prpp_synthetase_|ribose_5_phosphate|prpp_side_in_ATP_0": {
+  "rxn_proteins|catabolism_of_amino_acid|aminotransferase|phenylalanine|phenylpyruvate_side_in_pyruvate_0": {
     "x": 0,
     "y": 0
   },
-  "PRPP": {
-    "x": -2607.8738377785503,
-    "y": -2859.30071591516
+  "phenylpyruvate": {
+    "x": -4339.622130926959,
+    "y": 1649.5541085790655
   },
-  "rxn_proteins|biosynthesis_of_amino_acid|ribose_phosphate_pyrophosphokinase__prpp_synthetase_|ribose_5_phosphate|prpp_side_out_AMP_0": {
+  "rxn_proteins|catabolism_of_amino_acid|aminotransferase|phenylalanine|phenylpyruvate_side_out_alanine_0": {
     "x": 0,
     "y": 0
   },
-  "rxn_proteins|biosynthesis_of_amino_acid||prpp_glutamine_glutarate|histidine": {
-    "x": -2132.1438959109155,
-    "y": 1717.3693556633355
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|phenylpyruvate|phenylacetate": {
+    "x": -4646.846883832914,
+    "y": 1649.1190791656625
   },
-  "glutarate": {
-    "x": -2719.864623318048,
-    "y": 5264.812133918142
-  },
-  "rxn_proteins|biosynthesis_of_amino_acid||prpp_glutamine_glutarate|histidine_side_in_ATP_0": {
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|phenylpyruvate|phenylacetate_side_in_H2O_0": {
     "x": 0,
     "y": 0
   },
-  "histidine": {
-    "x": -1957.0560975144933,
-    "y": 5365.50066123059
+  "phenylacetate": {
+    "x": -4925.717540203087,
+    "y": 1645.4071450794115
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|phenylpyruvate|phenylacetate_side_out_CO2_0": {
+    "x": 0,
+    "y": 0
+  },
+  "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|phenylpyruvate|phenyllacetate": {
+    "x": -4096.38663180028,
+    "y": 1664.43722141684
+  },
+  "phenyllacetate": {
+    "x": -3850.1317786204418,
+    "y": 1677.9299508192682
+  },
+  "rxn_proteins|aspartate_arginino_succinate_shunt|aminotransferase|aspartate_alpha_ketoglutarate|oxaloacetate_glutarate": {
+    "x": -2121.9729195061614,
+    "y": 1847.0326385930832
+  },
+  "alpha-ketoglutarate@@cytosol": {
+    "x": -2279.682401746855,
+    "y": 1847.2921326013768
+  },
+  "Oxaloacetate@@cytosol": {
+    "x": -2099.4638923663456,
+    "y": 1652.708840433639
+  },
+  "glutarate@@cytosol": {
+    "x": -1979.029996288035,
+    "y": 1847.827913638779
+  },
+  "rxn_proteins|aspartate_arginino_succinate_shunt|aminotransferase|aspartate_alpha_ketoglutarate|oxaloacetate_glutarate_side_out_glutamate_0": {
+    "x": 0,
+    "y": 0
+  },
+  "rxn_proteins|aspartate_arginino_succinate_shunt|malate_dehydrogenase__mdh_|oxaloacetate|l_malate": {
+    "x": -1982.055034171606,
+    "y": 1507.2488626587967
+  },
+  "rxn_proteins|aspartate_arginino_succinate_shunt|malate_dehydrogenase__mdh_|oxaloacetate|l_malate_side_in_NADH_0": {
+    "x": -2353.0302131316826,
+    "y": 1438.6418698697
+  },
+  "L-malate@@cytosol": {
+    "x": -1708.1392875955614,
+    "y": 1384.0099638563274
+  },
+  "rxn_proteins|aspartate_arginino_succinate_shunt|malate_dehydrogenase__mdh_|oxaloacetate|l_malate_side_out_NAD+_0": {
+    "x": -2033.0302131316826,
+    "y": 1438.6418698697
+  },
+  "rxn_proteins|aspartate_arginino_succinate_shunt|fumarase|fumarate|l_malate": {
+    "x": -2277.4688546562056,
+    "y": 1454.6005899542297
+  },
+  "rxn_proteins|aspartate_arginino_succinate_shunt|fumarase|fumarate|l_malate_side_in_H2O_0": {
+    "x": -1051.9326823503482,
+    "y": 2078.772122683319
   },
   "rxn_nucleotides|de_novo_biosynthesis_of_purines|glutamine_prpp_amidotransferase|prpp|5_phospho___d_ribosylamine": {
     "x": -2605.4200575293144,
@@ -3235,43 +3475,43 @@
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp": {
-    "x": -2561.73256392561,
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp": {
+    "x": -2601.295609686023,
     "y": -2643.03224489147
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_in_N10-formyltetrahydrofolate_0": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_in_N10-formyltetrahydrofolate_0": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_in_HCO3-_1": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_in_HCO3-_1": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_in_glycine_2": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_in_glycine_2": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_in_glutamine_3": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_in_glutamine_3": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_in_aspartate_4": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_in_aspartate_4": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_in_ATP_5": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_in_ATP_5": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_in_glycine_6": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_in_glycine_6": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_in_glutamine_7": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_in_glutamine_7": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_in_aspartate_8": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_in_aspartate_8": {
     "x": 0,
     "y": 0
   },
@@ -3279,27 +3519,27 @@
     "x": -2601.1004683326155,
     "y": -2585.0775068800535
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_out_glutamate_0": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_out_glutamate_0": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_out_H4 folate_1": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_out_H4 folate_1": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_out_fumarate_2": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_out_fumarate_2": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_out_ADP_3": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_out_ADP_3": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_out_Pi_4": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_out_Pi_4": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_purines||5_phospho___d_ribosylamine|imp_side_out_H2O_5": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|multiple_enzeme|5_phospho___d_ribosylamine|imp_side_out_H2O_5": {
     "x": 0,
     "y": 0
   },
@@ -3423,10 +3663,6 @@
     "x": -2058.8734535785397,
     "y": -2814.4647044630015
   },
-  "aspartate@@cytosol": {
-    "x": -2059.49802998636,
-    "y": -2900.1276143407727
-  },
   "N-carbamoylaspartate@@cytosol": {
     "x": -2058.451692277671,
     "y": -2729.58827714032
@@ -3435,85 +3671,85 @@
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines||n_carbamoylaspartate|orotate": {
-    "x": -2017.3452032763685,
-    "y": -2684.4046968226457
+  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|multiple_enzeme|n_carbamoylaspartate|orotate": {
+    "x": -2054.270712652754,
+    "y": -2639.1824110476196
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines||n_carbamoylaspartate|orotate_side_in_NAD+_0": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|multiple_enzeme|n_carbamoylaspartate|orotate_side_in_NAD+_0": {
     "x": 0,
     "y": 0
   },
   "orotate@@cytosol": {
     "x": -2056.238714275066,
-    "y": -2639.221116504972
+    "y": -2555.236871494209
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines||n_carbamoylaspartate|orotate_side_out_H2O_0": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|multiple_enzeme|n_carbamoylaspartate|orotate_side_out_H2O_0": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines||n_carbamoylaspartate|orotate_side_out_NADH_1": {
+  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|multiple_enzeme|n_carbamoylaspartate|orotate_side_out_NADH_1": {
     "x": 0,
     "y": 0
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines||orotate|ump": {
-    "x": -2016.5013393925474,
-    "y": -2598.5023223312737
+  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|multiple_enzeme|orotate|ump": {
+    "x": -2055.2632986282842,
+    "y": -2469.295791545484
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines||orotate|ump_side_in_PRPP_0": {
-    "x": 0,
-    "y": 0
+  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|multiple_enzeme|orotate|ump_side_in_PRPP_0": {
+    "x": -2213.109856448521,
+    "y": -2469.2957915454836
   },
   "UMP@@cytosol": {
-    "x": -2056.763964510029,
-    "y": -2557.783528157575
+    "x": -2054.610522330266,
+    "y": -2372.5875006979436
   },
-  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines||orotate|ump_side_out_CO2_0": {
-    "x": 0,
-    "y": 0
+  "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|multiple_enzeme|orotate|ump_side_out_CO2_0": {
+    "x": -1893.109856448521,
+    "y": -2469.2957915454836
   },
   "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|kinases|ump|utp": {
-    "x": -2055.4488051188805,
-    "y": -2473.1529765155196
+    "x": -2053.2953629391177,
+    "y": -2287.9569490558883
   },
   "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|kinases|ump|utp_side_in_ATP_0": {
-    "x": 0,
-    "y": 0
+    "x": -2213.2953629391177,
+    "y": -2335.332677010678
   },
   "UTP@@cytosol": {
-    "x": -2051.765502353789,
-    "y": -2388.5224248734644
+    "x": -2049.6120601740263,
+    "y": -2203.326397413833
   },
   "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|kinases|ump|utp_side_out_ADP_0": {
-    "x": 0,
-    "y": 0
+    "x": -1893.2953629391177,
+    "y": -2335.332677010678
   },
   "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|cytidylate_synthetase|utp|ctp": {
-    "x": -2049.750374501449,
-    "y": -2298.572295064011
+    "x": -2047.5969323216864,
+    "y": -2113.37626760438
   },
   "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|cytidylate_synthetase|utp|ctp_side_in_glutamine_0": {
-    "x": 0,
-    "y": 0
+    "x": -2207.5969323216864,
+    "y": -2126.37626760438
   },
   "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|cytidylate_synthetase|utp|ctp_side_in_ATP_1": {
-    "x": 0,
-    "y": 0
+    "x": -2207.5969323216864,
+    "y": -2100.37626760438
   },
   "CTP@@cytosol": {
-    "x": -2048.9483269001203,
-    "y": -2205.040941629604
+    "x": -2046.794884720357,
+    "y": -2011.2311454509197
   },
   "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|cytidylate_synthetase|utp|ctp_side_out_glutamate_0": {
-    "x": 0,
-    "y": 0
+    "x": -1887.5969323216864,
+    "y": -2139.37626760438
   },
   "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|cytidylate_synthetase|utp|ctp_side_out_ADP_1": {
-    "x": 0,
-    "y": 0
+    "x": -1887.5969323216864,
+    "y": -2113.37626760438
   },
   "rxn_nucleotides|de_novo_biosynthesis_of_pyrimidines|cytidylate_synthetase|utp|ctp_side_out_Pi_2": {
-    "x": 0,
-    "y": 0
+    "x": -1887.5969323216864,
+    "y": -2087.37626760438
   },
   "rxn_nucleotides|biosynthesis_of_nucleotide|ribonucleotide_reductase|ndp|dndp": {
     "x": -2565.622764521425,
@@ -3595,21 +3831,21 @@
     "x": -1549.9475178630007,
     "y": -1388.4807939102966
   },
-  "rxn_nucleotides|biosynthesis_of_nucleotide|thymidylate_synthase|dump|dtmp": {
-    "x": -1547.4589895989134,
-    "y": -1276.2979616533785
+  "rxn_nucleotides|biosynthesis_of_nucleotide|thymidylate_synthase|dump_n5_n10_methylenetetrahydrofolate|dtmp_7_8_dihydrofolate": {
+    "x": -1551.1058866195842,
+    "y": -1273.4701919214642
   },
-  "rxn_nucleotides|biosynthesis_of_nucleotide|thymidylate_synthase|dump|dtmp_side_in_N5,N10-methylenetetrahydrofolate_0": {
-    "x": 0,
-    "y": 0
+  "N5,N10-methylenetetrahydrofolate@@cytosol": {
+    "x": -1344.2264612472225,
+    "y": -1390.9367060155541
   },
   "dTMP@@cytosol": {
-    "x": -1545.4197745744693,
-    "y": -1164.1151293964604
+    "x": -1550.802470140844,
+    "y": -1170.9286468677044
   },
-  "rxn_nucleotides|biosynthesis_of_nucleotide|thymidylate_synthase|dump|dtmp_side_out_7,8-dihydrofolate_0": {
-    "x": 0,
-    "y": 0
+  "7,8-dihydrofolate@@cytosol": {
+    "x": -1331.1662769088964,
+    "y": -1153.9647899736804
   },
   "rxn_nucleotides|catabolism_of_purines|5__nucleotidase|gmp|guanosine": {
     "x": -2502.0533171715,
@@ -3808,12 +4044,12 @@
     "y": 0
   },
   "rxn_nucleotides|catabolism_of_pyrimidines|dihydrouracil_dehydrogenase|thymine|dihydrothymine": {
-    "x": -1869.9098756433357,
-    "y": -2815.273740116385
+    "x": -1865.2891226948768,
+    "y": -2816.8139910992045
   },
   "thymine@@cytosol": {
-    "x": -1871.5684694510114,
-    "y": -2904.672729242587
+    "x": -1865.4074655197326,
+    "y": -2909.293482191046
   },
   "rxn_nucleotides|catabolism_of_pyrimidines|dihydrouracil_dehydrogenase|thymine|dihydrothymine_side_in_NADPH_0": {
     "x": 0,
@@ -3836,8 +4072,8 @@
     "y": 0
   },
   "rxn_nucleotides|catabolism_of_pyrimidines|dihydropyrimidinase|dihydrothymine|__ureidoisobutyrate": {
-    "x": -1861.7105771887295,
-    "y": -2639.575588632762
+    "x": -1865.1899966098272,
+    "y": -2639.5755886327624
   },
   "rxn_nucleotides|catabolism_of_pyrimidines|dihydropyrimidinase|dihydrothymine|__ureidoisobutyrate_side_in_H2O_0": {
     "x": 0,
@@ -3899,20 +4135,64 @@
     "x": -1848.1184327154822,
     "y": -1782.4847310658083
   },
-  "rxn_nucleotides|catabolism_of_pyrimidines|specific_enzyme|uracil|malonyl_coa": {
-    "x": -2705.6671380263047,
-    "y": 511.0540685073455
+  "rxn_nucleotides|catabolism_of_pyrimidines|multiple_enzeme|uracil|malonyl_coa": {
+    "x": -2897.328278021073,
+    "y": 267.8279239436112
   },
   "uracil@@cytosol": {
-    "x": -2701.1644449171545,
-    "y": 660.4465386678395
+    "x": -2896.6687936348835,
+    "y": 157.7140632333884
   },
-  "rxn_nucleotides|catabolism_of_pyrimidines|specific_enzyme|cytidine|malonyl_coa": {
-    "x": -2838.7897394150887,
-    "y": 510.4095334398504
+  "rxn_nucleotides|catabolism_of_pyrimidines|multiple_enzeme|cytidine|malonyl_coa": {
+    "x": -2985.592994443962,
+    "y": 268.08409220267373
   },
   "cytidine@@cytosol": {
-    "x": -2837.168157238863,
-    "y": 662.7752877121786
+    "x": -3073.1982264806625,
+    "y": 158.22639975151347
+  },
+  "rxn_nucleotides|biosynthesis_of_nucleotide|dihydrofolate_reductase|7_8_dihydrofolate|h4_folate": {
+    "x": -1201.720400777146,
+    "y": -1218.1726628695174
+  },
+  "rxn_nucleotides|biosynthesis_of_nucleotide|dihydrofolate_reductase|7_8_dihydrofolate|h4_folate_side_in_NADPH_0": {
+    "x": 0,
+    "y": 0
+  },
+  "rxn_nucleotides|biosynthesis_of_nucleotide|dihydrofolate_reductase|7_8_dihydrofolate|h4_folate_side_in_H+_1": {
+    "x": 0,
+    "y": 0
+  },
+  "H4 folate@@cytosol": {
+    "x": -1161.6759740449806,
+    "y": -1274.742253903528
+  },
+  "rxn_nucleotides|biosynthesis_of_nucleotide|dihydrofolate_reductase|7_8_dihydrofolate|h4_folate_side_out_NADP+_0": {
+    "x": 0,
+    "y": 0
+  },
+  "rxn_nucleotides|biosynthesis_of_nucleotide|serine_hydroxymethyltransferase|h4_folate|n5_n10_methylenetetrahydrofolate": {
+    "x": -1201.6315473128152,
+    "y": -1331.3118449375388
+  },
+  "rxn_nucleotides|biosynthesis_of_nucleotide|serine_hydroxymethyltransferase|h4_folate|n5_n10_methylenetetrahydrofolate_side_in_serine_0": {
+    "x": 0,
+    "y": 0
+  },
+  "rxn_nucleotides|biosynthesis_of_nucleotide|serine_hydroxymethyltransferase|h4_folate|n5_n10_methylenetetrahydrofolate_side_out_glycine_0": {
+    "x": 0,
+    "y": 0
+  },
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|ribose_phosphate_pyrophosphokinase|ribose_5_phosphate|prpp": {
+    "x": -3094.2978971997945,
+    "y": -2860.8213618783525
+  },
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|ribose_phosphate_pyrophosphokinase|ribose_5_phosphate|prpp_side_in_ATP_0": {
+    "x": 0,
+    "y": 0
+  },
+  "rxn_nucleotides|de_novo_biosynthesis_of_purines|ribose_phosphate_pyrophosphokinase|ribose_5_phosphate|prpp_side_out_AMP_0": {
+    "x": 0,
+    "y": 0
   }
 }
