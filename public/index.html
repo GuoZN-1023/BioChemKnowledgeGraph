@@ -675,7 +675,23 @@ alert('Layout cache cleared. Refreshing to recompute the default layout.');
         // ===================================
     // 搜索逻辑更新 (支持右侧栏显示 + 点击定位)
     // ===================================
-    function calcSimilarity(term, label) {
+function safeFocus(el) {
+    if (!el) return;
+    try {
+        window.requestAnimationFrame(() => {
+            el.focus({ preventScroll: true });
+            if (typeof el.setSelectionRange === 'function') {
+                const v = el.value || '';
+                el.setSelectionRange(v.length, v.length);
+            }
+        });
+    } catch (e) {
+        try { el.focus(); } catch (_) {}
+    }
+}
+
+function calcSimilarity(term, label) {
+
         if (!term || !label) return 0;
         const a = String(term).toLowerCase().trim();
         const b = String(label).toLowerCase().trim();
@@ -939,7 +955,9 @@ alert('Layout cache cleared. Refreshing to recompute the default layout.');
                 // 3) UI反馈：给当前点击的列表项加个边框标记
                 document.querySelectorAll('.result-item').forEach(d => d.style.borderColor = '#eee');
                 item.style.borderColor = '#2196F3';
-            });
+            
+                safeFocus(document.getElementById('search-input'));
+});
 
             listContainer.appendChild(item);
         });
@@ -970,6 +988,7 @@ alert('Layout cache cleared. Refreshing to recompute the default layout.');
 
         // 恢复当前的 Pathway 可见性与副小分子/跨膜显隐
         filterGraph();
+        safeFocus(document.getElementById('search-input'));
     }
 
     // 清除路径高亮
@@ -989,6 +1008,7 @@ alert('Layout cache cleared. Refreshing to recompute the default layout.');
         const input = document.getElementById('search-input');
         const chip = input ? input.closest('.chip') : null;
         if (chip) chip.classList.remove('has-value');
+        safeFocus(document.getElementById('search-input'));
     }
 
     // Clear path search only (equivalent to emptying start/end and removing path highlights)
@@ -1019,6 +1039,7 @@ alert('Layout cache cleared. Refreshing to recompute the default layout.');
 
         // restore visibility according to current pathway filter and side rules
         filterGraph();
+        safeFocus(document.getElementById('path-start-input'));
 
         const chip = (startInput && startInput.closest('.chip')) || (endInput && endInput.closest('.chip'));
         if (chip) chip.classList.remove('has-value');
@@ -1056,109 +1077,312 @@ alert('Layout cache cleared. Refreshing to recompute the default layout.');
 
     // 在代谢网络中寻找从Start molecule到End molecule的合成路径（最短步数）
     
-    function findPathBetweenMetabolites(startName, endName) {
-        const cy = window.cyGraph;
-        if (!cy) return;
+    
+function findPathBetweenMetabolites(startName, endName) {
+    const cy = window.cyGraph;
+    if (!cy) return;
 
-        const status = document.getElementById('path-status');
-        clearPathHighlight();
+    const status = document.getElementById('path-status');
+    clearPathHighlight();
 
-        const startNode = pickBestMoleculeNodeByName(startName);
-        const endNode = pickBestMoleculeNodeByName(endName);
+    // === Tunables (no UI yet, but easy to expose later) ===
+    const K_PATHS = 8;          // how many candidate paths to return
+    const MAX_RXN_STEPS = 24;   // guardrail against explosion
 
-        if (!startNode || !endNode) {
-            if (status) status.innerText = 'Could not find a matching start or end molecule.';
-            return;
+    // Candidates: robust for compartments / similar names
+    const getCandidates = (term, topN = 6, minScore = 0.62) => {
+        const lower = String(term || '').toLowerCase().trim();
+        if (!lower) return [];
+        const scored = [];
+        cy.nodes('[type="molecule"]').forEach(n => {
+            const label = n.data('label');
+            if (!label) return;
+            const s = calcSimilarity(lower, label);
+            if (s > 0) scored.push({ n, s });
+        });
+        scored.sort((a, b) => b.s - a.s);
+        const picked = scored.filter(x => x.s >= minScore).slice(0, topN).map(x => x.n);
+        if (picked.length) return picked;
+        return scored.slice(0, 1).map(x => x.n);
+    };
+
+    const startNodes = getCandidates(startName);
+    const endNodes = getCandidates(endName);
+
+    if (!startNodes.length || !endNodes.length) {
+        if (status) status.innerText = 'Could not find a matching start or end molecule.';
+        renderPathResults([]);
+        return;
+    }
+
+    const startLower = String(startName || '').toLowerCase().trim();
+    const endLower = String(endName || '').toLowerCase().trim();
+
+    // Helpers: visible-only by default (match current filtered view)
+    const isVisible = (ele) => {
+        try { return ele && ele.visible && ele.visible(); } catch (_) { return true; }
+    };
+
+    // Build neighbors on the fly:
+    // 1) Transport edges: molecule <-> molecule (does not count as reaction step)
+    // 2) Reaction flow: molecule --(in)--> reaction --(out)--> molecule (counts as one reaction step)
+    const getTransportNeighbors = (molNode) => {
+        const out = [];
+        molNode.connectedEdges('edge[edgeType="transport"]').forEach(e => {
+            if (!isVisible(e)) return;
+            const other = (e.source().id() === molNode.id()) ? e.target() : e.source();
+            if (other && other.data('type') === 'molecule' && isVisible(other)) {
+                out.push({ to: other, kind: 'transport', rxn: null });
+            }
+        });
+        return out;
+    };
+
+    const getReactionNeighbors = (molNode, includeSide) => {
+        const out = [];
+        const inSel = includeSide ? 'edge[type="in"]' : 'edge[type="in"][edgeType="main"]';
+        const outSel = includeSide ? 'edge[type="out"]' : 'edge[type="out"][edgeType="main"]';
+
+        // Molecule -> reactions (consumed as reactant)
+        const rxnEdges = molNode.outgoers(inSel).filter(e => isVisible(e));
+        rxnEdges.forEach(e => {
+            const rxn = e.target();
+            if (!rxn || rxn.data('type') !== 'reaction' || !isVisible(rxn)) return;
+
+            // Reaction -> product molecules
+            const prodEdges = rxn.outgoers(outSel).filter(ee => isVisible(ee));
+            prodEdges.forEach(ee => {
+                const prod = ee.target();
+                if (!prod || prod.data('type') !== 'molecule') return;
+                if (!isVisible(prod)) return;
+                out.push({ to: prod, kind: 'rxn', rxn: rxn });
+            });
+        });
+
+        return out;
+    };
+
+    // Min-heap on a composite key: (reactionSteps, totalNodes)
+    class MinHeap {
+        constructor() { this.a = []; }
+        push(x) { this.a.push(x); this._up(this.a.length - 1); }
+        pop() {
+            if (!this.a.length) return null;
+            const top = this.a[0];
+            const last = this.a.pop();
+            if (this.a.length) { this.a[0] = last; this._down(0); }
+            return top;
         }
-
-        if (startNode.id() === endNode.id()) {
-            startNode.addClass('path-node');
-            if (status) status.innerText = 'Start and end are the same molecule.';
-            // 同时清空右侧路径列表
-            renderPathResults([]);
-            return;
+        _better(i, j) { return this.a[i].key < this.a[j].key; }
+        _up(i) {
+            while (i > 0) {
+                const p = (i - 1) >> 1;
+                if (this._better(p, i)) break;
+                [this.a[p], this.a[i]] = [this.a[i], this.a[p]];
+                i = p;
+            }
         }
+        _down(i) {
+            const n = this.a.length;
+            while (true) {
+                let l = i * 2 + 1, r = l + 1, m = i;
+                if (l < n && this._better(l, m)) m = l;
+                if (r < n && this._better(r, m)) m = r;
+                if (m === i) break;
+                [this.a[m], this.a[i]] = [this.a[i], this.a[m]];
+                i = m;
+            }
+        }
+        get size() { return this.a.length; }
+    }
 
-        // 使用 BFS 在“无向”的代谢网络上寻找多条最短路径（按步数升序）
-        const maxPaths = 8;        // 最多展示几条路径
-        const maxDepth = 40;       // 防止路径过长导致爆炸
-        const queue = [];
-        const foundPaths = [];
+    // Uniform-cost search that enumerates K candidate paths, ordered by reactionSteps (then path length)
+    const enumerateKPaths = ({
+        includeSide,
+        endSet,
+        cycleStartId = null,
+        startSeeds = null,
+        k = K_PATHS,
+        maxSteps = MAX_RXN_STEPS
+    }) => {
+        const heap = new MinHeap();
+        const results = [];
+        const seenComplete = new Set();
 
-        queue.push({ node: startNode, pathNodes: [startNode] });
+        const pushState = (st) => {
+            const keyBase = 1000000; // reactionSteps dominates
+            st.key = st.steps * keyBase + st.nodes.length;
+            heap.push(st);
+        };
 
-        while (queue.length > 0 && foundPaths.length < maxPaths) {
-            const current = queue.shift();
-            const curNode = current.node;
-            const curPath = current.pathNodes;
+        // seed sources (multi-start)
+        const seeds = (startSeeds && Array.isArray(startSeeds) && startSeeds.length) ? startSeeds : startNodes;
+        seeds.forEach(s => {
+            if (!isVisible(s)) return;
+            pushState({
+                steps: 0,
+                lastMolId: s.id(),
+                nodes: [s],
+                visitedMol: new Set([s.id()]),
+                usedRxn: new Set()
+            });
+        });
 
-            if (curPath.length > maxDepth) {
-                continue;
+        while (heap.size && results.length < k) {
+            const cur = heap.pop();
+            if (!cur) break;
+            if (cur.steps > maxSteps) continue;
+
+            const atEnd = cycleStartId
+                ? (cur.lastMolId === cycleStartId && cur.steps >= 1)
+                : endSet.has(cur.lastMolId);
+
+            if (atEnd) {
+                const sig = cur.nodes.map(n => n.id()).join('>');
+                if (!seenComplete.has(sig)) {
+                    seenComplete.add(sig);
+                    results.push({
+                        nodes: cur.nodes,
+                        reactionSteps: cur.steps,
+                        totalNodes: cur.nodes.length
+                    });
+                }
+                // don't early-break: we want K candidates
             }
 
-            if (curNode.id() === endNode.id()) {
-                foundPaths.push(curPath);
-                // 不继续扩展这条路径，保证收集到的是相对较短的链条
-                continue;
-            }
+            const curNode = cy.$id(cur.lastMolId);
+            if (!curNode || !curNode.length) continue;
 
-            // 将所有与当前节点相连的节点视为“邻居”（无向），便于跨膜和方向不严格时也能找到通路
-            const neighbors = curNode.neighborhood('node');
-
-            neighbors.forEach(nb => {
-                const nid = nb.id();
-                // 简单避免回路：若该节点已在当前路径中，则跳过
-                const alreadyInPath = curPath.some(pn => pn.id() === nid);
-                if (alreadyInPath) return;
-
-                queue.push({
-                    node: nb,
-                    pathNodes: curPath.concat([nb])
+            // Expand transport neighbors (no extra reaction step)
+            for (const nb of getTransportNeighbors(curNode)) {
+                const toId = nb.to.id();
+                if (!isVisible(nb.to)) continue;
+                if (cur.visitedMol.has(toId)) {
+                    // allow only closing the cycle back to start
+                    if (!(cycleStartId && toId === cycleStartId && cur.steps >= 1)) continue;
+                }
+                const nxtVisited = new Set(cur.visitedMol);
+                nxtVisited.add(toId);
+                pushState({
+                    steps: cur.steps,
+                    lastMolId: toId,
+                    nodes: cur.nodes.concat([nb.to]),
+                    visitedMol: nxtVisited,
+                    usedRxn: new Set(cur.usedRxn)
                 });
-            });
+            }
+
+            // Expand reaction neighbors (adds 1 reaction step)
+            for (const nb of getReactionNeighbors(curNode, includeSide)) {
+                const rxn = nb.rxn;
+                if (!rxn) continue;
+                const rxnId = rxn.id();
+                if (cur.usedRxn.has(rxnId)) continue; // avoid looping on the same reaction
+
+                const toId = nb.to.id();
+                if (!isVisible(nb.to)) continue;
+                if (cur.visitedMol.has(toId)) {
+                    if (!(cycleStartId && toId === cycleStartId && cur.steps >= 1)) continue;
+                }
+
+                const nxtVisited = new Set(cur.visitedMol);
+                nxtVisited.add(toId);
+                const nxtRxn = new Set(cur.usedRxn);
+                nxtRxn.add(rxnId);
+
+                pushState({
+                    steps: cur.steps + 1,
+                    lastMolId: toId,
+                    nodes: cur.nodes.concat([rxn, nb.to]),
+                    visitedMol: nxtVisited,
+                    usedRxn: nxtRxn
+                });
+            }
         }
 
-        if (foundPaths.length === 0) {
-            if (status) status.innerText = 'No path found between the start and end in the current network.';
-            // 清空右侧路径结果
+        // Ensure stable ordering
+        results.sort((a, b) => (a.reactionSteps - b.reactionSteps) || (a.totalNodes - b.totalNodes));
+        return results;
+    };
+
+    // Determine whether we're in "cycle mode" (user wants start -> ... -> start)
+    // We trigger cycle mode only when the user literally typed the same term, to avoid surprising matches.
+    const isCycleRequest = (startLower && endLower && startLower === endLower);
+
+    const endSet = new Set(endNodes.map(n => n.id()));
+    const overlap = startNodes.find(n => endSet.has(n.id()));
+
+    let pathsInfo = [];
+
+    if (isCycleRequest) {
+        // Choose the best-resolved start node (first candidate), then enumerate cycles returning to itself.
+        const cycleStart = startNodes.find(n => isVisible(n)) || startNodes[0];
+        if (!cycleStart) {
+            if (status) status.innerText = 'Could not resolve a visible start molecule for cycle search.';
             renderPathResults([]);
             return;
         }
 
-        // 统计每条路径中的“反应步骤数”（只算 type === 'reaction' 的节点）
-        const pathsInfo = foundPaths.map(p => {
-            let reactionSteps = 0;
-            p.forEach(n => {
-                const t = n.data && n.data('type');
-                if (t === 'reaction') reactionSteps += 1;
+        if (status) status.innerText = `Searching cycles that start and end at “${cycleStart.data('label')}” ...`;
+
+        // main-only first
+        pathsInfo = enumerateKPaths({ includeSide: false, endSet: new Set([cycleStart.id()]), cycleStartId: cycleStart.id(), startSeeds: [cycleStart] });
+        if (pathsInfo.length < K_PATHS) {
+            const more = enumerateKPaths({ includeSide: true, endSet: new Set([cycleStart.id()]), cycleStartId: cycleStart.id(), startSeeds: [cycleStart] });
+            const sig = new Set(pathsInfo.map(p => p.nodes.map(n => n.id()).join('>')));
+            more.forEach(p => {
+                const s = p.nodes.map(n => n.id()).join('>');
+                if (!sig.has(s)) { sig.add(s); pathsInfo.push(p); }
             });
-            return {
-                nodes: p,
-                reactionSteps,
-                totalNodes: p.length
-            };
-        });
+            pathsInfo.sort((a, b) => (a.reactionSteps - b.reactionSteps) || (a.totalNodes - b.totalNodes));
+            pathsInfo = pathsInfo.slice(0, K_PATHS);
+        }
+    } else {
+        // Normal A -> B path search (multiple candidates, K shortest)
+        if (overlap) {
+            // If candidates collapse to the same node but the user didn't ask for a cycle, be explicit.
+            overlap.addClass('path-node');
+            if (status) status.innerText = 'Start and end resolved to the same molecule. If you want a loop, enter the same name in both boxes.';
+            renderPathResults([]);
+            return;
+        }
 
-        // 按反应步骤数升序，其次按总节点数升序
-        pathsInfo.sort((a, b) => {
-            if (a.reactionSteps !== b.reactionSteps) {
-                return a.reactionSteps - b.reactionSteps;
-            }
-            return a.totalNodes - b.totalNodes;
-        });
-
-        // 高亮并聚焦第一条路径
-        applyPathHighlight(pathsInfo[0].nodes);
-
-        // 显示右侧路径列表
-        renderPathResults(pathsInfo);
-
-        if (status) {
-            status.innerText = `共找到 ${pathsInfo.length} 条路径，最短路径包含 ${pathsInfo[0].reactionSteps} 个反应步骤`;
+        // main-only first
+        pathsInfo = enumerateKPaths({ includeSide: false, endSet });
+        if (pathsInfo.length < K_PATHS) {
+            const more = enumerateKPaths({ includeSide: true, endSet });
+            const sig = new Set(pathsInfo.map(p => p.nodes.map(n => n.id()).join('>')));
+            more.forEach(p => {
+                const s = p.nodes.map(n => n.id()).join('>');
+                if (!sig.has(s)) { sig.add(s); pathsInfo.push(p); }
+            });
+            pathsInfo.sort((a, b) => (a.reactionSteps - b.reactionSteps) || (a.totalNodes - b.totalNodes));
+            pathsInfo = pathsInfo.slice(0, K_PATHS);
         }
     }
 
-    // 高亮并聚焦一条给定路径
+    if (!pathsInfo || !pathsInfo.length) {
+        if (status) {
+            status.innerText = isCycleRequest
+                ? 'No directed cycle found that returns to the start molecule in the current network.'
+                : 'No directed path found between the start and end in the current network.';
+        }
+        renderPathResults([]);
+        return;
+    }
+
+    applyPathHighlight(pathsInfo[0].nodes);
+    renderPathResults(pathsInfo);
+
+    if (status) {
+        const tag = isCycleRequest ? 'cycle(s)' : 'path(s)';
+        status.innerText = `Found ${pathsInfo.length} ${tag}. Shortest has ${pathsInfo[0].reactionSteps} reaction step(s).`;
+    }
+
+    safeFocus(document.getElementById('path-end-input'));
+}
+
+// 高亮并聚焦一条给定路径
     function applyPathHighlight(pathNodes) {
         const cy = window.cyGraph;
         if (!cy || !pathNodes || !pathNodes.length) return;
@@ -1177,6 +1401,20 @@ alert('Layout cache cleared. Refreshing to recompute the default layout.');
         }
         const pathEdgesCol = cy.collection(pathEdges);
         pathEdgesCol.addClass('path-edge');
+
+        // When showing a path, reveal side molecules for the involved reactions
+        try {
+            const rxnIds = new Set();
+            cy.collection(pathNodes)
+                .filter('node[type="reaction"]')
+                .forEach(n => rxnIds.add(n.id()));
+            window.selectedReactionIds = rxnIds;
+            if (typeof refreshSideVisibility === 'function') {
+                refreshSideVisibility();
+            }
+        } catch (e) {
+            // non-fatal
+        }
 
         cy.animate({
             fit: {
@@ -1213,7 +1451,7 @@ alert('Layout cache cleared. Refreshing to recompute the default layout.');
             const item = document.createElement('div');
             item.className = 'result-item';
 
-            const stepText = `${info.reactionSteps} 个反应步骤`;
+            const stepText = `${info.reactionSteps} reaction step(s)`;
             const nodeLabels = info.nodes
                 .map(n => n.data && (n.data('label') || n.id()))
                 .filter(Boolean);
@@ -1240,7 +1478,9 @@ alert('Layout cache cleared. Refreshing to recompute the default layout.');
                 }
                 document.querySelectorAll('.result-item').forEach(d => d.style.borderColor = '#eee');
                 item.style.borderColor = '#e67e22';
-            });
+            
+                safeFocus(document.getElementById('path-end-input'));
+});
 
             listContainer.appendChild(item);
         });

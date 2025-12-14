@@ -88,16 +88,16 @@
     "y": 114.67402328688271
   },
   "rxn_carbonhydrates|glycolysis|phosphoglycerate_kinase__pgk_|1_3_bisphosphoglycerate|3_phosphoglycerate_side_in_ADP_0": {
-    "x": -2309.2381252307077,
-    "y": 116.35350307983963
+    "x": -2307.5586454377503,
+    "y": 114.67402328688271
   },
   "3-phosphoglycerate@@cytosol": {
     "x": -2145.675983141836,
     "y": 213.73405468830668
   },
   "rxn_carbonhydrates|glycolysis|phosphoglycerate_kinase__pgk_|1_3_bisphosphoglycerate|3_phosphoglycerate_side_out_ATP_0": {
-    "x": -1989.2381252307077,
-    "y": 116.35350307983963
+    "x": -1987.5586454377503,
+    "y": 114.67402328688271
   },
   "rxn_carbonhydrates|glycolysis|phosphoglycerate_mutase__pgm_|3_phosphoglycerate|2_phosphoglycerate": {
     "x": -2143.3258716169958,
@@ -112,28 +112,28 @@
     "y": 538.4494692373385
   },
   "PEP@@cytosol": {
-    "x": -2139.87573494873,
-    "y": 636.0602794943172
+    "x": -2139.7202016095816,
+    "y": 641.2308271211393
   },
   "rxn_carbonhydrates|glycolysis|enolase|2_phosphoglycerate|pep_side_out_H2O_0": {
     "x": -1980.425747520443,
     "y": 538.4494692373385
   },
   "rxn_carbonhydrates|glycolysis|pyruvate_kinase__pk_|pep|pyruvate": {
-    "x": -2136.2134194235455,
-    "y": 779.6534892359516
+    "x": -2138.526926647053,
+    "y": 770.399460341922
   },
   "rxn_carbonhydrates|glycolysis|pyruvate_kinase__pk_|pep|pyruvate_side_in_ADP_0": {
-    "x": -2296.2134194235455,
-    "y": 779.6534892359516
+    "x": -2298.526926647053,
+    "y": 770.399460341922
   },
   "pyruvate@@cytosol": {
-    "x": -2129.548807076738,
-    "y": 910.5545861698463
+    "x": -2137.2470721064024,
+    "y": 909.0149331639136
   },
   "rxn_carbonhydrates|glycolysis|pyruvate_kinase__pk_|pep|pyruvate_side_out_ATP_0": {
-    "x": -1976.2134194235455,
-    "y": 779.6534892359516
+    "x": -1978.5269266470532,
+    "y": 770.399460341922
   },
   "rxn_carbonhydrates|citric_acid_cycle|pyruvate_dehydrogenase_complex__pdh_complex_|pyruvate|acetyl_coa": {
     "x": -342.343252174647,
@@ -312,8 +312,8 @@
     "y": 1331.1055947129105
   },
   "oxaloacetate@@mitochondria": {
-    "x": -557.6620040797084,
-    "y": 1401.0170037138046
+    "x": -550.9072841916804,
+    "y": 1399.532771447662
   },
   "rxn_carbonhydrates|citric_acid_cycle|malate_dehydrogenase__mdh_|l_malate|oxaloacetate_side_out_NADH_0": {
     "x": -1292.0240992399133,
@@ -340,24 +340,24 @@
     "y": 1393.563847872384
   },
   "rxn_carbonhydrates|gluconeogenesis|pyruvate_carboxylase|pyruvate|oxaloacetate_side_in_ATP_0": {
-    "x": -2036.0539957237852,
-    "y": 1215.3276262141694
+    "x": -1300.8335974455451,
+    "y": 1380.563847872384
   },
   "rxn_carbonhydrates|gluconeogenesis|pyruvate_carboxylase|pyruvate|oxaloacetate_side_in_HCO3-_1": {
-    "x": -2036.0539957237852,
-    "y": 1241.3276262141694
+    "x": -1300.8335974455451,
+    "y": 1406.563847872384
   },
   "rxn_carbonhydrates|gluconeogenesis|pyruvate_carboxylase|pyruvate|oxaloacetate_side_out_ADP_0": {
-    "x": -1716.0539957237852,
-    "y": 1202.3276262141694
+    "x": -980.8335974455451,
+    "y": 1367.563847872384
   },
   "rxn_carbonhydrates|gluconeogenesis|pyruvate_carboxylase|pyruvate|oxaloacetate_side_out_Pi_1": {
-    "x": -1716.0539957237852,
-    "y": 1228.3276262141694
+    "x": -980.8335974455451,
+    "y": 1393.563847872384
   },
   "rxn_carbonhydrates|gluconeogenesis|pyruvate_carboxylase|pyruvate|oxaloacetate_side_out_H+_2": {
-    "x": -1716.0539957237852,
-    "y": 1254.3276262141694
+    "x": -980.8335974455451,
+    "y": 1419.563847872384
   },
   "rxn_carbonhydrates|gluconeogenesis|pep_carboxykinase__mitochondrial_isozyme_|oxaloacetate|pep": {
     "x": -801.6432620547382,
@@ -412,8 +412,8 @@
     "y": 639.1447130658547
   },
   "oxaloacetate@@cytosol": {
-    "x": -1477.9636255156097,
-    "y": 631.4869493857159
+    "x": -1466.3960893980727,
+    "y": 638.4274710562379
   },
   "rxn_carbonhydrates|gluconeogenesis|malate_dehydrogenase__mdh__cytosolic_|malate|oxaloacetate_side_out_NADH_0": {
     "x": -1341.551185336381,
@@ -424,20 +424,20 @@
     "y": 652.1447130658547
   },
   "rxn_carbonhydrates|gluconeogenesis|pep_carboxykinase__cytosolic_isozyme_|oxaloacetate|pep": {
-    "x": -1813.2265291540143,
-    "y": 637.4014401127154
+    "x": -1823.4398874477158,
+    "y": 639.8824559358216
   },
   "rxn_carbonhydrates|gluconeogenesis|pep_carboxykinase__cytosolic_isozyme_|oxaloacetate|pep_side_in_GTP_0": {
-    "x": -2108.7465032428063,
-    "y": 637.4014401127154
+    "x": -1983.4398874477158,
+    "y": 639.8824559358216
   },
   "rxn_carbonhydrates|gluconeogenesis|pep_carboxykinase__cytosolic_isozyme_|oxaloacetate|pep_side_out_GDP_0": {
-    "x": -1788.7465032428063,
-    "y": 624.4014401127154
+    "x": -1663.4398874477158,
+    "y": 626.8824559358216
   },
   "rxn_carbonhydrates|gluconeogenesis|pep_carboxykinase__cytosolic_isozyme_|oxaloacetate|pep_side_out_CO2_1": {
-    "x": -1788.7465032428063,
-    "y": 650.4014401127154
+    "x": -1663.4398874477158,
+    "y": 652.8824559358216
   },
   "rxn_carbonhydrates|gluconeogenesis|fructose_1_6_bisphosphatase__fbpase_1_|fructose_1_6_bisphosphate|fructose_6_phosphate": {
     "x": -1963.2096472036935,
@@ -704,52 +704,52 @@
     "y": 215.69633153864527
   },
   "rxn_carbonhydrates|calvin_cycle|3_phosphoglycerate_kinase|3_phosphoglycerate|1_3_bisphosphoglycerate_side_in_ATP_0": {
-    "x": 0,
-    "y": 0
+    "x": -1132.1999451547094,
+    "y": 215.69633153864527
   },
   "1,3-bisphosphoglycerate@@chloroplast_stroma": {
     "x": -1095.0189725299094,
     "y": 71.28497345162826
   },
   "rxn_carbonhydrates|calvin_cycle|3_phosphoglycerate_kinase|3_phosphoglycerate|1_3_bisphosphoglycerate_side_out_ADP_0": {
-    "x": 0,
-    "y": 0
+    "x": -812.1999451547093,
+    "y": 215.69633153864527
   },
   "rxn_carbonhydrates|calvin_cycle|glyceraldehyde_3_phosphate_dehydrogenase|1_3_bisphosphoglycerate|glyceraldehyde_3_phosphate": {
     "x": -1106.7196482057786,
     "y": -95.84081995434391
   },
   "rxn_carbonhydrates|calvin_cycle|glyceraldehyde_3_phosphate_dehydrogenase|1_3_bisphosphoglycerate|glyceraldehyde_3_phosphate_side_in_NADPH_0": {
-    "x": 0,
-    "y": 0
+    "x": -1266.7196482057786,
+    "y": -108.84081995434391
   },
   "rxn_carbonhydrates|calvin_cycle|glyceraldehyde_3_phosphate_dehydrogenase|1_3_bisphosphoglycerate|glyceraldehyde_3_phosphate_side_in_H+_1": {
-    "x": 0,
-    "y": 0
+    "x": -1266.7196482057786,
+    "y": -82.84081995434391
   },
   "glyceraldehyde 3-phosphate@@chloroplast_stroma": {
     "x": -946.7302668701777,
     "y": -247.69980492163432
   },
   "rxn_carbonhydrates|calvin_cycle|glyceraldehyde_3_phosphate_dehydrogenase|1_3_bisphosphoglycerate|glyceraldehyde_3_phosphate_side_out_NADP+_0": {
-    "x": 0,
-    "y": 0
+    "x": -946.7196482057786,
+    "y": -108.84081995434391
   },
   "rxn_carbonhydrates|calvin_cycle|glyceraldehyde_3_phosphate_dehydrogenase|1_3_bisphosphoglycerate|glyceraldehyde_3_phosphate_side_out_Pi_1": {
-    "x": 0,
-    "y": 0
+    "x": -946.7196482057786,
+    "y": -82.84081995434391
   },
   "rxn_carbonhydrates|calvin_cycle|multi_enzymes|glyceraldehyde_3_phosphate|ribulose_1_5_bisphosphate": {
     "x": -651.6842309389187,
     "y": -226.95941080561323
   },
   "rxn_carbonhydrates|calvin_cycle|multi_enzymes|glyceraldehyde_3_phosphate|ribulose_1_5_bisphosphate_side_in_ATP_0": {
-    "x": 0,
-    "y": 0
+    "x": -811.6842309389187,
+    "y": -226.95941080561323
   },
   "rxn_carbonhydrates|calvin_cycle|multi_enzymes|glyceraldehyde_3_phosphate|ribulose_1_5_bisphosphate_side_out_ADP_0": {
-    "x": 0,
-    "y": 0
+    "x": -491.68423093891874,
+    "y": -226.95941080561323
   },
   "rxn_carbonhydrates|glucose_alanine_cycle|alanine_aminotransferase|pyruvate|alanine": {
     "x": -2344.2650926981155,
@@ -820,8 +820,8 @@
     "y": 3141.5261105831773
   },
   "succinate@@glyoxysome": {
-    "x": -437.54974590964974,
-    "y": 3398.359439777561
+    "x": -463.325629704389,
+    "y": 3372.583555982822
   },
   "rxn_carbonhydrates|glyoxylate_cycle|malate_synthase|glyoxylate|l_malate": {
     "x": -45.922542644757954,
@@ -944,8 +944,8 @@
     "y": 0
   },
   "rxn_carbonhydrates|c4_pathway|pep_carboxylase|phosphoenolpyruvate|oxaloacetate": {
-    "x": 453.3971957095244,
-    "y": 13.460472861822637
+    "x": 437.2185297627068,
+    "y": 2.6746955639442263
   },
   "phosphoenolpyruvate@@chloroplast_stroma": {
     "x": 413.5789868451979,
@@ -1508,8 +1508,8 @@
     "y": 1221.7692816542476
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c6_|beta_hydroxyacyl_coa__c6_": {
-    "x": 903.9206677739394,
-    "y": 1700.207154285176
+    "x": 904.3106695053457,
+    "y": 1695.1996818476637
   },
   "rxn_lipids|beta_oxidation|enoyl_coa_hydratase|trans_delta2_enoyl_coa__c6_|beta_hydroxyacyl_coa__c6__side_in_H2O_0": {
     "x": -155.90021063745976,
@@ -2532,24 +2532,24 @@
     "y": 427.6893678863429
   },
   "rxn_lipids|fatty_acid_synthesis|citrate_lyase|citrate|oxaloacetate_side_in_CoA-SH_0": {
-    "x": 0,
-    "y": 0
+    "x": -1382.2703880436006,
+    "y": 513.3402297964593
   },
   "rxn_lipids|fatty_acid_synthesis|citrate_lyase|citrate|oxaloacetate_side_in_ATP_1": {
-    "x": 0,
-    "y": 0
+    "x": -1382.2703880436006,
+    "y": 539.3402297964593
   },
   "rxn_lipids|fatty_acid_synthesis|citrate_lyase|citrate|oxaloacetate_side_out_ADP_0": {
-    "x": 0,
-    "y": 0
+    "x": -1062.2703880436006,
+    "y": 500.3402297964593
   },
   "rxn_lipids|fatty_acid_synthesis|citrate_lyase|citrate|oxaloacetate_side_out_Pi_1": {
-    "x": 0,
-    "y": 0
+    "x": -1062.2703880436006,
+    "y": 526.3402297964593
   },
   "rxn_lipids|fatty_acid_synthesis|citrate_lyase|citrate|oxaloacetate_side_out_acetyl-CoA_2": {
-    "x": 0,
-    "y": 0
+    "x": -1062.2703880436006,
+    "y": 552.3402297964593
   },
   "rxn_lipids|fatty_acid_synthesis|malate_dehydrogenase|oxaloacetate|malate": {
     "x": -1137.3135999542885,
@@ -2592,20 +2592,20 @@
     "y": 1391.9462073208406
   },
   "rxn_lipids|fatty_acid_synthesis|pyruvate_carboxylase|pyruvate|oxaloacetate_side_in_ATP_0": {
-    "x": 0,
-    "y": 0
+    "x": -1299.861415229642,
+    "y": 1378.9462073208406
   },
   "rxn_lipids|fatty_acid_synthesis|pyruvate_carboxylase|pyruvate|oxaloacetate_side_in_CO2_1": {
-    "x": 0,
-    "y": 0
+    "x": -1299.861415229642,
+    "y": 1404.9462073208406
   },
   "rxn_lipids|fatty_acid_synthesis|pyruvate_carboxylase|pyruvate|oxaloacetate_side_out_ADP_0": {
-    "x": 0,
-    "y": 0
+    "x": -979.861415229642,
+    "y": 1378.9462073208406
   },
   "rxn_lipids|fatty_acid_synthesis|pyruvate_carboxylase|pyruvate|oxaloacetate_side_out_Pi_1": {
-    "x": 0,
-    "y": 0
+    "x": -979.861415229642,
+    "y": 1404.9462073208406
   },
   "rxn_lipids|fatty_acid_synthesis|malate_dehydrogenase|malate|oxaloacetate": {
     "x": -548.8755431499658,
@@ -2624,8 +2624,8 @@
     "y": 0
   },
   "rxn_lipids|fatty_acid_synthesis|citrate_synthase|oxaloacetate|citrate": {
-    "x": -345.0274178494951,
-    "y": 1384.4395899835176
+    "x": -342.26340102307427,
+    "y": 1387.2036068099383
   },
   "rxn_lipids|fatty_acid_synthesis|citrate_synthase|oxaloacetate|citrate_side_in_acetyl-CoA_0": {
     "x": 0,
@@ -3228,20 +3228,20 @@
     "y": 828.3301678365252
   },
   "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|cysteine|pyruvate": {
-    "x": -1967.1987126832337,
-    "y": 1074.5252132567293
+    "x": -1987.2142017603612,
+    "y": 1071.4459072448635
   },
   "cysteine@@cytosol": {
-    "x": -1965.9379299286811,
-    "y": 1213.5264047102962
+    "x": -1981.3344599880097,
+    "y": 1215.0660577162291
   },
   "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|glycine|pyruvate": {
-    "x": -2125.1343634129485,
-    "y": 1073.8743041567295
+    "x": -2132.8326284426125,
+    "y": 1075.4139571626624
   },
   "glycine@@cytosol": {
-    "x": -2124.129913135146,
-    "y": 1216.0365723160808
+    "x": -2131.8281781648107,
+    "y": 1217.5762253220137
   },
   "rxn_proteins|catabolism_of_amino_acid|specifiic_enzyme|serine|pyruvate": {
     "x": -2269.685768365322,
