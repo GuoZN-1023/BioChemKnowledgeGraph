@@ -1,0 +1,517 @@
+[
+  {
+    "name": "aminotransferase",
+    "identifier": "EC 2.6.1.19",
+    "link": "https://www.uniprot.org/uniprotkb/P50457/entry"
+  },
+  {
+    "name": "glutamine synthetase",
+    "identifier": "UniProt:A0A5K1G4Q8",
+    "link": "https://www.uniprot.org/uniprotkb/A0A5K1G4Q8/entry"
+  },
+  {
+    "name": "glutaminase",
+    "identifier": "EC 4.3.3.6",
+    "link": "https://www.uniprot.org/uniprotkb/Q03144/entry"
+  },
+  {
+    "name": "alanine aminotransferase",
+    "identifier": "EC 2.6.1.2",
+    "link": "https://www.uniprot.org/uniprotkb/P13191/entry"
+  },
+  {
+    "name": "aspartate aminotransferase",
+    "identifier": "EC 2.6.1.1",
+    "link": "https://www.uniprot.org/uniprotkb/Q95VP1/entry"
+  },
+  {
+    "name": "glutamate dehydrogenase",
+    "identifier": "EC 1.4.1.2",
+    "link": "https://www.uniprot.org/uniprotkb/P50735/entry"
+  },
+  {
+    "name": "carbamoyl phosphate synthetase I",
+    "identifier": "EC 6.3.4.16",
+    "link": "https://www.uniprot.org/uniprotkb/Q3S2E9/entry"
+  },
+  {
+    "name": "ornithine transcarbamoylase",
+    "identifier": "EC 2.1.3.3",
+    "link": "https://www.uniprot.org/uniprotkb/Q936V7/entry"
+  },
+  {
+    "name": "argininosuccinate synthetase",
+    "identifier": "EC 6.3.4.5",
+    "link": "https://www.uniprot.org/uniprotkb/P14568/entry"
+  },
+  {
+    "name": "argininosuccinate lyase",
+    "identifier": "EC 4.3.2.1",
+    "link": "https://www.uniprot.org/uniprotkb/B8LIT8/entry"
+  },
+  {
+    "name": "arginase",
+    "identifier": "EC 3.5.3.1",
+    "link": "https://www.uniprot.org/uniprotkb/P39138/entry"
+  },
+  {
+    "name": "branched-chain aminotransferase",
+    "identifier": "EC 2.6.1.42",
+    "link": "https://www.uniprot.org/uniprotkb/Q9R170/entry"
+  },
+  {
+    "name": "branched-chain α-keto acid dehydrogenase complex",
+    "identifier": "EC 1.2.4.4",
+    "link": "https://www.uniprot.org/uniprotkb/Q9UMB3/entry"
+  },
+  {
+    "name": "glutamine-PRPP amidotransferase",
+    "identifier": "EC 2.4.2.14",
+    "link": "https://www.uniprot.org/uniprotkb/A0ABC9TXQ0/entry"
+  },
+  {
+    "name": "adenylosuccinate synthetase",
+    "identifier": "EC 6.3.4.4",
+    "link": "https://www.uniprot.org/uniprotkb/Q9U8D3/entry"
+  },
+  {
+    "name": "IMP dehydrogenase",
+    "identifier": "UniProt:A0A383CLN5",
+    "link": "https://www.uniprot.org/uniprotkb/A0A383CLN5/entry"
+  },
+  {
+    "name": "carbamoyl phosphate synthetase II",
+    "identifier": "EC 6.3.4.16",
+    "link": "https://www.uniprot.org/uniprotkb/O15829/entry"
+  },
+  {
+    "name": "ATCase",
+    "identifier": "UniProt:P08955",
+    "link": "https://www.uniprot.org/uniprotkb/P08955/entry"
+  },
+  {
+    "name": "kinases",
+    "identifier": "EC 2.7.10.1",
+    "link": "https://www.uniprot.org/uniprotkb/P35968/entry"
+  },
+  {
+    "name": "ribonucleotide reductase",
+    "identifier": "EC 1.1.98.6",
+    "link": "https://www.uniprot.org/uniprotkb/P07071/entry"
+  },
+  {
+    "name": "nucleoside diphosphate kinase",
+    "identifier": "UniProt:A0A7R9TT23",
+    "link": "https://www.uniprot.org/uniprotkb/A0A7R9TT23/entry"
+  },
+  {
+    "name": "deaminase",
+    "identifier": "EC 3.5.4.-",
+    "link": "https://www.uniprot.org/uniprotkb/P0DUH5/entry"
+  },
+  {
+    "name": "dUTPase",
+    "identifier": "EC 3.6.1.23",
+    "link": "https://www.uniprot.org/uniprotkb/A0A8S5RH02/entry"
+  },
+  {
+    "name": "thymidylate synthase",
+    "identifier": "EC 2.1.1.-",
+    "link": "https://www.uniprot.org/uniprotkb/Q58167/entry"
+  },
+  {
+    "name": "dihydrofolate reductase",
+    "identifier": "EC 1.5.1.3",
+    "link": "https://www.uniprot.org/uniprotkb/P95524/entry"
+  },
+  {
+    "name": "serine hydroxymethyltransferase",
+    "identifier": "EC 2.1.2.-",
+    "link": "https://www.uniprot.org/uniprotkb/Q9UWT5/entry"
+  },
+  {
+    "name": "5'-nucleotidase",
+    "identifier": "EC 3.1.3.5",
+    "link": "https://www.uniprot.org/uniprotkb/Q2LE75/entry"
+  },
+  {
+    "name": "nucleosidase",
+    "identifier": "EC 3.2.2.30",
+    "link": "https://www.uniprot.org/uniprotkb/Q9ZMY2/entry"
+  },
+  {
+    "name": "guanine deaminase",
+    "identifier": "EC 3.5.4.3",
+    "link": "https://www.uniprot.org/uniprotkb/A0A8B6X6P4/entry"
+  },
+  {
+    "name": "adenosine deaminase",
+    "identifier": "EC 3.5.4.4",
+    "link": "https://www.uniprot.org/uniprotkb/A0A2P2C5B8/entry"
+  },
+  {
+    "name": "xanthine oxidase",
+    "identifier": "UniProt:A0A7G1GET8",
+    "link": "https://www.uniprot.org/uniprotkb/A0A7G1GET8/entry"
+  },
+  {
+    "name": "urate oxidase",
+    "identifier": "UniProt:O32141",
+    "link": "https://www.uniprot.org/uniprotkb/O32141/entry"
+  },
+  {
+    "name": "allantoinase",
+    "identifier": "EC 3.5.2.5",
+    "link": "https://www.uniprot.org/uniprotkb/Q9S8P7/entry"
+  },
+  {
+    "name": "allantoicase",
+    "identifier": "UniProt:Q8MVS1",
+    "link": "https://www.uniprot.org/uniprotkb/Q8MVS1/entry"
+  },
+  {
+    "name": "urease",
+    "identifier": "EC 3.5.1.5",
+    "link": "https://www.uniprot.org/uniprotkb/Q9ZAA2/entry"
+  },
+  {
+    "name": "dihydrouracil dehydrogenase",
+    "identifier": "UniProt:A0A8D0GSW7",
+    "link": "https://www.uniprot.org/uniprotkb/A0A8D0GSW7/entry"
+  },
+  {
+    "name": "dihydropyrimidinase",
+    "identifier": "EC 3.5.2.2",
+    "link": "https://www.uniprot.org/uniprotkb/Q14117/entry"
+  },
+  {
+    "name": "β-ureidopropinonase",
+    "identifier": "EC 3.5.1.6",
+    "link": "https://www.uniprot.org/uniprotkb/A1X1E9/entry"
+  },
+  {
+    "name": "hexokinase",
+    "identifier": "EC 2.7.1.1",
+    "link": "https://www.uniprot.org/uniprotkb/Q969A8/entry"
+  },
+  {
+    "name": "phosphohexose isomerase (PGI)",
+    "identifier": "EC 5.3.1.9",
+    "link": "https://www.uniprot.org/uniprotkb/Q9X1A5/entry"
+  },
+  {
+    "name": "phosphofructokinase-1 (PFK-1)",
+    "identifier": "UniProt:A0A382FER9",
+    "link": "https://www.uniprot.org/uniprotkb/A0A382FER9/entry"
+  },
+  {
+    "name": "aldolase",
+    "identifier": "UniProt:T2IES6",
+    "link": "https://www.uniprot.org/uniprotkb/T2IES6/entry"
+  },
+  {
+    "name": "triose phosphate isomerase (TPI)",
+    "identifier": "EC 5.3.1.1",
+    "link": "https://www.uniprot.org/uniprotkb/C8CJY7/entry"
+  },
+  {
+    "name": "glyceraldehyde 3-phosphate dehydrogenase (GAPDH)",
+    "identifier": "EC 1.2.1.12",
+    "link": "https://www.uniprot.org/uniprotkb/Q9N2D5/entry"
+  },
+  {
+    "name": "phosphoglycerate kinase (PGK)",
+    "identifier": "EC 2.7.2.3",
+    "link": "https://www.uniprot.org/uniprotkb/P14828/entry"
+  },
+  {
+    "name": "phosphoglycerate mutase (PGM)",
+    "identifier": "EC 5.4.2.1",
+    "link": "https://www.uniprot.org/uniprotkb/D9Q2G6/entry"
+  },
+  {
+    "name": "enolase",
+    "identifier": "UniProt:C3Y3R7",
+    "link": "https://www.uniprot.org/uniprotkb/C3Y3R7/entry"
+  },
+  {
+    "name": "pyruvate kinase (PK)",
+    "identifier": "EC 2.7.1.40",
+    "link": "https://www.uniprot.org/uniprotkb/A0A2U9I6M5/entry"
+  },
+  {
+    "name": "pyruvate dehydrogenase complex (PDH complex)",
+    "identifier": "UniProt:A0A6J6LXB4",
+    "link": "https://www.uniprot.org/uniprotkb/A0A6J6LXB4/entry"
+  },
+  {
+    "name": "citrate synthase",
+    "identifier": "EC 2.3.3.-",
+    "link": "https://www.uniprot.org/uniprotkb/P45858/entry"
+  },
+  {
+    "name": "aconitase",
+    "identifier": "EC 4.2.1.3",
+    "link": "https://www.uniprot.org/uniprotkb/P09339/entry"
+  },
+  {
+    "name": "isocitrate dehydrogenase (IDH1,IDH2)",
+    "identifier": "EC 1.1.1.42",
+    "link": "https://www.uniprot.org/uniprotkb/A0A075H019/entry"
+  },
+  {
+    "name": "succinyl-CoA synthetase",
+    "identifier": "EC 6.2.1.5",
+    "link": "https://www.uniprot.org/uniprotkb/B3FHP0/entry"
+  },
+  {
+    "name": "succinate dehydrogenase (SDH)",
+    "identifier": "UniProt:A0A650CPT8",
+    "link": "https://www.uniprot.org/uniprotkb/A0A650CPT8/entry"
+  },
+  {
+    "name": "fumarase",
+    "identifier": "EC 4.2.1.2",
+    "link": "https://www.uniprot.org/uniprotkb/P10173/entry"
+  },
+  {
+    "name": "malate dehydrogenase (MDH)",
+    "identifier": "EC 1.1.1.37",
+    "link": "https://www.uniprot.org/uniprotkb/Q5XX75/entry"
+  },
+  {
+    "name": "pyruvate carboxylase",
+    "identifier": "EC 6.4.1.1",
+    "link": "https://www.uniprot.org/uniprotkb/Q9HES8/entry"
+  },
+  {
+    "name": "PEP carboxykinase (mitochondrial isozyme)",
+    "identifier": "EC 4.1.1.49",
+    "link": "https://www.uniprot.org/uniprotkb/A0A075GVI4/entry"
+  },
+  {
+    "name": "malate dehydrogenase (MDH, mitochondrial)",
+    "identifier": "UniProt:A0A1T4RDE3",
+    "link": "https://www.uniprot.org/uniprotkb/A0A1T4RDE3/entry"
+  },
+  {
+    "name": "PEP carboxykinase (cytosolic isozyme)",
+    "identifier": "EC 4.1.1.49",
+    "link": "https://www.uniprot.org/uniprotkb/A0A075GVI4/entry"
+  },
+  {
+    "name": "fructose 1,6-bisphosphatase (FBPase-1)",
+    "identifier": "EC 3.1.3.11",
+    "link": "https://www.uniprot.org/uniprotkb/A0ABC8EAI7/entry"
+  },
+  {
+    "name": "glucose 6-phosphatase",
+    "identifier": "EC 3.1.3.9",
+    "link": "https://www.uniprot.org/uniprotkb/E3VWM9/entry"
+  },
+  {
+    "name": "glucose 6-phosphate dehydrogenase",
+    "identifier": "EC 1.1.1.49",
+    "link": "https://www.uniprot.org/uniprotkb/B7P028/entry"
+  },
+  {
+    "name": "lactonase",
+    "identifier": "EC 3.1.1.81",
+    "link": "https://www.uniprot.org/uniprotkb/A5JJ58/entry"
+  },
+  {
+    "name": "6-phosphogluconate dehydrogenase",
+    "identifier": "EC 1.1.1.44",
+    "link": "https://www.uniprot.org/uniprotkb/Q6TUM2/entry"
+  },
+  {
+    "name": "ribose 5-phosphate isomerase; epimerase",
+    "identifier": "EC 5.3.1.6",
+    "link": "https://www.uniprot.org/uniprotkb/Q8RU73/entry"
+  },
+  {
+    "name": "UDP-glucose pyrophosphorylase",
+    "identifier": "UniProt:Q6RY01",
+    "link": "https://www.uniprot.org/uniprotkb/Q6RY01/entry"
+  },
+  {
+    "name": "glycogen synthase",
+    "identifier": "EC 2.4.1.11",
+    "link": "https://www.uniprot.org/uniprotkb/A0A286SDK9/entry"
+  },
+  {
+    "name": "glycogen phosphorylase",
+    "identifier": "EC 2.4.1.1",
+    "link": "https://www.uniprot.org/uniprotkb/A0A286SDL8/entry"
+  },
+  {
+    "name": "3-phosphoglycerate kinase",
+    "identifier": "EC 2.7.2.3",
+    "link": "https://www.uniprot.org/uniprotkb/A0A382IAB0/entry"
+  },
+  {
+    "name": "glyceraldehyde 3-phosphate dehydrogenase",
+    "identifier": "EC 1.2.1.-",
+    "link": "https://www.uniprot.org/uniprotkb/D7UNZ7/entry"
+  },
+  {
+    "name": "phosphoribulokinase",
+    "identifier": "EC 2.7.1.19",
+    "link": "https://www.uniprot.org/uniprotkb/P26302/entry"
+  },
+  {
+    "name": "isocitrate lyase",
+    "identifier": "EC 4.1.3.1",
+    "link": "https://www.uniprot.org/uniprotkb/Q5FBD5/entry"
+  },
+  {
+    "name": "malate synthase",
+    "identifier": "EC 2.3.3.9",
+    "link": "https://www.uniprot.org/uniprotkb/Q937W7/entry"
+  },
+  {
+    "name": "glycerol kinase",
+    "identifier": "EC 2.7.1.30",
+    "link": "https://www.uniprot.org/uniprotkb/A0A382MGP1/entry"
+  },
+  {
+    "name": "glycerol 3-phosphate dehydrogenase",
+    "identifier": "EC 1.1.1.8",
+    "link": "https://www.uniprot.org/uniprotkb/A0A3Q8WI14/entry"
+  },
+  {
+    "name": "triose phosphate isomerase",
+    "identifier": "EC 5.3.1.1",
+    "link": "https://www.uniprot.org/uniprotkb/P48497/entry"
+  },
+  {
+    "name": "fatty acyl-CoA synthetase",
+    "identifier": "UniProt:Q96337",
+    "link": "https://www.uniprot.org/uniprotkb/Q96337/entry"
+  },
+  {
+    "name": "carnitine acyltransferase I",
+    "identifier": "UniProt:A0A336U2K3",
+    "link": "https://www.uniprot.org/uniprotkb/A0A336U2K3/entry"
+  },
+  {
+    "name": "acyl-CoA dehydrogenase",
+    "identifier": "EC 1.3.99.-",
+    "link": "https://www.uniprot.org/uniprotkb/P9WQG3/entry"
+  },
+  {
+    "name": "enoyl-CoA hydratase",
+    "identifier": "EC 4.2.1.17",
+    "link": "https://www.uniprot.org/uniprotkb/P76082/entry"
+  },
+  {
+    "name": "beta-hydroxyacyl-CoA dehydrogenase",
+    "identifier": "UniProt:Q93FC5",
+    "link": "https://www.uniprot.org/uniprotkb/Q93FC5/entry"
+  },
+  {
+    "name": "acyl-CoA acetyltransferase",
+    "identifier": "UniProt:G7QYD1",
+    "link": "https://www.uniprot.org/uniprotkb/G7QYD1/entry"
+  },
+  {
+    "name": "delta3, delta2-enoyl-CoA isomerase",
+    "identifier": "EC 5.3.3.8",
+    "link": "https://www.uniprot.org/uniprotkb/Q64592/entry"
+  },
+  {
+    "name": "2,4-dienoyl-CoA reductase",
+    "identifier": "UniProt:C5MQH0",
+    "link": "https://www.uniprot.org/uniprotkb/C5MQH0/entry"
+  },
+  {
+    "name": "propionyl-CoA carboxylase",
+    "identifier": "EC 6.4.1.3",
+    "link": "https://www.uniprot.org/uniprotkb/P81185/entry"
+  },
+  {
+    "name": "methylmalonyl-CoA mutase",
+    "identifier": "EC 5.4.99.2",
+    "link": "https://www.uniprot.org/uniprotkb/P11653/entry"
+  },
+  {
+    "name": "thiolase",
+    "identifier": "EC 2.3.1.174",
+    "link": "https://www.uniprot.org/uniprotkb/P0C7L2/entry"
+  },
+  {
+    "name": "HMG-CoA synthase",
+    "identifier": "EC 2.3.3.10",
+    "link": "https://www.uniprot.org/uniprotkb/A0A5M6C4H8/entry"
+  },
+  {
+    "name": "HMG-CoA lyase",
+    "identifier": "EC 4.1.3.4",
+    "link": "https://www.uniprot.org/uniprotkb/A0A484Q213/entry"
+  },
+  {
+    "name": "acetoacetate decarboxylase",
+    "identifier": "UniProt:A0A6J7GK34",
+    "link": "https://www.uniprot.org/uniprotkb/A0A6J7GK34/entry"
+  },
+  {
+    "name": "D-beta-hydroxybutyrate dehydrogenase",
+    "identifier": "EC 1.1.1.30",
+    "link": "https://www.uniprot.org/uniprotkb/Q9XDL3/entry"
+  },
+  {
+    "name": "ACC",
+    "identifier": "EC 6.4.1.2",
+    "link": "https://www.uniprot.org/uniprotkb/Q38970/entry"
+  },
+  {
+    "name": "KR",
+    "identifier": "EC 1.2.-.-",
+    "link": "https://www.uniprot.org/uniprotkb/P9WIB7/entry"
+  },
+  {
+    "name": "HD",
+    "identifier": "EC 1.1.1.1",
+    "link": "https://www.uniprot.org/uniprotkb/A0A7L4WB00/entry"
+  },
+  {
+    "name": "citrate lyase",
+    "identifier": "EC 6.2.1.22",
+    "link": "https://www.uniprot.org/uniprotkb/P45410/entry"
+  },
+  {
+    "name": "malate dehydrogenase",
+    "identifier": "EC 1.1.1.375",
+    "link": "https://www.uniprot.org/uniprotkb/Q60176/entry"
+  },
+  {
+    "name": "malic enzyme",
+    "identifier": "UniProt:Q3LR75",
+    "link": "https://www.uniprot.org/uniprotkb/Q3LR75/entry"
+  },
+  {
+    "name": "acyl transferase",
+    "identifier": "EC 2.3.1.84",
+    "link": "https://www.uniprot.org/uniprotkb/E9P8C9/entry"
+  },
+  {
+    "name": "phosphdatidic acid phosphatase",
+    "identifier": "UniProt:X5I2G6",
+    "link": "https://www.uniprot.org/uniprotkb/X5I2G6/entry"
+  },
+  {
+    "name": "HMG-CoA reductase",
+    "identifier": "EC 1.1.1.34",
+    "link": "https://www.uniprot.org/uniprotkb/Q9SWQ3/entry"
+  },
+  {
+    "name": "mixed-function oxidase",
+    "identifier": "EC 1.14.14.46",
+    "link": "https://www.uniprot.org/uniprotkb/P53554/entry"
+  },
+  {
+    "name": "desmolase",
+    "identifier": "UniProt:Q6LCX9",
+    "link": "https://www.uniprot.org/uniprotkb/Q6LCX9/entry"
+  }
+]

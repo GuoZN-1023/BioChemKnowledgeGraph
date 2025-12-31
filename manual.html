@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Manual - Metabolic Pathway Explorer</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M20 65 L40 50 L60 50 L80 35 M60 50 L75 70' fill='none' stroke='%232ecc71' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/><circle cx='40' cy='50' r='6' fill='%232c3e50'/></svg>">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #22c55e;
+            --secondary: #3b82f6;
+            --dark: #111827;
+            --light: #f8f9fa;
+            --accent: #f59e0b;
+            --text-main: #374151;
+            --border: #e5e7eb;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            margin: 0;
+            display: flex;
+            background: #fff;
+        }
+
+        /* --- Sidebar Navigation --- */
+        nav {
+            width: 280px;
+            height: 100vh;
+            background: var(--light);
+            border-right: 1px solid var(--border);
+            position: fixed;
+            padding: 40px 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+        }
+
+        nav h2 {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: var(--dark);
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            margin-bottom: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #64748b;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        /* --- Main Content --- */
+        main {
+            margin-left: 280px;
+            padding: 60px 80px;
+            max-width: 900px;
+        }
+
+        header {
+            margin-bottom: 60px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--dark);
+            letter-spacing: -1px;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            background: #dcfce7;
+            color: #166534;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        section {
+            margin-bottom: 50px;
+            scroll-margin-top: 40px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            border-left: 4px solid var(--primary);
+            padding-left: 15px;
+            color: var(--dark);
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .feature-card {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .feature-card h3 {
+            margin-top: 0;
+            color: var(--secondary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        kbd {
+            background: #eee;
+            border-radius: 3px;
+            border: 1px solid #b4b4b4;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+            color: #333;
+            display: inline-block;
+            font-size: 0.85em;
+            font-weight: 700;
+            line-height: 1;
+            padding: 2px 4px;
+            white-space: nowrap;
+        }
+
+        /* --- Legend Table --- */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .legend-box {
+            width: 24px;
+            height: 16px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 12px;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .line-box {
+            width: 30px;
+            height: 0px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 12px;
+        }
+
+        .tip {
+            background: #eff6ff;
+            border-left: 4px solid var(--secondary);
+            padding: 15px;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            margin-top: 100px;
+            border-top: 1px solid var(--border);
+            padding-top: 20px;
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 1000px) {
+            nav { display: none; }
+            main { margin-left: 0; padding: 40px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <h2>🌱 Explorer Guide</h2>
+    <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#navigation">Basic Navigation</a></li>
+        <li><a href="#search">Search & Discovery</a></li>
+        <li><a href="#path">Path Analysis</a></li>
+        <li><a href="#regulation">Regulation Mode</a></li>
+        <li><a href="#organelles">Organelle Management</a></li>
+        <li><a href="#legend">Map Legend</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+        <li><a href="#acknowledgements">Acknowledgements</a></li>
+    </ul>
+</nav>
+
+<main>
+    <header>
+        <span class="badge">Version 2.0 (2025)</span>
+        <h1>Metabolic Pathway Explorer</h1>
+        <p>A comprehensive interactive tool designed for visualizing and analyzing complex biological metabolic networks across carbohydrates, lipids, amino acids, and nucleotides.</p>
+    </header>
+
+    <section id="intro">
+        <h2>Introduction</h2>
+        <p>The <strong>Metabolic Pathway Explorer</strong> integrates high-resolution biochemical data with interactive graph theory. It allows researchers and students to trace carbon skeletons, identify regulatory nodes, and understand the compartmentalization of metabolic processes within the cell.</p>
+    </section>
+
+    <section id="navigation">
+        <h2>Basic Navigation</h2>
+        <div class="feature-card">
+            <h3>Canvas Controls</h3>
+            <ul>
+                <li><strong>Zoom:</strong> Use the <strong>Mouse Wheel</strong> or pinch on touchpads to zoom in and out.</li>
+                <li><strong>Pan:</strong> Click and drag the <strong>Background</strong> to move around the map.</li>
+                <li><strong>Select:</strong> Click on any <strong>Node</strong> (Molecule/Enzyme) to view detailed information in the right sidebar.</li>
+                <li><strong>Home Button:</strong> Click the <kbd>🏠</kbd> icon in the top bar to reset view and center the graph.</li>
+            </ul>
+        </div>
+        <div class="tip">
+            <strong>Pro Tip:</strong> Click the <strong>"Collapse"</strong> arrow on the left sidebar to maximize your workspace.
+        </div>
+    </section>
+
+    <section id="search">
+        <h2>Search & Discovery</h2>
+        <p>Located at the center of the top bar, the search tool uses fuzzy matching to help you find specific molecules or enzymes.</p>
+        <div class="feature-card">
+            <h3>How to search:</h3>
+            <ol>
+                <li>Type the name of a molecule (e.g., <em>ATP</em>, <em>Glucose</em>).</li>
+                <li>Results will appear in the <strong>Right Sidebar</strong> instantly.</li>
+                <li>Click a result to auto-jump to its location and highlight its immediate metabolic neighbors.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="path">
+        <h2>Path Analysis (Tracing)</h2>
+        <p>Discover how the cell converts one substance into another using the "Path" tool.</p>
+        <div class="feature-card">
+            <h3>Step-by-Step:</h3>
+            <ol>
+                <li>Enter the <strong>Start Molecule</strong> and <strong>End Molecule</strong> in the path chips.</li>
+                <li>Click <strong>Search</strong>.</li>
+                <li>The shortest metabolic routes will be calculated.</li>
+                <li>The map will animate a <strong>flowing dashed line</strong> to show the direction of carbon flow.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="regulation">
+        <h2>Regulation Mode</h2>
+        <p>Metabolism is not just about flow; it's about control. Toggle the <strong>Regulation Switch</strong> to enter this specialized mode.</p>
+        <div class="feature-card">
+            <h3>Key Features:</h3>
+            <ul>
+                <li><strong>Activators (➕):</strong> Displayed in <span style="color:#2e7d32; font-weight:bold;">Green</span>. These molecules increase enzyme activity.</li>
+                <li><strong>Inhibitors (➖):</strong> Displayed in <span style="color:#c62828; font-weight:bold;">Red</span>. These molecules decrease enzyme activity.</li>
+                <li><strong>Interactive List:</strong> A horizontal scrolling bar appears at the top, grouping all regulated enzymes by pathway.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="organelles">
+        <h2>Organelle Management</h2>
+        <p>Metabolism is compartmentalized (e.g., Glycolysis in Cytoplasm, TCA in Mitochondria). This tool provides an overlay to visualize these spaces.</p>
+        <div class="feature-card">
+            <h3>Controls:</h3>
+            <ul>
+                <li><strong>Opacity Slider:</strong> Adjust the transparency of organelles to clearly see the nodes beneath them.</li>
+                <li><strong>Visibility:</strong> Use the organelle controls to hide or show specific cellular compartments.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="legend">
+        <h2>Map Legend</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Element</th>
+                    <th>Visual Representation</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Enzyme / Reaction</td>
+                    <td><span class="legend-box" style="background:#e5e5e5; border-radius: 2px;"></span> Gray Box</td>
+                    <td>Catalytic protein or metabolic reaction node.</td>
+                </tr>
+                <tr>
+                    <td>Sub-Reactant</td>
+                    <td><span class="legend-box" style="background:#7ab8ff; border-radius: 8px;"></span> Blue Pill</td>
+                    <td>Co-factors or entry reactants (e.g., H2O, NAD+).</td>
+                </tr>
+                <tr>
+                    <td>Sub-Product</td>
+                    <td><span class="legend-box" style="background:#a29bfe; border-radius: 8px;"></span> Purple Pill</td>
+                    <td>Side products or released molecules (e.g., CO2, NADH).</td>
+                </tr>
+                <tr>
+                    <td>Activator</td>
+                    <td><span class="legend-box" style="background:#2d7d32; border-radius: 2px;"></span> Green Box</td>
+                    <td>Molecules that enhance enzymatic activity.</td>
+                </tr>
+                <tr>
+                    <td>Inhibitor</td>
+                    <td><span class="legend-box" style="background:#c62828; border-radius: 2px;"></span> Red Box</td>
+                    <td>Molecules that suppress enzymatic activity.</td>
+                </tr>
+                <tr>
+                    <td>Main Metabolic Path</td>
+                    <td><span class="line-box" style="border-bottom: 2px solid #b1b1b1;"></span> Solid Line</td>
+                    <td>The primary route of substrate conversion.</td>
+                </tr>
+                <tr>
+                    <td>Regulatory Control</td>
+                    <td><span class="line-box" style="border-bottom: 2px dashed #2d7d32;"></span> Green Dashed</td>
+                    <td>Feedback loops or regulatory signals.</td>
+                </tr>
+                <tr>
+                    <td>Transport / Transmembrane</td>
+                    <td><span class="line-box" style="border-bottom: 2px dashed #cccccc;"></span> Gray Dashed</td>
+                    <td>Movement of molecules across membranes.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <p>If you have any suggestions, bug reports, or inquiries regarding the data, please feel free to reach out to us. Your feedback is essential for the continuous improvement of this tool.</p>
+        <div class="tip">
+            Please send your emails to: <a href="mailto:jipy23@mails.tsinghua.edu.cn" style="color:var(--secondary); font-weight:600;">jipy23@mails.tsinghua.edu.cn</a>
+        </div>
+    </section>
+
+    <section id="acknowledgements">
+    <h2>Acknowledgements</h2>
+    <div class="feature-card" style="line-height: 1.8; color: #374151;">
+        <p>We would like to express my sincere gratitude to our teacher, <strong>Prof. Zhen Li </strong>, for the knowledge she taught us.</p>
+        <p>This project was collaboratively developed by our dedicated team members (ordered alphabetically by surname):</p>
+        <ul style="margin-bottom: 20px; font-weight: 600; color: var(--dark);">
+            <li>Zhen-Ning Guo </li>
+            <li>Peng-Yi Ji </li>
+            <li>Jian-Yong Lin </li>
+            <li>Jin-Song Tang </li>
+        </ul>
+        <p>We would also like to extend our special thanks to <strong>Shang-Kun Shi </strong> for his significant conceptual contributions and creative insights that helped shape the project's direction.</p>
+        <p>This explorer integrates data from several primary biological databases. We are deeply grateful to:</p>
+        <ul style="margin-bottom: 20px;">
+            <li><strong>PubChem:</strong> For providing comprehensive chemical information and SMILES identifiers for metabolic intermediates.</li>
+            <li><strong>UniProt:</strong> For the extensive protein and enzyme functional data that powers our reaction nodes.</li>
+            <li><strong>KEGG:</strong> For the foundational biochemical pathway maps and network topology.</li>
+        </ul>
+
+        <p>Special recognition is given to the open-source community for providing the core technologies of this tool, including <strong>Cytoscape.js</strong> for graph visualization and <strong>RDKit</strong> for chemical structure rendering.</p>
+        
+        
+    </div>
+</section>
+
+    <footer>
+        &copy; 2025 Metabolic Pathway Explorer Project. For academic use only.
+    </footer>
+</main>
+
+<script>
+    // Simple smooth scroll implementation
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
